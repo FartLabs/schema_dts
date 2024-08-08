@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_CreativeWorkSeason } from "labs/SchemaOrg_CreativeWorkSeason.ts";
+import type { SchemaOrg_CreativeWorkSeason } from "./SchemaOrg_CreativeWorkSeason.ts";
 
 /**
  * Season dedicated to radio broadcast and associated online delivery.

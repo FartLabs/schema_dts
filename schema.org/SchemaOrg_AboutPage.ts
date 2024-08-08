@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_WebPage } from "labs/SchemaOrg_WebPage.ts";
+import type { SchemaOrg_WebPage } from "./SchemaOrg_WebPage.ts";
 
 /**
  * Web page type: About page.

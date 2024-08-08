@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_CreateAction } from "labs/SchemaOrg_CreateAction.ts";
+import type { SchemaOrg_CreateAction } from "./SchemaOrg_CreateAction.ts";
 
 /**
  * The act of capturing still images of objects using a camera.

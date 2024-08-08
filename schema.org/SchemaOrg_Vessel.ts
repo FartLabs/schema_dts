@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_AnatomicalStructure } from "labs/SchemaOrg_AnatomicalStructure.ts";
+import type { SchemaOrg_AnatomicalStructure } from "./SchemaOrg_AnatomicalStructure.ts";
 
 /**
  * A component of the human body circulatory system comprised of an intricate network of hollow tubes that transport blood throughout the entire body.

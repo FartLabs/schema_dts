@@ -1,7 +1,7 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_CivicStructure } from "labs/SchemaOrg_CivicStructure.ts";
-import type { SchemaOrg_EntertainmentBusiness } from "labs/SchemaOrg_EntertainmentBusiness.ts";
-import type { SchemaOrg_Number } from "labs/SchemaOrg_Number.ts";
+import type { SchemaOrg_CivicStructure } from "./SchemaOrg_CivicStructure.ts";
+import type { SchemaOrg_EntertainmentBusiness } from "./SchemaOrg_EntertainmentBusiness.ts";
+import type { SchemaOrg_Number } from "./SchemaOrg_Number.ts";
 
 /**
  * A movie theater.
@@ -18,5 +18,5 @@ export interface SchemaOrg_MovieTheater extends SchemaOrg_EntertainmentBusiness,
      * The number of screens in the movie theater.
      * @see https://schema.org/screenCount
      */
-    screenCount: Array<SchemaOrg_Number>;
+    screenCount?: Array<SchemaOrg_Number>;
 }

@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_WebPage } from "labs/SchemaOrg_WebPage.ts";
+import type { SchemaOrg_WebPage } from "./SchemaOrg_WebPage.ts";
 
 /**
  * A QAPage is a WebPage focussed on a specific Question and its Answer(s), e.g. in a question answering site or documenting Frequently Asked Questions (FAQs).

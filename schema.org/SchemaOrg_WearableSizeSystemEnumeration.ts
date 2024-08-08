@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_SizeSystemEnumeration } from "labs/SchemaOrg_SizeSystemEnumeration.ts";
+import type { SchemaOrg_SizeSystemEnumeration } from "./SchemaOrg_SizeSystemEnumeration.ts";
 
 /**
  * Enumerates common size systems specific for wearable products.

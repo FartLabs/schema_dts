@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_TradeAction } from "labs/SchemaOrg_TradeAction.ts";
+import type { SchemaOrg_TradeAction } from "./SchemaOrg_TradeAction.ts";
 
 /**
  * An agent quotes/estimates/appraises an object/product/service with a price at a location/store.

@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_FinancialService } from "labs/SchemaOrg_FinancialService.ts";
+import type { SchemaOrg_FinancialService } from "./SchemaOrg_FinancialService.ts";
 
 /**
  * Bank or credit union.

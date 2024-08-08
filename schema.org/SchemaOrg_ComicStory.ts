@@ -1,6 +1,6 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_CreativeWork } from "labs/SchemaOrg_CreativeWork.ts";
-import type { SchemaOrg_Person } from "labs/SchemaOrg_Person.ts";
+import type { SchemaOrg_CreativeWork } from "./SchemaOrg_CreativeWork.ts";
+import type { SchemaOrg_Person } from "./SchemaOrg_Person.ts";
 
 /**
  * The term "story" is any indivisible, re-printable
@@ -23,25 +23,25 @@ export interface SchemaOrg_ComicStory extends SchemaOrg_CreativeWork {
      *     	primary artwork is done in watercolors or digital paints.
      * @see https://schema.org/artist
      */
-    artist: Array<SchemaOrg_Person>;
+    artist?: Array<SchemaOrg_Person>;
     /**
      * The individual who adds color to inked drawings.
      * @see https://schema.org/colorist
      */
-    colorist: Array<SchemaOrg_Person>;
+    colorist?: Array<SchemaOrg_Person>;
     /**
      * The individual who traces over the pencil drawings in ink after pencils are complete.
      * @see https://schema.org/inker
      */
-    inker: Array<SchemaOrg_Person>;
+    inker?: Array<SchemaOrg_Person>;
     /**
      * The individual who adds lettering, including speech balloons and sound effects, to artwork.
      * @see https://schema.org/letterer
      */
-    letterer: Array<SchemaOrg_Person>;
+    letterer?: Array<SchemaOrg_Person>;
     /**
      * The individual who draws the primary narrative artwork.
      * @see https://schema.org/penciler
      */
-    penciler: Array<SchemaOrg_Person>;
+    penciler?: Array<SchemaOrg_Person>;
 }

@@ -1,8 +1,8 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_Comment } from "labs/SchemaOrg_Comment.ts";
-import type { SchemaOrg_InformAction } from "labs/SchemaOrg_InformAction.ts";
-import type { SchemaOrg_Number } from "labs/SchemaOrg_Number.ts";
-import type { SchemaOrg_RsvpResponseType } from "labs/SchemaOrg_RsvpResponseType.ts";
+import type { SchemaOrg_Comment } from "./SchemaOrg_Comment.ts";
+import type { SchemaOrg_InformAction } from "./SchemaOrg_InformAction.ts";
+import type { SchemaOrg_Number } from "./SchemaOrg_Number.ts";
+import type { SchemaOrg_RsvpResponseType } from "./SchemaOrg_RsvpResponseType.ts";
 
 /**
  * The act of notifying an event organizer as to whether you expect to attend the event.
@@ -19,15 +19,15 @@ export interface SchemaOrg_RsvpAction extends SchemaOrg_InformAction {
      * If responding yes, the number of guests who will attend in addition to the invitee.
      * @see https://schema.org/additionalNumberOfGuests
      */
-    additionalNumberOfGuests: Array<SchemaOrg_Number>;
+    additionalNumberOfGuests?: Array<SchemaOrg_Number>;
     /**
      * Comments, typically from users.
      * @see https://schema.org/comment
      */
-    comment: Array<SchemaOrg_Comment>;
+    comment?: Array<SchemaOrg_Comment>;
     /**
      * The response (yes, no, maybe) to the RSVP.
      * @see https://schema.org/rsvpResponse
      */
-    rsvpResponse: Array<SchemaOrg_RsvpResponseType>;
+    rsvpResponse?: Array<SchemaOrg_RsvpResponseType>;
 }

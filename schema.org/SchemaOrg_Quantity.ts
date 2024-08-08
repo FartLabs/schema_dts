@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_Intangible } from "labs/SchemaOrg_Intangible.ts";
+import type { SchemaOrg_Intangible } from "./SchemaOrg_Intangible.ts";
 
 /**
  * Quantities such as distance, time, mass, weight, etc. Particular instances of say Mass are entities like '3 kg' or '4 milligrams'.

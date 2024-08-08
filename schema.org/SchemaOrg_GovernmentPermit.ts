@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_Permit } from "labs/SchemaOrg_Permit.ts";
+import type { SchemaOrg_Permit } from "./SchemaOrg_Permit.ts";
 
 /**
  * A permit issued by a government agency.

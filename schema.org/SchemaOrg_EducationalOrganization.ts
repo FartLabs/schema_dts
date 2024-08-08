@@ -1,7 +1,7 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_CivicStructure } from "labs/SchemaOrg_CivicStructure.ts";
-import type { SchemaOrg_Organization } from "labs/SchemaOrg_Organization.ts";
-import type { SchemaOrg_Person } from "labs/SchemaOrg_Person.ts";
+import type { SchemaOrg_CivicStructure } from "./SchemaOrg_CivicStructure.ts";
+import type { SchemaOrg_Organization } from "./SchemaOrg_Organization.ts";
+import type { SchemaOrg_Person } from "./SchemaOrg_Person.ts";
 
 /**
  * An educational organization.
@@ -18,5 +18,5 @@ export interface SchemaOrg_EducationalOrganization extends SchemaOrg_CivicStruct
      * Alumni of an organization.
      * @see https://schema.org/alumni
      */
-    alumni: Array<SchemaOrg_Person>;
+    alumni?: Array<SchemaOrg_Person>;
 }

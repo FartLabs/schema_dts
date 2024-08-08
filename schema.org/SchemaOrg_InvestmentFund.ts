@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_InvestmentOrDeposit } from "labs/SchemaOrg_InvestmentOrDeposit.ts";
+import type { SchemaOrg_InvestmentOrDeposit } from "./SchemaOrg_InvestmentOrDeposit.ts";
 
 /**
  * A company or fund that gathers capital from a number of investors to create a pool of money that is then re-invested into stocks, bonds and other assets.

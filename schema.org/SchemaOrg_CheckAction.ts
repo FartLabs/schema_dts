@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_FindAction } from "labs/SchemaOrg_FindAction.ts";
+import type { SchemaOrg_FindAction } from "./SchemaOrg_FindAction.ts";
 
 /**
  * An agent inspects, determines, investigates, inquires, or examines an object's accuracy, quality, condition, or state.

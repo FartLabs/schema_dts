@@ -1,6 +1,6 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_Event } from "labs/SchemaOrg_Event.ts";
-import type { SchemaOrg_Series } from "labs/SchemaOrg_Series.ts";
+import type { SchemaOrg_Event } from "./SchemaOrg_Event.ts";
+import type { SchemaOrg_Series } from "./SchemaOrg_Series.ts";
 
 /**
  * A series of [[Event]]s. Included events can relate with the series using the [[superEvent]] property.

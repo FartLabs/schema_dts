@@ -1,6 +1,6 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_Article } from "labs/SchemaOrg_Article.ts";
-import type { SchemaOrg_Text } from "labs/SchemaOrg_Text.ts";
+import type { SchemaOrg_Article } from "./SchemaOrg_Article.ts";
+import type { SchemaOrg_Text } from "./SchemaOrg_Text.ts";
 
 /**
  * A technical article - Example: How-to (task) topics, step-by-step, procedural troubleshooting, specifications, etc.
@@ -17,10 +17,10 @@ export interface SchemaOrg_TechArticle extends SchemaOrg_Article {
      * Prerequisites needed to fulfill steps in article.
      * @see https://schema.org/dependencies
      */
-    dependencies: Array<SchemaOrg_Text>;
+    dependencies?: Array<SchemaOrg_Text>;
     /**
      * Proficiency needed for this content; expected values: 'Beginner', 'Expert'.
      * @see https://schema.org/proficiencyLevel
      */
-    proficiencyLevel: Array<SchemaOrg_Text>;
+    proficiencyLevel?: Array<SchemaOrg_Text>;
 }

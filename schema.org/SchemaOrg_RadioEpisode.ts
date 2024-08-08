@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_Episode } from "labs/SchemaOrg_Episode.ts";
+import type { SchemaOrg_Episode } from "./SchemaOrg_Episode.ts";
 
 /**
  * A radio episode which can be part of a series or season.

@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_MedicalEnumeration } from "labs/SchemaOrg_MedicalEnumeration.ts";
+import type { SchemaOrg_MedicalEnumeration } from "./SchemaOrg_MedicalEnumeration.ts";
 
 /**
  * Categories of medical devices, organized by the purpose or intended use of the device.

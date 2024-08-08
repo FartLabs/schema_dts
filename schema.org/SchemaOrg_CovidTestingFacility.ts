@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_MedicalClinic } from "labs/SchemaOrg_MedicalClinic.ts";
+import type { SchemaOrg_MedicalClinic } from "./SchemaOrg_MedicalClinic.ts";
 
 /**
  * A CovidTestingFacility is a [[MedicalClinic]] where testing for the COVID-19 Coronavirus

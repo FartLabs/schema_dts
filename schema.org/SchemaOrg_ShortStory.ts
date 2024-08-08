@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_CreativeWork } from "labs/SchemaOrg_CreativeWork.ts";
+import type { SchemaOrg_CreativeWork } from "./SchemaOrg_CreativeWork.ts";
 
 /**
  * Short story or tale. A brief work of literature, usually written in narrative prose.

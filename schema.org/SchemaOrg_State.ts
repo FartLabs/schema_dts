@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_AdministrativeArea } from "labs/SchemaOrg_AdministrativeArea.ts";
+import type { SchemaOrg_AdministrativeArea } from "./SchemaOrg_AdministrativeArea.ts";
 
 /**
  * A state or province of a country.

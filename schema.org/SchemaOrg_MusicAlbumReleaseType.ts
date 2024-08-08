@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_Enumeration } from "labs/SchemaOrg_Enumeration.ts";
+import type { SchemaOrg_Enumeration } from "./SchemaOrg_Enumeration.ts";
 
 /**
  * The kind of release which this album is: single, EP or album.

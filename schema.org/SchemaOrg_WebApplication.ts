@@ -1,6 +1,6 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_SoftwareApplication } from "labs/SchemaOrg_SoftwareApplication.ts";
-import type { SchemaOrg_Text } from "labs/SchemaOrg_Text.ts";
+import type { SchemaOrg_SoftwareApplication } from "./SchemaOrg_SoftwareApplication.ts";
+import type { SchemaOrg_Text } from "./SchemaOrg_Text.ts";
 
 /**
  * Web applications.
@@ -17,5 +17,5 @@ export interface SchemaOrg_WebApplication extends SchemaOrg_SoftwareApplication 
      * Specifies browser requirements in human-readable text. For example, 'requires HTML5 support'.
      * @see https://schema.org/browserRequirements
      */
-    browserRequirements: Array<SchemaOrg_Text>;
+    browserRequirements?: Array<SchemaOrg_Text>;
 }

@@ -1,6 +1,6 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_MedicalEnumeration } from "labs/SchemaOrg_MedicalEnumeration.ts";
-import type { SchemaOrg_MedicalProcedure } from "labs/SchemaOrg_MedicalProcedure.ts";
+import type { SchemaOrg_MedicalEnumeration } from "./SchemaOrg_MedicalEnumeration.ts";
+import type { SchemaOrg_MedicalProcedure } from "./SchemaOrg_MedicalProcedure.ts";
 
 /**
  * A type of physical examination of a patient performed by a physician.

@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_Offer } from "labs/SchemaOrg_Offer.ts";
+import type { SchemaOrg_Offer } from "./SchemaOrg_Offer.ts";
 
 /**
  * An [[OfferForPurchase]] in Schema.org represents an [[Offer]] to sell something, i.e. an [[Offer]] whose

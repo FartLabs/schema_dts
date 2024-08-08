@@ -1,6 +1,6 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_Number } from "labs/SchemaOrg_Number.ts";
-import type { SchemaOrg_Role } from "labs/SchemaOrg_Role.ts";
+import type { SchemaOrg_Number } from "./SchemaOrg_Number.ts";
+import type { SchemaOrg_Role } from "./SchemaOrg_Role.ts";
 
 /**
  * A subclass of Role used to describe roles within organizations.
@@ -17,5 +17,5 @@ export interface SchemaOrg_OrganizationRole extends SchemaOrg_Role {
      * A number associated with a role in an organization, for example, the number on an athlete's jersey.
      * @see https://schema.org/numberedPosition
      */
-    numberedPosition: Array<SchemaOrg_Number>;
+    numberedPosition?: Array<SchemaOrg_Number>;
 }

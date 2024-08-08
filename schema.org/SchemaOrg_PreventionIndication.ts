@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_MedicalIndication } from "labs/SchemaOrg_MedicalIndication.ts";
+import type { SchemaOrg_MedicalIndication } from "./SchemaOrg_MedicalIndication.ts";
 
 /**
  * An indication for preventing an underlying condition, symptom, etc.

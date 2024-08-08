@@ -1,7 +1,7 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_CreativeWork } from "labs/SchemaOrg_CreativeWork.ts";
-import type { SchemaOrg_ItemList } from "labs/SchemaOrg_ItemList.ts";
-import type { SchemaOrg_ListItem } from "labs/SchemaOrg_ListItem.ts";
+import type { SchemaOrg_CreativeWork } from "./SchemaOrg_CreativeWork.ts";
+import type { SchemaOrg_ItemList } from "./SchemaOrg_ItemList.ts";
+import type { SchemaOrg_ListItem } from "./SchemaOrg_ListItem.ts";
 
 /**
  * A step in the instructions for how to achieve a result. It is an ordered list with HowToDirection and/or HowToTip items.

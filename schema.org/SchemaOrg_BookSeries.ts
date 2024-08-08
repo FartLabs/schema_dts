@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_CreativeWorkSeries } from "labs/SchemaOrg_CreativeWorkSeries.ts";
+import type { SchemaOrg_CreativeWorkSeries } from "./SchemaOrg_CreativeWorkSeries.ts";
 
 /**
  * A series of books. Included books can be indicated with the hasPart property.

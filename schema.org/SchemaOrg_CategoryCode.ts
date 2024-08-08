@@ -1,8 +1,8 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_CategoryCodeSet } from "labs/SchemaOrg_CategoryCodeSet.ts";
-import type { SchemaOrg_DefinedTerm } from "labs/SchemaOrg_DefinedTerm.ts";
-import type { SchemaOrg_Text } from "labs/SchemaOrg_Text.ts";
-import type { SchemaOrg_URL } from "labs/SchemaOrg_URL.ts";
+import type { SchemaOrg_CategoryCodeSet } from "./SchemaOrg_CategoryCodeSet.ts";
+import type { SchemaOrg_DefinedTerm } from "./SchemaOrg_DefinedTerm.ts";
+import type { SchemaOrg_Text } from "./SchemaOrg_Text.ts";
+import type { SchemaOrg_URL } from "./SchemaOrg_URL.ts";
 
 /**
  * A Category Code.
@@ -19,10 +19,10 @@ export interface SchemaOrg_CategoryCode extends SchemaOrg_DefinedTerm {
      * A short textual code that uniquely identifies the value.
      * @see https://schema.org/codeValue
      */
-    codeValue: Array<SchemaOrg_Text>;
+    codeValue?: Array<SchemaOrg_Text>;
     /**
      * A [[CategoryCodeSet]] that contains this category code.
      * @see https://schema.org/inCodeSet
      */
-    inCodeSet: Array<SchemaOrg_URL | SchemaOrg_CategoryCodeSet>;
+    inCodeSet?: Array<SchemaOrg_URL | SchemaOrg_CategoryCodeSet>;
 }

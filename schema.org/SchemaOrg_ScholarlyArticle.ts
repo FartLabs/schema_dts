@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_Article } from "labs/SchemaOrg_Article.ts";
+import type { SchemaOrg_Article } from "./SchemaOrg_Article.ts";
 
 /**
  * A scholarly article.

@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_Rating } from "labs/SchemaOrg_Rating.ts";
+import type { SchemaOrg_Rating } from "./SchemaOrg_Rating.ts";
 
 /**
  * An EndorsementRating is a rating that expresses some level of endorsement, for example inclusion in a "critic's pick" blog, a

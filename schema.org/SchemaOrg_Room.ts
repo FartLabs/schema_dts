@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_Accommodation } from "labs/SchemaOrg_Accommodation.ts";
+import type { SchemaOrg_Accommodation } from "./SchemaOrg_Accommodation.ts";
 
 /**
  * A room is a distinguishable space within a structure, usually separated from other spaces by interior walls (source: Wikipedia, the free encyclopedia, see <a href="http://en.wikipedia.org/wiki/Room">http://en.wikipedia.org/wiki/Room</a>).

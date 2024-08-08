@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_Comment } from "labs/SchemaOrg_Comment.ts";
+import type { SchemaOrg_Comment } from "./SchemaOrg_Comment.ts";
 
 /**
  * A [[comment]] that corrects [[CreativeWork]].

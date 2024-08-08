@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_VisualArtwork } from "labs/SchemaOrg_VisualArtwork.ts";
+import type { SchemaOrg_VisualArtwork } from "./SchemaOrg_VisualArtwork.ts";
 
 /**
  * The artwork on the outer surface of a CreativeWork.

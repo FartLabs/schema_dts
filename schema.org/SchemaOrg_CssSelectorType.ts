@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_Text } from "labs/SchemaOrg_Text.ts";
+import type { SchemaOrg_Text } from "./SchemaOrg_Text.ts";
 
 /**
  * Text representing a CSS selector.

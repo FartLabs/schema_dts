@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_LocalBusiness } from "labs/SchemaOrg_LocalBusiness.ts";
+import type { SchemaOrg_LocalBusiness } from "./SchemaOrg_LocalBusiness.ts";
 
 /**
  * Original definition: "provider of professional services."\n\nThe general [[ProfessionalService]] type for local businesses was deprecated due to confusion with [[Service]]. For reference, the types that it included were: [[Dentist]],

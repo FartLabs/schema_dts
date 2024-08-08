@@ -1,6 +1,6 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_MedicalOrganization } from "labs/SchemaOrg_MedicalOrganization.ts";
-import type { SchemaOrg_MedicalTest } from "labs/SchemaOrg_MedicalTest.ts";
+import type { SchemaOrg_MedicalOrganization } from "./SchemaOrg_MedicalOrganization.ts";
+import type { SchemaOrg_MedicalTest } from "./SchemaOrg_MedicalTest.ts";
 
 /**
  * A medical laboratory that offers on-site or off-site diagnostic services.
@@ -17,5 +17,5 @@ export interface SchemaOrg_DiagnosticLab extends SchemaOrg_MedicalOrganization {
      * A diagnostic test or procedure offered by this lab.
      * @see https://schema.org/availableTest
      */
-    availableTest: Array<SchemaOrg_MedicalTest>;
+    availableTest?: Array<SchemaOrg_MedicalTest>;
 }

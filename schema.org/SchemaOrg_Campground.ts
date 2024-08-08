@@ -1,6 +1,6 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_CivicStructure } from "labs/SchemaOrg_CivicStructure.ts";
-import type { SchemaOrg_LodgingBusiness } from "labs/SchemaOrg_LodgingBusiness.ts";
+import type { SchemaOrg_CivicStructure } from "./SchemaOrg_CivicStructure.ts";
+import type { SchemaOrg_LodgingBusiness } from "./SchemaOrg_LodgingBusiness.ts";
 
 /**
  * A camping site, campsite, or [[Campground]] is a place used for overnight stay in the outdoors, typically containing individual [[CampingPitch]] locations. \n\n

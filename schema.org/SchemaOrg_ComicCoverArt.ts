@@ -1,6 +1,6 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_ComicStory } from "labs/SchemaOrg_ComicStory.ts";
-import type { SchemaOrg_CoverArt } from "labs/SchemaOrg_CoverArt.ts";
+import type { SchemaOrg_ComicStory } from "./SchemaOrg_ComicStory.ts";
+import type { SchemaOrg_CoverArt } from "./SchemaOrg_CoverArt.ts";
 
 /**
  * The artwork on the cover of a comic.

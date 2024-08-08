@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_CreativeWork } from "labs/SchemaOrg_CreativeWork.ts";
+import type { SchemaOrg_CreativeWork } from "./SchemaOrg_CreativeWork.ts";
 
 /**
  * Printed music, as opposed to performed or recorded music.

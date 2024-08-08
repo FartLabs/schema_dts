@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_PublicationEvent } from "labs/SchemaOrg_PublicationEvent.ts";
+import type { SchemaOrg_PublicationEvent } from "./SchemaOrg_PublicationEvent.ts";
 
 /**
  * A publication event, e.g. catch-up TV or radio podcast, during which a program is available on-demand.

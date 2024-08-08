@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_RadioChannel } from "labs/SchemaOrg_RadioChannel.ts";
+import type { SchemaOrg_RadioChannel } from "./SchemaOrg_RadioChannel.ts";
 
 /**
  * A radio channel that uses FM.

@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_QualitativeValue } from "labs/SchemaOrg_QualitativeValue.ts";
+import type { SchemaOrg_QualitativeValue } from "./SchemaOrg_QualitativeValue.ts";
 
 /**
  * A value indicating which roadwheels will receive torque.

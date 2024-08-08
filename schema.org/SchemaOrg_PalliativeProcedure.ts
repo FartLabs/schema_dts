@@ -1,6 +1,6 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_MedicalProcedure } from "labs/SchemaOrg_MedicalProcedure.ts";
-import type { SchemaOrg_MedicalTherapy } from "labs/SchemaOrg_MedicalTherapy.ts";
+import type { SchemaOrg_MedicalProcedure } from "./SchemaOrg_MedicalProcedure.ts";
+import type { SchemaOrg_MedicalTherapy } from "./SchemaOrg_MedicalTherapy.ts";
 
 /**
  * A medical procedure intended primarily for palliative purposes, aimed at relieving the symptoms of an underlying health condition.

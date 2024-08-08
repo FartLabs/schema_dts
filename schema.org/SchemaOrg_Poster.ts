@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_CreativeWork } from "labs/SchemaOrg_CreativeWork.ts";
+import type { SchemaOrg_CreativeWork } from "./SchemaOrg_CreativeWork.ts";
 
 /**
  * A large, usually printed placard, bill, or announcement, often illustrated, that is posted to advertise or publicize something.

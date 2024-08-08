@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_Intangible } from "labs/SchemaOrg_Intangible.ts";
+import type { SchemaOrg_Intangible } from "./SchemaOrg_Intangible.ts";
 
 /**
  * Structured values are used when the value of a property has a more complex structure than simply being a textual value or a reference to another thing.

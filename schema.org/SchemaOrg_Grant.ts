@@ -1,12 +1,12 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_BioChemEntity } from "labs/SchemaOrg_BioChemEntity.ts";
-import type { SchemaOrg_CreativeWork } from "labs/SchemaOrg_CreativeWork.ts";
-import type { SchemaOrg_Event } from "labs/SchemaOrg_Event.ts";
-import type { SchemaOrg_Intangible } from "labs/SchemaOrg_Intangible.ts";
-import type { SchemaOrg_MedicalEntity } from "labs/SchemaOrg_MedicalEntity.ts";
-import type { SchemaOrg_Organization } from "labs/SchemaOrg_Organization.ts";
-import type { SchemaOrg_Person } from "labs/SchemaOrg_Person.ts";
-import type { SchemaOrg_Product } from "labs/SchemaOrg_Product.ts";
+import type { SchemaOrg_BioChemEntity } from "./SchemaOrg_BioChemEntity.ts";
+import type { SchemaOrg_CreativeWork } from "./SchemaOrg_CreativeWork.ts";
+import type { SchemaOrg_Event } from "./SchemaOrg_Event.ts";
+import type { SchemaOrg_Intangible } from "./SchemaOrg_Intangible.ts";
+import type { SchemaOrg_MedicalEntity } from "./SchemaOrg_MedicalEntity.ts";
+import type { SchemaOrg_Organization } from "./SchemaOrg_Organization.ts";
+import type { SchemaOrg_Person } from "./SchemaOrg_Person.ts";
+import type { SchemaOrg_Product } from "./SchemaOrg_Product.ts";
 
 /**
  * A grant, typically financial or otherwise quantifiable, of resources. Typically a [[funder]] sponsors some [[MonetaryAmount]] to an [[Organization]] or [[Person]],
@@ -33,15 +33,15 @@ export interface SchemaOrg_Grant extends SchemaOrg_Intangible {
      * Indicates something directly or indirectly funded or sponsored through a [[Grant]]. See also [[ownershipFundingInfo]].
      * @see https://schema.org/fundedItem
      */
-    fundedItem: Array<SchemaOrg_Organization | SchemaOrg_Person | SchemaOrg_BioChemEntity | SchemaOrg_Product | SchemaOrg_Event | SchemaOrg_MedicalEntity | SchemaOrg_CreativeWork>;
+    fundedItem?: Array<SchemaOrg_Organization | SchemaOrg_Person | SchemaOrg_BioChemEntity | SchemaOrg_Product | SchemaOrg_Event | SchemaOrg_MedicalEntity | SchemaOrg_CreativeWork>;
     /**
      * A person or organization that supports (sponsors) something through some kind of financial contribution.
      * @see https://schema.org/funder
      */
-    funder: Array<SchemaOrg_Organization | SchemaOrg_Person>;
+    funder?: Array<SchemaOrg_Organization | SchemaOrg_Person>;
     /**
      * A person or organization that supports a thing through a pledge, promise, or financial contribution. E.g. a sponsor of a Medical Study or a corporate sponsor of an event.
      * @see https://schema.org/sponsor
      */
-    sponsor: Array<SchemaOrg_Organization | SchemaOrg_Person>;
+    sponsor?: Array<SchemaOrg_Organization | SchemaOrg_Person>;
 }

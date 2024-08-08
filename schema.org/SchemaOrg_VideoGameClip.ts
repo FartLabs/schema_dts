@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_Clip } from "labs/SchemaOrg_Clip.ts";
+import type { SchemaOrg_Clip } from "./SchemaOrg_Clip.ts";
 
 /**
  * A short segment/part of a video game.

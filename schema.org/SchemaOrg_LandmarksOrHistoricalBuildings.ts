@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_Place } from "labs/SchemaOrg_Place.ts";
+import type { SchemaOrg_Place } from "./SchemaOrg_Place.ts";
 
 /**
  * An historical landmark or building.

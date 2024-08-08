@@ -1,6 +1,6 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_ScholarlyArticle } from "labs/SchemaOrg_ScholarlyArticle.ts";
-import type { SchemaOrg_Text } from "labs/SchemaOrg_Text.ts";
+import type { SchemaOrg_ScholarlyArticle } from "./SchemaOrg_ScholarlyArticle.ts";
+import type { SchemaOrg_Text } from "./SchemaOrg_Text.ts";
 
 /**
  * A scholarly article in the medical domain.
@@ -17,5 +17,5 @@ export interface SchemaOrg_MedicalScholarlyArticle extends SchemaOrg_ScholarlyAr
      * The type of the medical article, taken from the US NLM MeSH publication type catalog. See also [MeSH documentation](http://www.nlm.nih.gov/mesh/pubtypes.html).
      * @see https://schema.org/publicationType
      */
-    publicationType: Array<SchemaOrg_Text>;
+    publicationType?: Array<SchemaOrg_Text>;
 }

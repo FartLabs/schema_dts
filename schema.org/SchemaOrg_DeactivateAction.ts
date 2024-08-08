@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_ControlAction } from "labs/SchemaOrg_ControlAction.ts";
+import type { SchemaOrg_ControlAction } from "./SchemaOrg_ControlAction.ts";
 
 /**
  * The act of stopping or deactivating a device or application (e.g. stopping a timer or turning off a flashlight).

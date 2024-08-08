@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_GovernmentBuilding } from "labs/SchemaOrg_GovernmentBuilding.ts";
+import type { SchemaOrg_GovernmentBuilding } from "./SchemaOrg_GovernmentBuilding.ts";
 
 /**
  * A legislative building&#x2014;for example, the state capitol.

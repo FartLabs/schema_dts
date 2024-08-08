@@ -1,6 +1,6 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_FloorPlan } from "labs/SchemaOrg_FloorPlan.ts";
-import type { SchemaOrg_Place } from "labs/SchemaOrg_Place.ts";
+import type { SchemaOrg_FloorPlan } from "./SchemaOrg_FloorPlan.ts";
+import type { SchemaOrg_Place } from "./SchemaOrg_Place.ts";
 
 /**
  * The place where a person lives.
@@ -17,5 +17,5 @@ export interface SchemaOrg_Residence extends SchemaOrg_Place {
      * A floorplan of some [[Accommodation]].
      * @see https://schema.org/accommodationFloorPlan
      */
-    accommodationFloorPlan: Array<SchemaOrg_FloorPlan>;
+    accommodationFloorPlan?: Array<SchemaOrg_FloorPlan>;
 }

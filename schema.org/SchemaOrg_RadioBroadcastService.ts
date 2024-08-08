@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_BroadcastService } from "labs/SchemaOrg_BroadcastService.ts";
+import type { SchemaOrg_BroadcastService } from "./SchemaOrg_BroadcastService.ts";
 
 /**
  * A delivery service through which radio content is provided via broadcast over the air or online.

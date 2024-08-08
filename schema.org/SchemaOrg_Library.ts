@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_LocalBusiness } from "labs/SchemaOrg_LocalBusiness.ts";
+import type { SchemaOrg_LocalBusiness } from "./SchemaOrg_LocalBusiness.ts";
 
 /**
  * A library.

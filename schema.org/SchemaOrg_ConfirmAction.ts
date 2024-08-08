@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_InformAction } from "labs/SchemaOrg_InformAction.ts";
+import type { SchemaOrg_InformAction } from "./SchemaOrg_InformAction.ts";
 
 /**
  * The act of notifying someone that a future event/action is going to happen as expected.\n\nRelated actions:\n\n* [[CancelAction]]: The antonym of ConfirmAction.

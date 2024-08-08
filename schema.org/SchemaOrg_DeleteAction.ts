@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_UpdateAction } from "labs/SchemaOrg_UpdateAction.ts";
+import type { SchemaOrg_UpdateAction } from "./SchemaOrg_UpdateAction.ts";
 
 /**
  * The act of editing a recipient by removing one of its objects.

@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_TherapeuticProcedure } from "labs/SchemaOrg_TherapeuticProcedure.ts";
+import type { SchemaOrg_TherapeuticProcedure } from "./SchemaOrg_TherapeuticProcedure.ts";
 
 /**
  * A process of care relying upon counseling, dialogue and communication  aimed at improving a mental health condition without use of drugs.

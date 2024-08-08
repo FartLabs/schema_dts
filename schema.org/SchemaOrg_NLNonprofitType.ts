@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_NonprofitType } from "labs/SchemaOrg_NonprofitType.ts";
+import type { SchemaOrg_NonprofitType } from "./SchemaOrg_NonprofitType.ts";
 
 /**
  * NLNonprofitType: Non-profit organization type originating from the Netherlands.

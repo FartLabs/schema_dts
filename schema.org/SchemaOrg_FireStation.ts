@@ -1,6 +1,6 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_CivicStructure } from "labs/SchemaOrg_CivicStructure.ts";
-import type { SchemaOrg_EmergencyService } from "labs/SchemaOrg_EmergencyService.ts";
+import type { SchemaOrg_CivicStructure } from "./SchemaOrg_CivicStructure.ts";
+import type { SchemaOrg_EmergencyService } from "./SchemaOrg_EmergencyService.ts";
 
 /**
  * A fire station. With firemen.

@@ -1,6 +1,6 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_Audience } from "labs/SchemaOrg_Audience.ts";
-import type { SchemaOrg_PeopleAudience } from "labs/SchemaOrg_PeopleAudience.ts";
+import type { SchemaOrg_Audience } from "./SchemaOrg_Audience.ts";
+import type { SchemaOrg_PeopleAudience } from "./SchemaOrg_PeopleAudience.ts";
 
 /**
  * Target audiences for medical web pages.

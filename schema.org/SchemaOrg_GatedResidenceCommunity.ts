@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_Residence } from "labs/SchemaOrg_Residence.ts";
+import type { SchemaOrg_Residence } from "./SchemaOrg_Residence.ts";
 
 /**
  * Residence type: Gated community.

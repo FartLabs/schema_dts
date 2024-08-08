@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_AdministrativeArea } from "labs/SchemaOrg_AdministrativeArea.ts";
+import type { SchemaOrg_AdministrativeArea } from "./SchemaOrg_AdministrativeArea.ts";
 
 /**
  * A School District is an administrative area for the administration of schools.

@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_PlaceOfWorship } from "labs/SchemaOrg_PlaceOfWorship.ts";
+import type { SchemaOrg_PlaceOfWorship } from "./SchemaOrg_PlaceOfWorship.ts";
 
 /**
  * A Buddhist temple.

@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_Review } from "labs/SchemaOrg_Review.ts";
+import type { SchemaOrg_Review } from "./SchemaOrg_Review.ts";
 
 /**
  * An [[EmployerReview]] is a review of an [[Organization]] regarding its role as an employer, written by a current or former employee of that organization.

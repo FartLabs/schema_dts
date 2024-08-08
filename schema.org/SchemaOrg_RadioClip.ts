@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_Clip } from "labs/SchemaOrg_Clip.ts";
+import type { SchemaOrg_Clip } from "./SchemaOrg_Clip.ts";
 
 /**
  * A short radio program or a segment/part of a radio program.

@@ -1,6 +1,6 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_MedicalOrganization } from "labs/SchemaOrg_MedicalOrganization.ts";
-import type { SchemaOrg_Physician } from "labs/SchemaOrg_Physician.ts";
+import type { SchemaOrg_MedicalOrganization } from "./SchemaOrg_MedicalOrganization.ts";
+import type { SchemaOrg_Physician } from "./SchemaOrg_Physician.ts";
 
 /**
  * An individual medical practitioner. For their official address use [[address]], for affiliations to hospitals use [[hospitalAffiliation]]. 
@@ -19,5 +19,5 @@ export interface SchemaOrg_IndividualPhysician extends SchemaOrg_Physician {
      * A [[MedicalOrganization]] where the [[IndividualPhysician]] practices.
      * @see https://schema.org/practicesAt
      */
-    practicesAt: Array<SchemaOrg_MedicalOrganization>;
+    practicesAt?: Array<SchemaOrg_MedicalOrganization>;
 }

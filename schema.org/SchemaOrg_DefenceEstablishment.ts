@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_GovernmentBuilding } from "labs/SchemaOrg_GovernmentBuilding.ts";
+import type { SchemaOrg_GovernmentBuilding } from "./SchemaOrg_GovernmentBuilding.ts";
 
 /**
  * A defence establishment, such as an army or navy base.

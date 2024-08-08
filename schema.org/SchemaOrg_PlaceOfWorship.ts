@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_CivicStructure } from "labs/SchemaOrg_CivicStructure.ts";
+import type { SchemaOrg_CivicStructure } from "./SchemaOrg_CivicStructure.ts";
 
 /**
  * Place of worship, such as a church, synagogue, or mosque.

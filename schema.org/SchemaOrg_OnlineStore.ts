@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_OnlineBusiness } from "labs/SchemaOrg_OnlineBusiness.ts";
+import type { SchemaOrg_OnlineBusiness } from "./SchemaOrg_OnlineBusiness.ts";
 
 /**
  * An eCommerce site.

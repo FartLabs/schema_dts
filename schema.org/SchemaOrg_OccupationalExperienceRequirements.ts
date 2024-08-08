@@ -1,6 +1,6 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_Intangible } from "labs/SchemaOrg_Intangible.ts";
-import type { SchemaOrg_Number } from "labs/SchemaOrg_Number.ts";
+import type { SchemaOrg_Intangible } from "./SchemaOrg_Intangible.ts";
+import type { SchemaOrg_Number } from "./SchemaOrg_Number.ts";
 
 /**
  * Indicates employment-related experience requirements, e.g. [[monthsOfExperience]].
@@ -17,5 +17,5 @@ export interface SchemaOrg_OccupationalExperienceRequirements extends SchemaOrg_
      * Indicates the minimal number of months of experience required for a position.
      * @see https://schema.org/monthsOfExperience
      */
-    monthsOfExperience: Array<SchemaOrg_Number>;
+    monthsOfExperience?: Array<SchemaOrg_Number>;
 }

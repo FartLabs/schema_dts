@@ -1,6 +1,6 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_AddAction } from "labs/SchemaOrg_AddAction.ts";
-import type { SchemaOrg_Place } from "labs/SchemaOrg_Place.ts";
+import type { SchemaOrg_AddAction } from "./SchemaOrg_AddAction.ts";
+import type { SchemaOrg_Place } from "./SchemaOrg_Place.ts";
 
 /**
  * The act of adding at a specific location in an ordered collection.
@@ -17,5 +17,5 @@ export interface SchemaOrg_InsertAction extends SchemaOrg_AddAction {
      * A sub property of location. The final location of the object or the agent after the action.
      * @see https://schema.org/toLocation
      */
-    toLocation: Array<SchemaOrg_Place>;
+    toLocation?: Array<SchemaOrg_Place>;
 }

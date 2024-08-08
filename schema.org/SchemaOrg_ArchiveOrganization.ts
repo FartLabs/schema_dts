@@ -1,6 +1,6 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_ArchiveComponent } from "labs/SchemaOrg_ArchiveComponent.ts";
-import type { SchemaOrg_LocalBusiness } from "labs/SchemaOrg_LocalBusiness.ts";
+import type { SchemaOrg_ArchiveComponent } from "./SchemaOrg_ArchiveComponent.ts";
+import type { SchemaOrg_LocalBusiness } from "./SchemaOrg_LocalBusiness.ts";
 
 /**
  * An organization with archival holdings. An organization which keeps and preserves archival material and typically makes it accessible to the public.
@@ -17,5 +17,5 @@ export interface SchemaOrg_ArchiveOrganization extends SchemaOrg_LocalBusiness {
      * Collection, [fonds](https://en.wikipedia.org/wiki/Fonds), or item held, kept or maintained by an [[ArchiveOrganization]].
      * @see https://schema.org/archiveHeld
      */
-    archiveHeld: Array<SchemaOrg_ArchiveComponent>;
+    archiveHeld?: Array<SchemaOrg_ArchiveComponent>;
 }

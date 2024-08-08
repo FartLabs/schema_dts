@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_Number } from "labs/SchemaOrg_Number.ts";
+import type { SchemaOrg_Number } from "./SchemaOrg_Number.ts";
 
 /**
  * Data type: Floating number.

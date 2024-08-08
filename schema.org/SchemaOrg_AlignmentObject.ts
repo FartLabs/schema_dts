@@ -1,7 +1,7 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_Intangible } from "labs/SchemaOrg_Intangible.ts";
-import type { SchemaOrg_Text } from "labs/SchemaOrg_Text.ts";
-import type { SchemaOrg_URL } from "labs/SchemaOrg_URL.ts";
+import type { SchemaOrg_Intangible } from "./SchemaOrg_Intangible.ts";
+import type { SchemaOrg_Text } from "./SchemaOrg_Text.ts";
+import type { SchemaOrg_URL } from "./SchemaOrg_URL.ts";
 
 /**
  * An intangible item that describes an alignment between a learning resource and a node in an educational framework.
@@ -22,25 +22,25 @@ export interface SchemaOrg_AlignmentObject extends SchemaOrg_Intangible {
      * A category of alignment between the learning resource and the framework node. Recommended values include: 'requires', 'textComplexity', 'readingLevel', and 'educationalSubject'.
      * @see https://schema.org/alignmentType
      */
-    alignmentType: Array<SchemaOrg_Text>;
+    alignmentType?: Array<SchemaOrg_Text>;
     /**
      * The framework to which the resource being described is aligned.
      * @see https://schema.org/educationalFramework
      */
-    educationalFramework: Array<SchemaOrg_Text>;
+    educationalFramework?: Array<SchemaOrg_Text>;
     /**
      * The description of a node in an established educational framework.
      * @see https://schema.org/targetDescription
      */
-    targetDescription: Array<SchemaOrg_Text>;
+    targetDescription?: Array<SchemaOrg_Text>;
     /**
      * The name of a node in an established educational framework.
      * @see https://schema.org/targetName
      */
-    targetName: Array<SchemaOrg_Text>;
+    targetName?: Array<SchemaOrg_Text>;
     /**
      * The URL of a node in an established educational framework.
      * @see https://schema.org/targetUrl
      */
-    targetUrl: Array<SchemaOrg_URL>;
+    targetUrl?: Array<SchemaOrg_URL>;
 }

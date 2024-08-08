@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_MedicalSignOrSymptom } from "labs/SchemaOrg_MedicalSignOrSymptom.ts";
+import type { SchemaOrg_MedicalSignOrSymptom } from "./SchemaOrg_MedicalSignOrSymptom.ts";
 
 /**
  * Any complaint sensed and expressed by the patient (therefore defined as subjective)  like stomachache, lower-back pain, or fatigue.

@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_SizeGroupEnumeration } from "labs/SchemaOrg_SizeGroupEnumeration.ts";
+import type { SchemaOrg_SizeGroupEnumeration } from "./SchemaOrg_SizeGroupEnumeration.ts";
 
 /**
  * Enumerates common size groups (also known as "size types") for wearable products.

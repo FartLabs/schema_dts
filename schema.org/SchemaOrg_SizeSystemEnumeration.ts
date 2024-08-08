@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_Enumeration } from "labs/SchemaOrg_Enumeration.ts";
+import type { SchemaOrg_Enumeration } from "./SchemaOrg_Enumeration.ts";
 
 /**
  * Enumerates common size systems for different categories of products, for example "EN-13402" or "UK" for wearables or "Imperial" for screws.

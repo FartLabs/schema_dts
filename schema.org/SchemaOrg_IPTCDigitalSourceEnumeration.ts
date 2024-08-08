@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_MediaEnumeration } from "labs/SchemaOrg_MediaEnumeration.ts";
+import type { SchemaOrg_MediaEnumeration } from "./SchemaOrg_MediaEnumeration.ts";
 
 /**
  * <a href="https://www.iptc.org/">IPTC</a> "Digital Source" codes for use with the [[digitalSourceType]] property, providing information about the source for a digital media object. 

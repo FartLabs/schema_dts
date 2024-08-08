@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_LocalBusiness } from "labs/SchemaOrg_LocalBusiness.ts";
+import type { SchemaOrg_LocalBusiness } from "./SchemaOrg_LocalBusiness.ts";
 
 /**
  * A particular physical or virtual business of an organization for medical purposes. Examples of MedicalBusiness include different businesses run by health professionals.

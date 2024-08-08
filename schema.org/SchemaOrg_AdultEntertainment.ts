@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_EntertainmentBusiness } from "labs/SchemaOrg_EntertainmentBusiness.ts";
+import type { SchemaOrg_EntertainmentBusiness } from "./SchemaOrg_EntertainmentBusiness.ts";
 
 /**
  * An adult entertainment establishment.

@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_MedicalBusiness } from "labs/SchemaOrg_MedicalBusiness.ts";
+import type { SchemaOrg_MedicalBusiness } from "./SchemaOrg_MedicalBusiness.ts";
 
 /**
  * A store that sells reading glasses and similar devices for improving vision.

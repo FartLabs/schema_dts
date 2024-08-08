@@ -1,6 +1,6 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_MedicalRiskEstimator } from "labs/SchemaOrg_MedicalRiskEstimator.ts";
-import type { SchemaOrg_Text } from "labs/SchemaOrg_Text.ts";
+import type { SchemaOrg_MedicalRiskEstimator } from "./SchemaOrg_MedicalRiskEstimator.ts";
+import type { SchemaOrg_Text } from "./SchemaOrg_Text.ts";
 
 /**
  * A simple system that adds up the number of risk factors to yield a score that is associated with prognosis, e.g. CHAD score, TIMI risk score.
@@ -17,5 +17,5 @@ export interface SchemaOrg_MedicalRiskScore extends SchemaOrg_MedicalRiskEstimat
      * The algorithm or rules to follow to compute the score.
      * @see https://schema.org/algorithm
      */
-    algorithm: Array<SchemaOrg_Text>;
+    algorithm?: Array<SchemaOrg_Text>;
 }

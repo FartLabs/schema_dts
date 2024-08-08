@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_UseAction } from "labs/SchemaOrg_UseAction.ts";
+import type { SchemaOrg_UseAction } from "./SchemaOrg_UseAction.ts";
 
 /**
  * The act of dressing oneself in clothing.

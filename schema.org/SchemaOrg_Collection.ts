@@ -1,6 +1,6 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_CreativeWork } from "labs/SchemaOrg_CreativeWork.ts";
-import type { SchemaOrg_Integer } from "labs/SchemaOrg_Integer.ts";
+import type { SchemaOrg_CreativeWork } from "./SchemaOrg_CreativeWork.ts";
+import type { SchemaOrg_Integer } from "./SchemaOrg_Integer.ts";
 
 /**
  * A collection of items, e.g. creative works or products.
@@ -17,5 +17,5 @@ export interface SchemaOrg_Collection extends SchemaOrg_CreativeWork {
      * The number of items in the [[Collection]].
      * @see https://schema.org/collectionSize
      */
-    collectionSize: Array<SchemaOrg_Integer>;
+    collectionSize?: Array<SchemaOrg_Integer>;
 }

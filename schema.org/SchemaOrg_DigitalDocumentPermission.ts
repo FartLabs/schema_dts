@@ -1,10 +1,10 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_Audience } from "labs/SchemaOrg_Audience.ts";
-import type { SchemaOrg_ContactPoint } from "labs/SchemaOrg_ContactPoint.ts";
-import type { SchemaOrg_DigitalDocumentPermissionType } from "labs/SchemaOrg_DigitalDocumentPermissionType.ts";
-import type { SchemaOrg_Intangible } from "labs/SchemaOrg_Intangible.ts";
-import type { SchemaOrg_Organization } from "labs/SchemaOrg_Organization.ts";
-import type { SchemaOrg_Person } from "labs/SchemaOrg_Person.ts";
+import type { SchemaOrg_Audience } from "./SchemaOrg_Audience.ts";
+import type { SchemaOrg_ContactPoint } from "./SchemaOrg_ContactPoint.ts";
+import type { SchemaOrg_DigitalDocumentPermissionType } from "./SchemaOrg_DigitalDocumentPermissionType.ts";
+import type { SchemaOrg_Intangible } from "./SchemaOrg_Intangible.ts";
+import type { SchemaOrg_Organization } from "./SchemaOrg_Organization.ts";
+import type { SchemaOrg_Person } from "./SchemaOrg_Person.ts";
 
 /**
  * A permission for a particular person or group to access a particular file.
@@ -21,10 +21,10 @@ export interface SchemaOrg_DigitalDocumentPermission extends SchemaOrg_Intangibl
      * The person, organization, contact point, or audience that has been granted this permission.
      * @see https://schema.org/grantee
      */
-    grantee: Array<SchemaOrg_Audience | SchemaOrg_Organization | SchemaOrg_Person | SchemaOrg_ContactPoint>;
+    grantee?: Array<SchemaOrg_Audience | SchemaOrg_Organization | SchemaOrg_Person | SchemaOrg_ContactPoint>;
     /**
      * The type of permission granted the person, organization, or audience.
      * @see https://schema.org/permissionType
      */
-    permissionType: Array<SchemaOrg_DigitalDocumentPermissionType>;
+    permissionType?: Array<SchemaOrg_DigitalDocumentPermissionType>;
 }

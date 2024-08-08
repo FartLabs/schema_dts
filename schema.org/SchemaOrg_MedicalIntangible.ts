@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_MedicalEntity } from "labs/SchemaOrg_MedicalEntity.ts";
+import type { SchemaOrg_MedicalEntity } from "./SchemaOrg_MedicalEntity.ts";
 
 /**
  * A utility class that serves as the umbrella for a number of 'intangible' things in the medical space.

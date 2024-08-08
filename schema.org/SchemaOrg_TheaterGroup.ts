@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_PerformingGroup } from "labs/SchemaOrg_PerformingGroup.ts";
+import type { SchemaOrg_PerformingGroup } from "./SchemaOrg_PerformingGroup.ts";
 
 /**
  * A theater group or company, for example, the Royal Shakespeare Company or Druid Theatre.

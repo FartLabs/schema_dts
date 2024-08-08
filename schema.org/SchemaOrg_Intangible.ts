@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_Thing } from "labs/SchemaOrg_Thing.ts";
+import type { SchemaOrg_Thing } from "./SchemaOrg_Thing.ts";
 
 /**
  * A utility class that serves as the umbrella for a number of 'intangible' things such as quantities, structured values, etc.

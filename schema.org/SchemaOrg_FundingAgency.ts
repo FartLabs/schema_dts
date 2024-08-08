@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_Project } from "labs/SchemaOrg_Project.ts";
+import type { SchemaOrg_Project } from "./SchemaOrg_Project.ts";
 
 /**
  * A FundingAgency is an organization that implements one or more [[FundingScheme]]s and manages

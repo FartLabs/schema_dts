@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_Audience } from "labs/SchemaOrg_Audience.ts";
+import type { SchemaOrg_Audience } from "./SchemaOrg_Audience.ts";
 
 /**
  * Researchers.

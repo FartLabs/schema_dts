@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_HowToItem } from "labs/SchemaOrg_HowToItem.ts";
+import type { SchemaOrg_HowToItem } from "./SchemaOrg_HowToItem.ts";
 
 /**
  * A tool used (but not consumed) when performing instructions for how to achieve a result.

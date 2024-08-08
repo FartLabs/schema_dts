@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_Store } from "labs/SchemaOrg_Store.ts";
+import type { SchemaOrg_Store } from "./SchemaOrg_Store.ts";
 
 /**
  * A men's clothing store.

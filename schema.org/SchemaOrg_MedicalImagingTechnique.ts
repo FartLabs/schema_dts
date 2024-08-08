@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_MedicalEnumeration } from "labs/SchemaOrg_MedicalEnumeration.ts";
+import type { SchemaOrg_MedicalEnumeration } from "./SchemaOrg_MedicalEnumeration.ts";
 
 /**
  * Any medical imaging modality typically used for diagnostic purposes. Enumerated type.

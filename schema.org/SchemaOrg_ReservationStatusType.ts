@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_StatusEnumeration } from "labs/SchemaOrg_StatusEnumeration.ts";
+import type { SchemaOrg_StatusEnumeration } from "./SchemaOrg_StatusEnumeration.ts";
 
 /**
  * Enumerated status values for Reservation.

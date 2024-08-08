@@ -1,6 +1,6 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_MedicalImagingTechnique } from "labs/SchemaOrg_MedicalImagingTechnique.ts";
-import type { SchemaOrg_MedicalTest } from "labs/SchemaOrg_MedicalTest.ts";
+import type { SchemaOrg_MedicalImagingTechnique } from "./SchemaOrg_MedicalImagingTechnique.ts";
+import type { SchemaOrg_MedicalTest } from "./SchemaOrg_MedicalTest.ts";
 
 /**
  * Any medical imaging modality typically used for diagnostic purposes.
@@ -17,5 +17,5 @@ export interface SchemaOrg_ImagingTest extends SchemaOrg_MedicalTest {
      * Imaging technique used.
      * @see https://schema.org/imagingTechnique
      */
-    imagingTechnique: Array<SchemaOrg_MedicalImagingTechnique>;
+    imagingTechnique?: Array<SchemaOrg_MedicalImagingTechnique>;
 }

@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_MedicalTest } from "labs/SchemaOrg_MedicalTest.ts";
+import type { SchemaOrg_MedicalTest } from "./SchemaOrg_MedicalTest.ts";
 
 /**
  * A medical test performed on a sample of a patient's blood.

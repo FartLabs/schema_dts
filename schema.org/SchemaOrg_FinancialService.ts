@@ -1,7 +1,7 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_LocalBusiness } from "labs/SchemaOrg_LocalBusiness.ts";
-import type { SchemaOrg_Text } from "labs/SchemaOrg_Text.ts";
-import type { SchemaOrg_URL } from "labs/SchemaOrg_URL.ts";
+import type { SchemaOrg_LocalBusiness } from "./SchemaOrg_LocalBusiness.ts";
+import type { SchemaOrg_Text } from "./SchemaOrg_Text.ts";
+import type { SchemaOrg_URL } from "./SchemaOrg_URL.ts";
 
 /**
  * Financial services business.
@@ -18,5 +18,5 @@ export interface SchemaOrg_FinancialService extends SchemaOrg_LocalBusiness {
      * Description of fees, commissions, and other terms applied either to a class of financial product, or by a financial service organization.
      * @see https://schema.org/feesAndCommissionsSpecification
      */
-    feesAndCommissionsSpecification: Array<SchemaOrg_URL | SchemaOrg_Text>;
+    feesAndCommissionsSpecification?: Array<SchemaOrg_URL | SchemaOrg_Text>;
 }

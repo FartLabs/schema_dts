@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_QualitativeValue } from "labs/SchemaOrg_QualitativeValue.ts";
+import type { SchemaOrg_QualitativeValue } from "./SchemaOrg_QualitativeValue.ts";
 
 /**
  * A type of bed. This is used for indicating the bed or beds available in an accommodation.

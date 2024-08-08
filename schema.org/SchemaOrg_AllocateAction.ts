@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_OrganizeAction } from "labs/SchemaOrg_OrganizeAction.ts";
+import type { SchemaOrg_OrganizeAction } from "./SchemaOrg_OrganizeAction.ts";
 
 /**
  * The act of organizing tasks/objects/events by associating resources to it.

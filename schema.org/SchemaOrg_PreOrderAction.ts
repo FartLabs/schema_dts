@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_TradeAction } from "labs/SchemaOrg_TradeAction.ts";
+import type { SchemaOrg_TradeAction } from "./SchemaOrg_TradeAction.ts";
 
 /**
  * An agent orders a (not yet released) object/product/service to be delivered/sent.

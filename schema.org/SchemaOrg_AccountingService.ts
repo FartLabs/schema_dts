@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_FinancialService } from "labs/SchemaOrg_FinancialService.ts";
+import type { SchemaOrg_FinancialService } from "./SchemaOrg_FinancialService.ts";
 
 /**
  * Accountancy business.\n\nAs a [[LocalBusiness]] it can be described as a [[provider]] of one or more [[Service]]\(s).

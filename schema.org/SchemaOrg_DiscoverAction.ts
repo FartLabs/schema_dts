@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_FindAction } from "labs/SchemaOrg_FindAction.ts";
+import type { SchemaOrg_FindAction } from "./SchemaOrg_FindAction.ts";
 
 /**
  * The act of discovering/finding an object.

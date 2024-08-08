@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_Intangible } from "labs/SchemaOrg_Intangible.ts";
+import type { SchemaOrg_Intangible } from "./SchemaOrg_Intangible.ts";
 
 /**
  * A Series in schema.org is a group of related items, typically but not necessarily of the same kind. See also [[CreativeWorkSeries]], [[EventSeries]].

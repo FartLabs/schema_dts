@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_NewsArticle } from "labs/SchemaOrg_NewsArticle.ts";
+import type { SchemaOrg_NewsArticle } from "./SchemaOrg_NewsArticle.ts";
 
 /**
  * A [[NewsArticle]] expressing an open call by a [[NewsMediaOrganization]] asking the public for input, insights, clarifications, anecdotes, documentation, etc., on an issue, for reporting purposes.

@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_SocialMediaPosting } from "labs/SchemaOrg_SocialMediaPosting.ts";
+import type { SchemaOrg_SocialMediaPosting } from "./SchemaOrg_SocialMediaPosting.ts";
 
 /**
  * A blog post.

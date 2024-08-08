@@ -1,13 +1,13 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_CDCPMDRecord } from "labs/SchemaOrg_CDCPMDRecord.ts";
-import type { SchemaOrg_CivicStructure } from "labs/SchemaOrg_CivicStructure.ts";
-import type { SchemaOrg_Dataset } from "labs/SchemaOrg_Dataset.ts";
-import type { SchemaOrg_EmergencyService } from "labs/SchemaOrg_EmergencyService.ts";
-import type { SchemaOrg_MedicalOrganization } from "labs/SchemaOrg_MedicalOrganization.ts";
-import type { SchemaOrg_MedicalProcedure } from "labs/SchemaOrg_MedicalProcedure.ts";
-import type { SchemaOrg_MedicalSpecialty } from "labs/SchemaOrg_MedicalSpecialty.ts";
-import type { SchemaOrg_MedicalTest } from "labs/SchemaOrg_MedicalTest.ts";
-import type { SchemaOrg_MedicalTherapy } from "labs/SchemaOrg_MedicalTherapy.ts";
+import type { SchemaOrg_CDCPMDRecord } from "./SchemaOrg_CDCPMDRecord.ts";
+import type { SchemaOrg_CivicStructure } from "./SchemaOrg_CivicStructure.ts";
+import type { SchemaOrg_Dataset } from "./SchemaOrg_Dataset.ts";
+import type { SchemaOrg_EmergencyService } from "./SchemaOrg_EmergencyService.ts";
+import type { SchemaOrg_MedicalOrganization } from "./SchemaOrg_MedicalOrganization.ts";
+import type { SchemaOrg_MedicalProcedure } from "./SchemaOrg_MedicalProcedure.ts";
+import type { SchemaOrg_MedicalSpecialty } from "./SchemaOrg_MedicalSpecialty.ts";
+import type { SchemaOrg_MedicalTest } from "./SchemaOrg_MedicalTest.ts";
+import type { SchemaOrg_MedicalTherapy } from "./SchemaOrg_MedicalTherapy.ts";
 
 /**
  * A hospital.
@@ -24,15 +24,15 @@ export interface SchemaOrg_Hospital extends SchemaOrg_CivicStructure, SchemaOrg_
      * A medical service available from this provider.
      * @see https://schema.org/availableService
      */
-    availableService: Array<SchemaOrg_MedicalTest | SchemaOrg_MedicalTherapy | SchemaOrg_MedicalProcedure>;
+    availableService?: Array<SchemaOrg_MedicalTest | SchemaOrg_MedicalTherapy | SchemaOrg_MedicalProcedure>;
     /**
      * Indicates data describing a hospital, e.g. a CDC [[CDCPMDRecord]] or as some kind of [[Dataset]].
      * @see https://schema.org/healthcareReportingData
      */
-    healthcareReportingData: Array<SchemaOrg_Dataset | SchemaOrg_CDCPMDRecord>;
+    healthcareReportingData?: Array<SchemaOrg_Dataset | SchemaOrg_CDCPMDRecord>;
     /**
      * A medical specialty of the provider.
      * @see https://schema.org/medicalSpecialty
      */
-    medicalSpecialty: Array<SchemaOrg_MedicalSpecialty>;
+    medicalSpecialty?: Array<SchemaOrg_MedicalSpecialty>;
 }

@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_MediaObject } from "labs/SchemaOrg_MediaObject.ts";
+import type { SchemaOrg_MediaObject } from "./SchemaOrg_MediaObject.ts";
 
 /**
  * A music video file.

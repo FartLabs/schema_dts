@@ -1,6 +1,6 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_Action } from "labs/SchemaOrg_Action.ts";
-import type { SchemaOrg_Thing } from "labs/SchemaOrg_Thing.ts";
+import type { SchemaOrg_Action } from "./SchemaOrg_Action.ts";
+import type { SchemaOrg_Thing } from "./SchemaOrg_Thing.ts";
 
 /**
  * The act of managing by changing/editing the state of the object.
@@ -17,10 +17,10 @@ export interface SchemaOrg_UpdateAction extends SchemaOrg_Action {
      * A sub property of object. The collection target of the action.
      * @see https://schema.org/collection
      */
-    collection: Array<SchemaOrg_Thing>;
+    collection?: Array<SchemaOrg_Thing>;
     /**
      * A sub property of object. The collection target of the action.
      * @see https://schema.org/targetCollection
      */
-    targetCollection: Array<SchemaOrg_Thing>;
+    targetCollection?: Array<SchemaOrg_Thing>;
 }

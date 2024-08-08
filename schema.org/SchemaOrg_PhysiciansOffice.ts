@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_Physician } from "labs/SchemaOrg_Physician.ts";
+import type { SchemaOrg_Physician } from "./SchemaOrg_Physician.ts";
 
 /**
  * A doctor's office or clinic.

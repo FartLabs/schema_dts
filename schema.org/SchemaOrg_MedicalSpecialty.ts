@@ -1,6 +1,6 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_MedicalEnumeration } from "labs/SchemaOrg_MedicalEnumeration.ts";
-import type { SchemaOrg_Specialty } from "labs/SchemaOrg_Specialty.ts";
+import type { SchemaOrg_MedicalEnumeration } from "./SchemaOrg_MedicalEnumeration.ts";
+import type { SchemaOrg_Specialty } from "./SchemaOrg_Specialty.ts";
 
 /**
  * Any specific branch of medical science or practice. Medical specialities include clinical specialties that pertain to particular organ systems and their respective disease states, as well as allied health specialties. Enumerated type.

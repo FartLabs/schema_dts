@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_AutomotiveBusiness } from "labs/SchemaOrg_AutomotiveBusiness.ts";
+import type { SchemaOrg_AutomotiveBusiness } from "./SchemaOrg_AutomotiveBusiness.ts";
 
 /**
  * Auto body shop.

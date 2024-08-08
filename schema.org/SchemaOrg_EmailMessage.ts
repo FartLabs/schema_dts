@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_Message } from "labs/SchemaOrg_Message.ts";
+import type { SchemaOrg_Message } from "./SchemaOrg_Message.ts";
 
 /**
  * An email message.

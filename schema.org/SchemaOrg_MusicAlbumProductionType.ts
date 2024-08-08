@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_Enumeration } from "labs/SchemaOrg_Enumeration.ts";
+import type { SchemaOrg_Enumeration } from "./SchemaOrg_Enumeration.ts";
 
 /**
  * Classification of the album by its type of content: soundtrack, live album, studio album, etc.

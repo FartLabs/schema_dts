@@ -1,6 +1,6 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_Action } from "labs/SchemaOrg_Action.ts";
-import type { SchemaOrg_Text } from "labs/SchemaOrg_Text.ts";
+import type { SchemaOrg_Action } from "./SchemaOrg_Action.ts";
+import type { SchemaOrg_Text } from "./SchemaOrg_Text.ts";
 
 /**
  * The act of searching for an object.\n\nRelated actions:\n\n* [[FindAction]]: SearchAction generally leads to a FindAction, but not necessarily.
@@ -17,5 +17,5 @@ export interface SchemaOrg_SearchAction extends SchemaOrg_Action {
      * A sub property of instrument. The query used on this action.
      * @see https://schema.org/query
      */
-    query: Array<SchemaOrg_Text>;
+    query?: Array<SchemaOrg_Text>;
 }

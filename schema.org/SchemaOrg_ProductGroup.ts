@@ -1,7 +1,7 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_DefinedTerm } from "labs/SchemaOrg_DefinedTerm.ts";
-import type { SchemaOrg_Product } from "labs/SchemaOrg_Product.ts";
-import type { SchemaOrg_Text } from "labs/SchemaOrg_Text.ts";
+import type { SchemaOrg_DefinedTerm } from "./SchemaOrg_DefinedTerm.ts";
+import type { SchemaOrg_Product } from "./SchemaOrg_Product.ts";
+import type { SchemaOrg_Text } from "./SchemaOrg_Text.ts";
 
 /**
  * A ProductGroup represents a group of [[Product]]s that vary only in certain well-described ways, such as by [[size]], [[color]], [[material]] etc.
@@ -22,15 +22,15 @@ export interface SchemaOrg_ProductGroup extends SchemaOrg_Product {
      * Indicates a [[Product]] that is a member of this [[ProductGroup]] (or [[ProductModel]]).
      * @see https://schema.org/hasVariant
      */
-    hasVariant: Array<SchemaOrg_Product>;
+    hasVariant?: Array<SchemaOrg_Product>;
     /**
      * Indicates a textual identifier for a ProductGroup.
      * @see https://schema.org/productGroupID
      */
-    productGroupID: Array<SchemaOrg_Text>;
+    productGroupID?: Array<SchemaOrg_Text>;
     /**
      * Indicates the property or properties by which the variants in a [[ProductGroup]] vary, e.g. their size, color etc. Schema.org properties can be referenced by their short name e.g. "color"; terms defined elsewhere can be referenced with their URIs.
      * @see https://schema.org/variesBy
      */
-    variesBy: Array<SchemaOrg_Text | SchemaOrg_DefinedTerm>;
+    variesBy?: Array<SchemaOrg_Text | SchemaOrg_DefinedTerm>;
 }

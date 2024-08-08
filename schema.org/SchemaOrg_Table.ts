@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_WebPageElement } from "labs/SchemaOrg_WebPageElement.ts";
+import type { SchemaOrg_WebPageElement } from "./SchemaOrg_WebPageElement.ts";
 
 /**
  * A table on a Web page.

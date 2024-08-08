@@ -1,6 +1,6 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_Audience } from "labs/SchemaOrg_Audience.ts";
-import type { SchemaOrg_Text } from "labs/SchemaOrg_Text.ts";
+import type { SchemaOrg_Audience } from "./SchemaOrg_Audience.ts";
+import type { SchemaOrg_Text } from "./SchemaOrg_Text.ts";
 
 /**
  * An EducationalAudience.
@@ -17,5 +17,5 @@ export interface SchemaOrg_EducationalAudience extends SchemaOrg_Audience {
      * An educationalRole of an EducationalAudience.
      * @see https://schema.org/educationalRole
      */
-    educationalRole: Array<SchemaOrg_Text>;
+    educationalRole?: Array<SchemaOrg_Text>;
 }

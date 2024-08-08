@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_NewsArticle } from "labs/SchemaOrg_NewsArticle.ts";
+import type { SchemaOrg_NewsArticle } from "./SchemaOrg_NewsArticle.ts";
 
 /**
  * An AnalysisNewsArticle is a [[NewsArticle]] that, while based on factual reporting, incorporates the expertise of the author/producer, offering interpretations and conclusions.

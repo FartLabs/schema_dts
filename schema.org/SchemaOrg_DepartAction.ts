@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_MoveAction } from "labs/SchemaOrg_MoveAction.ts";
+import type { SchemaOrg_MoveAction } from "./SchemaOrg_MoveAction.ts";
 
 /**
  * The act of  departing from a place. An agent departs from a fromLocation for a destination, optionally with participants.

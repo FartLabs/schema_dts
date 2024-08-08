@@ -1,6 +1,6 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_Article } from "labs/SchemaOrg_Article.ts";
-import type { SchemaOrg_CreativeWork } from "labs/SchemaOrg_CreativeWork.ts";
+import type { SchemaOrg_Article } from "./SchemaOrg_Article.ts";
+import type { SchemaOrg_CreativeWork } from "./SchemaOrg_CreativeWork.ts";
 
 /**
  * A post to a social media platform, including blog posts, tweets, Facebook posts, etc.
@@ -17,5 +17,5 @@ export interface SchemaOrg_SocialMediaPosting extends SchemaOrg_Article {
      * A CreativeWork such as an image, video, or audio clip shared as part of this posting.
      * @see https://schema.org/sharedContent
      */
-    sharedContent: Array<SchemaOrg_CreativeWork>;
+    sharedContent?: Array<SchemaOrg_CreativeWork>;
 }

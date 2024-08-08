@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_AssessAction } from "labs/SchemaOrg_AssessAction.ts";
+import type { SchemaOrg_AssessAction } from "./SchemaOrg_AssessAction.ts";
 
 /**
  * The act of intentionally disregarding the object. An agent ignores an object.

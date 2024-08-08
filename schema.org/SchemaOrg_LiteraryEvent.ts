@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_Event } from "labs/SchemaOrg_Event.ts";
+import type { SchemaOrg_Event } from "./SchemaOrg_Event.ts";
 
 /**
  * Event type: Literary event.

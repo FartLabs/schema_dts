@@ -1,10 +1,10 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_Country } from "labs/SchemaOrg_Country.ts";
-import type { SchemaOrg_CreativeWork } from "labs/SchemaOrg_CreativeWork.ts";
-import type { SchemaOrg_CreativeWorkSeason } from "labs/SchemaOrg_CreativeWorkSeason.ts";
-import type { SchemaOrg_Text } from "labs/SchemaOrg_Text.ts";
-import type { SchemaOrg_TVSeries } from "labs/SchemaOrg_TVSeries.ts";
-import type { SchemaOrg_URL } from "labs/SchemaOrg_URL.ts";
+import type { SchemaOrg_Country } from "./SchemaOrg_Country.ts";
+import type { SchemaOrg_CreativeWork } from "./SchemaOrg_CreativeWork.ts";
+import type { SchemaOrg_CreativeWorkSeason } from "./SchemaOrg_CreativeWorkSeason.ts";
+import type { SchemaOrg_Text } from "./SchemaOrg_Text.ts";
+import type { SchemaOrg_TVSeries } from "./SchemaOrg_TVSeries.ts";
+import type { SchemaOrg_URL } from "./SchemaOrg_URL.ts";
 
 /**
  * Season dedicated to TV broadcast and associated online delivery.
@@ -25,12 +25,12 @@ export interface SchemaOrg_TVSeason extends SchemaOrg_CreativeWork, SchemaOrg_Cr
      * In the case of products, the country of origin of the product. The exact interpretation of this may vary by context and product type, and cannot be fully enumerated here.
      * @see https://schema.org/countryOfOrigin
      */
-    countryOfOrigin: Array<SchemaOrg_Country>;
+    countryOfOrigin?: Array<SchemaOrg_Country>;
     /**
      * The TV series to which this episode or season belongs.
      * @see https://schema.org/partOfTVSeries
      */
-    partOfTVSeries: Array<SchemaOrg_TVSeries>;
+    partOfTVSeries?: Array<SchemaOrg_TVSeries>;
     /**
      * An [EIDR](https://eidr.org/) (Entertainment Identifier Registry) [[identifier]] representing at the most general/abstract level, a work of film or television.
      *
@@ -39,5 +39,5 @@ export interface SchemaOrg_TVSeason extends SchemaOrg_CreativeWork, SchemaOrg_Cr
      * Since schema.org types like [[Movie]], [[TVEpisode]], [[TVSeason]], and [[TVSeries]] can be used for both works and their multiple expressions, it is possible to use [[titleEIDR]] alone (for a general description), or alongside [[editEIDR]] for a more edit-specific description.
      * @see https://schema.org/titleEIDR
      */
-    titleEIDR: Array<SchemaOrg_URL | SchemaOrg_Text>;
+    titleEIDR?: Array<SchemaOrg_URL | SchemaOrg_Text>;
 }

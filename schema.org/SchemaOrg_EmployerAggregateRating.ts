@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_AggregateRating } from "labs/SchemaOrg_AggregateRating.ts";
+import type { SchemaOrg_AggregateRating } from "./SchemaOrg_AggregateRating.ts";
 
 /**
  * An aggregate rating of an Organization related to its role as an employer.

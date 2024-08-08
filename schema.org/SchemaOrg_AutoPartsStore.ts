@@ -1,6 +1,6 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_AutomotiveBusiness } from "labs/SchemaOrg_AutomotiveBusiness.ts";
-import type { SchemaOrg_Store } from "labs/SchemaOrg_Store.ts";
+import type { SchemaOrg_AutomotiveBusiness } from "./SchemaOrg_AutomotiveBusiness.ts";
+import type { SchemaOrg_Store } from "./SchemaOrg_Store.ts";
 
 /**
  * An auto parts store.

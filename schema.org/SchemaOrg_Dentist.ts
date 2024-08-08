@@ -1,7 +1,7 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_LocalBusiness } from "labs/SchemaOrg_LocalBusiness.ts";
-import type { SchemaOrg_MedicalBusiness } from "labs/SchemaOrg_MedicalBusiness.ts";
-import type { SchemaOrg_MedicalOrganization } from "labs/SchemaOrg_MedicalOrganization.ts";
+import type { SchemaOrg_LocalBusiness } from "./SchemaOrg_LocalBusiness.ts";
+import type { SchemaOrg_MedicalBusiness } from "./SchemaOrg_MedicalBusiness.ts";
+import type { SchemaOrg_MedicalOrganization } from "./SchemaOrg_MedicalOrganization.ts";
 
 /**
  * A dentist.

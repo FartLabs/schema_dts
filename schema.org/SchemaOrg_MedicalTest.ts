@@ -1,11 +1,11 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_Drug } from "labs/SchemaOrg_Drug.ts";
-import type { SchemaOrg_MedicalCondition } from "labs/SchemaOrg_MedicalCondition.ts";
-import type { SchemaOrg_MedicalDevice } from "labs/SchemaOrg_MedicalDevice.ts";
-import type { SchemaOrg_MedicalEntity } from "labs/SchemaOrg_MedicalEntity.ts";
-import type { SchemaOrg_MedicalEnumeration } from "labs/SchemaOrg_MedicalEnumeration.ts";
-import type { SchemaOrg_MedicalSign } from "labs/SchemaOrg_MedicalSign.ts";
-import type { SchemaOrg_Text } from "labs/SchemaOrg_Text.ts";
+import type { SchemaOrg_Drug } from "./SchemaOrg_Drug.ts";
+import type { SchemaOrg_MedicalCondition } from "./SchemaOrg_MedicalCondition.ts";
+import type { SchemaOrg_MedicalDevice } from "./SchemaOrg_MedicalDevice.ts";
+import type { SchemaOrg_MedicalEntity } from "./SchemaOrg_MedicalEntity.ts";
+import type { SchemaOrg_MedicalEnumeration } from "./SchemaOrg_MedicalEnumeration.ts";
+import type { SchemaOrg_MedicalSign } from "./SchemaOrg_MedicalSign.ts";
+import type { SchemaOrg_Text } from "./SchemaOrg_Text.ts";
 
 /**
  * Any medical test, typically performed for diagnostic purposes.
@@ -22,25 +22,25 @@ export interface SchemaOrg_MedicalTest extends SchemaOrg_MedicalEntity {
      * Drugs that affect the test's results.
      * @see https://schema.org/affectedBy
      */
-    affectedBy: Array<SchemaOrg_Drug>;
+    affectedBy?: Array<SchemaOrg_Drug>;
     /**
      * Range of acceptable values for a typical patient, when applicable.
      * @see https://schema.org/normalRange
      */
-    normalRange: Array<SchemaOrg_MedicalEnumeration | SchemaOrg_Text>;
+    normalRange?: Array<SchemaOrg_MedicalEnumeration | SchemaOrg_Text>;
     /**
      * A sign detected by the test.
      * @see https://schema.org/signDetected
      */
-    signDetected: Array<SchemaOrg_MedicalSign>;
+    signDetected?: Array<SchemaOrg_MedicalSign>;
     /**
      * A condition the test is used to diagnose.
      * @see https://schema.org/usedToDiagnose
      */
-    usedToDiagnose: Array<SchemaOrg_MedicalCondition>;
+    usedToDiagnose?: Array<SchemaOrg_MedicalCondition>;
     /**
      * Device used to perform the test.
      * @see https://schema.org/usesDevice
      */
-    usesDevice: Array<SchemaOrg_MedicalDevice>;
+    usesDevice?: Array<SchemaOrg_MedicalDevice>;
 }

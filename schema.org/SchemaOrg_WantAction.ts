@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_ReactAction } from "labs/SchemaOrg_ReactAction.ts";
+import type { SchemaOrg_ReactAction } from "./SchemaOrg_ReactAction.ts";
 
 /**
  * The act of expressing a desire about the object. An agent wants an object.

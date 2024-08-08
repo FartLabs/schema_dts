@@ -1,6 +1,6 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_Resort } from "labs/SchemaOrg_Resort.ts";
-import type { SchemaOrg_SportsActivityLocation } from "labs/SchemaOrg_SportsActivityLocation.ts";
+import type { SchemaOrg_Resort } from "./SchemaOrg_Resort.ts";
+import type { SchemaOrg_SportsActivityLocation } from "./SchemaOrg_SportsActivityLocation.ts";
 
 /**
  * A ski resort.

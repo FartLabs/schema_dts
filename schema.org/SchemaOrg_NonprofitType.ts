@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_Enumeration } from "labs/SchemaOrg_Enumeration.ts";
+import type { SchemaOrg_Enumeration } from "./SchemaOrg_Enumeration.ts";
 
 /**
  * NonprofitType enumerates several kinds of official non-profit types of which a non-profit organization can be.

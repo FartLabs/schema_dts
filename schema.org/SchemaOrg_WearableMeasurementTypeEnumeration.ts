@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_MeasurementTypeEnumeration } from "labs/SchemaOrg_MeasurementTypeEnumeration.ts";
+import type { SchemaOrg_MeasurementTypeEnumeration } from "./SchemaOrg_MeasurementTypeEnumeration.ts";
 
 /**
  * Enumerates common types of measurement for wearables products.

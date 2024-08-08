@@ -1,6 +1,6 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_CreativeWork } from "labs/SchemaOrg_CreativeWork.ts";
-import type { SchemaOrg_MapCategoryType } from "labs/SchemaOrg_MapCategoryType.ts";
+import type { SchemaOrg_CreativeWork } from "./SchemaOrg_CreativeWork.ts";
+import type { SchemaOrg_MapCategoryType } from "./SchemaOrg_MapCategoryType.ts";
 
 /**
  * A map.
@@ -17,5 +17,5 @@ export interface SchemaOrg_Map extends SchemaOrg_CreativeWork {
      * Indicates the kind of Map, from the MapCategoryType Enumeration.
      * @see https://schema.org/mapType
      */
-    mapType: Array<SchemaOrg_MapCategoryType>;
+    mapType?: Array<SchemaOrg_MapCategoryType>;
 }

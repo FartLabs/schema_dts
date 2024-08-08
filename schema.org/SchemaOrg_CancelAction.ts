@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_PlanAction } from "labs/SchemaOrg_PlanAction.ts";
+import type { SchemaOrg_PlanAction } from "./SchemaOrg_PlanAction.ts";
 
 /**
  * The act of asserting that a future event/action is no longer going to happen.\n\nRelated actions:\n\n* [[ConfirmAction]]: The antonym of CancelAction.

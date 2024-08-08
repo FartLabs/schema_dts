@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_Service } from "labs/SchemaOrg_Service.ts";
+import type { SchemaOrg_Service } from "./SchemaOrg_Service.ts";
 
 /**
  * A taxi.

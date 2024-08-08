@@ -1,9 +1,9 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_CreateAction } from "labs/SchemaOrg_CreateAction.ts";
-import type { SchemaOrg_FoodEstablishment } from "labs/SchemaOrg_FoodEstablishment.ts";
-import type { SchemaOrg_FoodEvent } from "labs/SchemaOrg_FoodEvent.ts";
-import type { SchemaOrg_Place } from "labs/SchemaOrg_Place.ts";
-import type { SchemaOrg_Recipe } from "labs/SchemaOrg_Recipe.ts";
+import type { SchemaOrg_CreateAction } from "./SchemaOrg_CreateAction.ts";
+import type { SchemaOrg_FoodEstablishment } from "./SchemaOrg_FoodEstablishment.ts";
+import type { SchemaOrg_FoodEvent } from "./SchemaOrg_FoodEvent.ts";
+import type { SchemaOrg_Place } from "./SchemaOrg_Place.ts";
+import type { SchemaOrg_Recipe } from "./SchemaOrg_Recipe.ts";
 
 /**
  * The act of producing/preparing food.
@@ -20,15 +20,15 @@ export interface SchemaOrg_CookAction extends SchemaOrg_CreateAction {
      * A sub property of location. The specific food establishment where the action occurred.
      * @see https://schema.org/foodEstablishment
      */
-    foodEstablishment: Array<SchemaOrg_Place | SchemaOrg_FoodEstablishment>;
+    foodEstablishment?: Array<SchemaOrg_Place | SchemaOrg_FoodEstablishment>;
     /**
      * A sub property of location. The specific food event where the action occurred.
      * @see https://schema.org/foodEvent
      */
-    foodEvent: Array<SchemaOrg_FoodEvent>;
+    foodEvent?: Array<SchemaOrg_FoodEvent>;
     /**
      * A sub property of instrument. The recipe/instructions used to perform the action.
      * @see https://schema.org/recipe
      */
-    recipe: Array<SchemaOrg_Recipe>;
+    recipe?: Array<SchemaOrg_Recipe>;
 }

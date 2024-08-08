@@ -1,6 +1,6 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_Product } from "labs/SchemaOrg_Product.ts";
-import type { SchemaOrg_QuantitativeValue } from "labs/SchemaOrg_QuantitativeValue.ts";
+import type { SchemaOrg_Product } from "./SchemaOrg_Product.ts";
+import type { SchemaOrg_QuantitativeValue } from "./SchemaOrg_QuantitativeValue.ts";
 
 /**
  * A placeholder for multiple similar products of the same kind.
@@ -17,5 +17,5 @@ export interface SchemaOrg_SomeProducts extends SchemaOrg_Product {
      * The current approximate inventory level for the item or items.
      * @see https://schema.org/inventoryLevel
      */
-    inventoryLevel: Array<SchemaOrg_QuantitativeValue>;
+    inventoryLevel?: Array<SchemaOrg_QuantitativeValue>;
 }

@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_InteractAction } from "labs/SchemaOrg_InteractAction.ts";
+import type { SchemaOrg_InteractAction } from "./SchemaOrg_InteractAction.ts";
 
 /**
  * The act of marrying a person.

@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_Landform } from "labs/SchemaOrg_Landform.ts";
+import type { SchemaOrg_Landform } from "./SchemaOrg_Landform.ts";
 
 /**
  * A volcano, like Fujisan.

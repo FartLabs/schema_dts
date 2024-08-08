@@ -1,7 +1,7 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_MedicalIntangible } from "labs/SchemaOrg_MedicalIntangible.ts";
-import type { SchemaOrg_Number } from "labs/SchemaOrg_Number.ts";
-import type { SchemaOrg_Text } from "labs/SchemaOrg_Text.ts";
+import type { SchemaOrg_MedicalIntangible } from "./SchemaOrg_MedicalIntangible.ts";
+import type { SchemaOrg_Number } from "./SchemaOrg_Number.ts";
+import type { SchemaOrg_Text } from "./SchemaOrg_Text.ts";
 
 /**
  * A stage of a medical condition, such as 'Stage IIIa'.
@@ -18,10 +18,10 @@ export interface SchemaOrg_MedicalConditionStage extends SchemaOrg_MedicalIntang
      * The stage represented as a number, e.g. 3.
      * @see https://schema.org/stageAsNumber
      */
-    stageAsNumber: Array<SchemaOrg_Number>;
+    stageAsNumber?: Array<SchemaOrg_Number>;
     /**
      * The substage, e.g. 'a' for Stage IIIa.
      * @see https://schema.org/subStageSuffix
      */
-    subStageSuffix: Array<SchemaOrg_Text>;
+    subStageSuffix?: Array<SchemaOrg_Text>;
 }

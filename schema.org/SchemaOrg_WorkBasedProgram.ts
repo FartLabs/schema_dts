@@ -1,8 +1,8 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_CategoryCode } from "labs/SchemaOrg_CategoryCode.ts";
-import type { SchemaOrg_EducationalOccupationalProgram } from "labs/SchemaOrg_EducationalOccupationalProgram.ts";
-import type { SchemaOrg_MonetaryAmountDistribution } from "labs/SchemaOrg_MonetaryAmountDistribution.ts";
-import type { SchemaOrg_Text } from "labs/SchemaOrg_Text.ts";
+import type { SchemaOrg_CategoryCode } from "./SchemaOrg_CategoryCode.ts";
+import type { SchemaOrg_EducationalOccupationalProgram } from "./SchemaOrg_EducationalOccupationalProgram.ts";
+import type { SchemaOrg_MonetaryAmountDistribution } from "./SchemaOrg_MonetaryAmountDistribution.ts";
+import type { SchemaOrg_Text } from "./SchemaOrg_Text.ts";
 
 /**
  * A program with both an educational and employment component. Typically based at a workplace and structured around work-based learning, with the aim of instilling competencies related to an occupation. WorkBasedProgram is used to distinguish programs such as apprenticeships from school, college or other classroom based educational programs.
@@ -20,10 +20,10 @@ export interface SchemaOrg_WorkBasedProgram extends SchemaOrg_EducationalOccupat
      * Note: for historical reasons, any textual label and formal code provided as a literal may be assumed to be from O*NET-SOC.
      * @see https://schema.org/occupationalCategory
      */
-    occupationalCategory: Array<SchemaOrg_CategoryCode | SchemaOrg_Text>;
+    occupationalCategory?: Array<SchemaOrg_CategoryCode | SchemaOrg_Text>;
     /**
      * The estimated salary earned while in the program.
      * @see https://schema.org/trainingSalary
      */
-    trainingSalary: Array<SchemaOrg_MonetaryAmountDistribution>;
+    trainingSalary?: Array<SchemaOrg_MonetaryAmountDistribution>;
 }

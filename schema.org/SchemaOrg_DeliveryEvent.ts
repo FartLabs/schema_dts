@@ -1,8 +1,8 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_DateTime } from "labs/SchemaOrg_DateTime.ts";
-import type { SchemaOrg_DeliveryMethod } from "labs/SchemaOrg_DeliveryMethod.ts";
-import type { SchemaOrg_Event } from "labs/SchemaOrg_Event.ts";
-import type { SchemaOrg_Text } from "labs/SchemaOrg_Text.ts";
+import type { SchemaOrg_DateTime } from "./SchemaOrg_DateTime.ts";
+import type { SchemaOrg_DeliveryMethod } from "./SchemaOrg_DeliveryMethod.ts";
+import type { SchemaOrg_Event } from "./SchemaOrg_Event.ts";
+import type { SchemaOrg_Text } from "./SchemaOrg_Text.ts";
 
 /**
  * An event involving the delivery of an item.
@@ -19,20 +19,20 @@ export interface SchemaOrg_DeliveryEvent extends SchemaOrg_Event {
      * Password, PIN, or access code needed for delivery (e.g. from a locker).
      * @see https://schema.org/accessCode
      */
-    accessCode: Array<SchemaOrg_Text>;
+    accessCode?: Array<SchemaOrg_Text>;
     /**
      * When the item is available for pickup from the store, locker, etc.
      * @see https://schema.org/availableFrom
      */
-    availableFrom: Array<SchemaOrg_DateTime>;
+    availableFrom?: Array<SchemaOrg_DateTime>;
     /**
      * After this date, the item will no longer be available for pickup.
      * @see https://schema.org/availableThrough
      */
-    availableThrough: Array<SchemaOrg_DateTime>;
+    availableThrough?: Array<SchemaOrg_DateTime>;
     /**
      * Method used for delivery or shipping.
      * @see https://schema.org/hasDeliveryMethod
      */
-    hasDeliveryMethod: Array<SchemaOrg_DeliveryMethod>;
+    hasDeliveryMethod?: Array<SchemaOrg_DeliveryMethod>;
 }

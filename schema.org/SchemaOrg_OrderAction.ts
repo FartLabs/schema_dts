@@ -1,6 +1,6 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_DeliveryMethod } from "labs/SchemaOrg_DeliveryMethod.ts";
-import type { SchemaOrg_TradeAction } from "labs/SchemaOrg_TradeAction.ts";
+import type { SchemaOrg_DeliveryMethod } from "./SchemaOrg_DeliveryMethod.ts";
+import type { SchemaOrg_TradeAction } from "./SchemaOrg_TradeAction.ts";
 
 /**
  * An agent orders an object/product/service to be delivered/sent.
@@ -17,5 +17,5 @@ export interface SchemaOrg_OrderAction extends SchemaOrg_TradeAction {
      * A sub property of instrument. The method of delivery.
      * @see https://schema.org/deliveryMethod
      */
-    deliveryMethod: Array<SchemaOrg_DeliveryMethod>;
+    deliveryMethod?: Array<SchemaOrg_DeliveryMethod>;
 }

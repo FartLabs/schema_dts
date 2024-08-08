@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_InsertAction } from "labs/SchemaOrg_InsertAction.ts";
+import type { SchemaOrg_InsertAction } from "./SchemaOrg_InsertAction.ts";
 
 /**
  * The act of inserting at the beginning if an ordered collection.

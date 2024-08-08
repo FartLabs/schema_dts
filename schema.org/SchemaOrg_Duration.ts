@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_Quantity } from "labs/SchemaOrg_Quantity.ts";
+import type { SchemaOrg_Quantity } from "./SchemaOrg_Quantity.ts";
 
 /**
  * Quantity: Duration (use [ISO 8601 duration format](http://en.wikipedia.org/wiki/ISO_8601)).

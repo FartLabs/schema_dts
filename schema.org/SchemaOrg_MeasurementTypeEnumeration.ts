@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_Enumeration } from "labs/SchemaOrg_Enumeration.ts";
+import type { SchemaOrg_Enumeration } from "./SchemaOrg_Enumeration.ts";
 
 /**
  * Enumeration of common measurement types (or dimensions), for example "chest" for a person, "inseam" for pants, "gauge" for screws, or "wheel" for bicycles.

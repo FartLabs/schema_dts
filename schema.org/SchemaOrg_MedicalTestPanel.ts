@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_MedicalTest } from "labs/SchemaOrg_MedicalTest.ts";
+import type { SchemaOrg_MedicalTest } from "./SchemaOrg_MedicalTest.ts";
 
 /**
  * Any collection of tests commonly ordered together.
@@ -16,5 +16,5 @@ export interface SchemaOrg_MedicalTestPanel extends SchemaOrg_MedicalTest {
      * A component test of the panel.
      * @see https://schema.org/subTest
      */
-    subTest: Array<SchemaOrg_MedicalTest>;
+    subTest?: Array<SchemaOrg_MedicalTest>;
 }

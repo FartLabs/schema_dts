@@ -1,6 +1,6 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_CreativeWork } from "labs/SchemaOrg_CreativeWork.ts";
-import type { SchemaOrg_Text } from "labs/SchemaOrg_Text.ts";
+import type { SchemaOrg_CreativeWork } from "./SchemaOrg_CreativeWork.ts";
+import type { SchemaOrg_Text } from "./SchemaOrg_Text.ts";
 
 /**
  * A thesis or dissertation document submitted in support of candidature for an academic degree or professional qualification.
@@ -17,5 +17,5 @@ export interface SchemaOrg_Thesis extends SchemaOrg_CreativeWork {
      * Qualification, candidature, degree, application that Thesis supports.
      * @see https://schema.org/inSupportOf
      */
-    inSupportOf: Array<SchemaOrg_Text>;
+    inSupportOf?: Array<SchemaOrg_Text>;
 }

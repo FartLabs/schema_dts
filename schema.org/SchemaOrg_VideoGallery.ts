@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_MediaGallery } from "labs/SchemaOrg_MediaGallery.ts";
+import type { SchemaOrg_MediaGallery } from "./SchemaOrg_MediaGallery.ts";
 
 /**
  * Web page type: Video gallery page.

@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_OrganizeAction } from "labs/SchemaOrg_OrganizeAction.ts";
+import type { SchemaOrg_OrganizeAction } from "./SchemaOrg_OrganizeAction.ts";
 
 /**
  * An agent bookmarks/flags/labels/tags/marks an object.

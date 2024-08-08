@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_LegalService } from "labs/SchemaOrg_LegalService.ts";
+import type { SchemaOrg_LegalService } from "./SchemaOrg_LegalService.ts";
 
 /**
  * Professional service: Attorney. \n\nThis type is deprecated - [[LegalService]] is more inclusive and less ambiguous.

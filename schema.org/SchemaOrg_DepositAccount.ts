@@ -1,6 +1,6 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_BankAccount } from "labs/SchemaOrg_BankAccount.ts";
-import type { SchemaOrg_InvestmentOrDeposit } from "labs/SchemaOrg_InvestmentOrDeposit.ts";
+import type { SchemaOrg_BankAccount } from "./SchemaOrg_BankAccount.ts";
+import type { SchemaOrg_InvestmentOrDeposit } from "./SchemaOrg_InvestmentOrDeposit.ts";
 
 /**
  * A type of Bank Account with a main purpose of depositing funds to gain interest or other benefits.

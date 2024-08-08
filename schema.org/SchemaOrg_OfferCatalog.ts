@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_ItemList } from "labs/SchemaOrg_ItemList.ts";
+import type { SchemaOrg_ItemList } from "./SchemaOrg_ItemList.ts";
 
 /**
  * An OfferCatalog is an ItemList that contains related Offers and/or further OfferCatalogs that are offeredBy the same provider.

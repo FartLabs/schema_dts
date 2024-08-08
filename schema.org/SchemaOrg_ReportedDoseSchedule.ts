@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_DoseSchedule } from "labs/SchemaOrg_DoseSchedule.ts";
+import type { SchemaOrg_DoseSchedule } from "./SchemaOrg_DoseSchedule.ts";
 
 /**
  * A patient-reported or observed dosing schedule for a drug or supplement.

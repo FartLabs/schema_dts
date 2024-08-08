@@ -1,19 +1,19 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_CategoryCode } from "labs/SchemaOrg_CategoryCode.ts";
-import type { SchemaOrg_CivicStructure } from "labs/SchemaOrg_CivicStructure.ts";
-import type { SchemaOrg_CreativeWork } from "labs/SchemaOrg_CreativeWork.ts";
-import type { SchemaOrg_DataFeed } from "labs/SchemaOrg_DataFeed.ts";
-import type { SchemaOrg_Dataset } from "labs/SchemaOrg_Dataset.ts";
-import type { SchemaOrg_Date } from "labs/SchemaOrg_Date.ts";
-import type { SchemaOrg_DateTime } from "labs/SchemaOrg_DateTime.ts";
-import type { SchemaOrg_GovernmentService } from "labs/SchemaOrg_GovernmentService.ts";
-import type { SchemaOrg_LocalBusiness } from "labs/SchemaOrg_LocalBusiness.ts";
-import type { SchemaOrg_Observation } from "labs/SchemaOrg_Observation.ts";
-import type { SchemaOrg_PhysicalActivityCategory } from "labs/SchemaOrg_PhysicalActivityCategory.ts";
-import type { SchemaOrg_Text } from "labs/SchemaOrg_Text.ts";
-import type { SchemaOrg_Thing } from "labs/SchemaOrg_Thing.ts";
-import type { SchemaOrg_URL } from "labs/SchemaOrg_URL.ts";
-import type { SchemaOrg_WebContent } from "labs/SchemaOrg_WebContent.ts";
+import type { SchemaOrg_CategoryCode } from "./SchemaOrg_CategoryCode.ts";
+import type { SchemaOrg_CivicStructure } from "./SchemaOrg_CivicStructure.ts";
+import type { SchemaOrg_CreativeWork } from "./SchemaOrg_CreativeWork.ts";
+import type { SchemaOrg_DataFeed } from "./SchemaOrg_DataFeed.ts";
+import type { SchemaOrg_Dataset } from "./SchemaOrg_Dataset.ts";
+import type { SchemaOrg_Date } from "./SchemaOrg_Date.ts";
+import type { SchemaOrg_DateTime } from "./SchemaOrg_DateTime.ts";
+import type { SchemaOrg_GovernmentService } from "./SchemaOrg_GovernmentService.ts";
+import type { SchemaOrg_LocalBusiness } from "./SchemaOrg_LocalBusiness.ts";
+import type { SchemaOrg_Observation } from "./SchemaOrg_Observation.ts";
+import type { SchemaOrg_PhysicalActivityCategory } from "./SchemaOrg_PhysicalActivityCategory.ts";
+import type { SchemaOrg_Text } from "./SchemaOrg_Text.ts";
+import type { SchemaOrg_Thing } from "./SchemaOrg_Thing.ts";
+import type { SchemaOrg_URL } from "./SchemaOrg_URL.ts";
+import type { SchemaOrg_WebContent } from "./SchemaOrg_WebContent.ts";
 
 /**
  * A SpecialAnnouncement combines a simple date-stamped textual information update
@@ -98,67 +98,67 @@ export interface SchemaOrg_SpecialAnnouncement extends SchemaOrg_CreativeWork {
      * Indicates a specific [[CivicStructure]] or [[LocalBusiness]] associated with the SpecialAnnouncement. For example, a specific testing facility or business with special opening hours. For a larger geographic region like a quarantine of an entire region, use [[spatialCoverage]].
      * @see https://schema.org/announcementLocation
      */
-    announcementLocation: Array<SchemaOrg_CivicStructure | SchemaOrg_LocalBusiness>;
+    announcementLocation?: Array<SchemaOrg_CivicStructure | SchemaOrg_LocalBusiness>;
     /**
      * A category for the item. Greater signs or slashes can be used to informally indicate a category hierarchy.
      * @see https://schema.org/category
      */
-    category: Array<SchemaOrg_URL | SchemaOrg_Thing | SchemaOrg_PhysicalActivityCategory | SchemaOrg_CategoryCode | SchemaOrg_Text>;
+    category?: Array<SchemaOrg_URL | SchemaOrg_Thing | SchemaOrg_PhysicalActivityCategory | SchemaOrg_CategoryCode | SchemaOrg_Text>;
     /**
      * Publication date of an online listing.
      * @see https://schema.org/datePosted
      */
-    datePosted: Array<SchemaOrg_DateTime | SchemaOrg_Date>;
+    datePosted?: Array<SchemaOrg_DateTime | SchemaOrg_Date>;
     /**
      * Information about disease prevention.
      * @see https://schema.org/diseasePreventionInfo
      */
-    diseasePreventionInfo: Array<SchemaOrg_URL | SchemaOrg_WebContent>;
+    diseasePreventionInfo?: Array<SchemaOrg_URL | SchemaOrg_WebContent>;
     /**
      * Statistical information about the spread of a disease, either as [[WebContent]], or
      *   described directly as a [[Dataset]], or the specific [[Observation]]s in the dataset. When a [[WebContent]] URL is
      *   provided, the page indicated might also contain more such markup.
      * @see https://schema.org/diseaseSpreadStatistics
      */
-    diseaseSpreadStatistics: Array<SchemaOrg_URL | SchemaOrg_WebContent | SchemaOrg_Observation | SchemaOrg_Dataset>;
+    diseaseSpreadStatistics?: Array<SchemaOrg_URL | SchemaOrg_WebContent | SchemaOrg_Observation | SchemaOrg_Dataset>;
     /**
      * Information about getting tested (for a [[MedicalCondition]]), e.g. in the context of a pandemic.
      * @see https://schema.org/gettingTestedInfo
      */
-    gettingTestedInfo: Array<SchemaOrg_WebContent | SchemaOrg_URL>;
+    gettingTestedInfo?: Array<SchemaOrg_WebContent | SchemaOrg_URL>;
     /**
      * governmentBenefitsInfo provides information about government benefits associated with a SpecialAnnouncement.
      * @see https://schema.org/governmentBenefitsInfo
      */
-    governmentBenefitsInfo: Array<SchemaOrg_GovernmentService>;
+    governmentBenefitsInfo?: Array<SchemaOrg_GovernmentService>;
     /**
      * Indicates a page with news updates and guidelines. This could often be (but is not required to be) the main page containing [[SpecialAnnouncement]] markup on a site.
      * @see https://schema.org/newsUpdatesAndGuidelines
      */
-    newsUpdatesAndGuidelines: Array<SchemaOrg_WebContent | SchemaOrg_URL>;
+    newsUpdatesAndGuidelines?: Array<SchemaOrg_WebContent | SchemaOrg_URL>;
     /**
      * Information about public transport closures.
      * @see https://schema.org/publicTransportClosuresInfo
      */
-    publicTransportClosuresInfo: Array<SchemaOrg_URL | SchemaOrg_WebContent>;
+    publicTransportClosuresInfo?: Array<SchemaOrg_URL | SchemaOrg_WebContent>;
     /**
      * Guidelines about quarantine rules, e.g. in the context of a pandemic.
      * @see https://schema.org/quarantineGuidelines
      */
-    quarantineGuidelines: Array<SchemaOrg_URL | SchemaOrg_WebContent>;
+    quarantineGuidelines?: Array<SchemaOrg_URL | SchemaOrg_WebContent>;
     /**
      * Information about school closures.
      * @see https://schema.org/schoolClosuresInfo
      */
-    schoolClosuresInfo: Array<SchemaOrg_URL | SchemaOrg_WebContent>;
+    schoolClosuresInfo?: Array<SchemaOrg_URL | SchemaOrg_WebContent>;
     /**
      * Information about travel bans, e.g. in the context of a pandemic.
      * @see https://schema.org/travelBans
      */
-    travelBans: Array<SchemaOrg_WebContent | SchemaOrg_URL>;
+    travelBans?: Array<SchemaOrg_WebContent | SchemaOrg_URL>;
     /**
      * The URL for a feed, e.g. associated with a podcast series, blog, or series of date-stamped updates. This is usually RSS or Atom.
      * @see https://schema.org/webFeed
      */
-    webFeed: Array<SchemaOrg_URL | SchemaOrg_DataFeed>;
+    webFeed?: Array<SchemaOrg_URL | SchemaOrg_DataFeed>;
 }

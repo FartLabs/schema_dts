@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_FoodEstablishment } from "labs/SchemaOrg_FoodEstablishment.ts";
+import type { SchemaOrg_FoodEstablishment } from "./SchemaOrg_FoodEstablishment.ts";
 
 /**
  * A cafe or coffee shop.

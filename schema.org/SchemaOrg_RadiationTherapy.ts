@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_MedicalTherapy } from "labs/SchemaOrg_MedicalTherapy.ts";
+import type { SchemaOrg_MedicalTherapy } from "./SchemaOrg_MedicalTherapy.ts";
 
 /**
  * A process of care using radiation aimed at improving a health condition.

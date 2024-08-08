@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_InvestmentOrDeposit } from "labs/SchemaOrg_InvestmentOrDeposit.ts";
+import type { SchemaOrg_InvestmentOrDeposit } from "./SchemaOrg_InvestmentOrDeposit.ts";
 
 /**
  * An account that allows an investor to deposit funds and place investment orders with a licensed broker or brokerage firm.

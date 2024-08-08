@@ -1,7 +1,7 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_FinancialProduct } from "labs/SchemaOrg_FinancialProduct.ts";
-import type { SchemaOrg_MonetaryAmount } from "labs/SchemaOrg_MonetaryAmount.ts";
-import type { SchemaOrg_Number } from "labs/SchemaOrg_Number.ts";
+import type { SchemaOrg_FinancialProduct } from "./SchemaOrg_FinancialProduct.ts";
+import type { SchemaOrg_MonetaryAmount } from "./SchemaOrg_MonetaryAmount.ts";
+import type { SchemaOrg_Number } from "./SchemaOrg_Number.ts";
 
 /**
  * A type of financial product that typically requires the client to transfer funds to a financial service in return for potential beneficial financial return.
@@ -18,5 +18,5 @@ export interface SchemaOrg_InvestmentOrDeposit extends SchemaOrg_FinancialProduc
      * The amount of money.
      * @see https://schema.org/amount
      */
-    amount: Array<SchemaOrg_MonetaryAmount | SchemaOrg_Number>;
+    amount?: Array<SchemaOrg_MonetaryAmount | SchemaOrg_Number>;
 }

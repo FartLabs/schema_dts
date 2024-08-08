@@ -1,8 +1,8 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_AudioObject } from "labs/SchemaOrg_AudioObject.ts";
-import type { SchemaOrg_Book } from "labs/SchemaOrg_Book.ts";
-import type { SchemaOrg_Duration } from "labs/SchemaOrg_Duration.ts";
-import type { SchemaOrg_Person } from "labs/SchemaOrg_Person.ts";
+import type { SchemaOrg_AudioObject } from "./SchemaOrg_AudioObject.ts";
+import type { SchemaOrg_Book } from "./SchemaOrg_Book.ts";
+import type { SchemaOrg_Duration } from "./SchemaOrg_Duration.ts";
+import type { SchemaOrg_Person } from "./SchemaOrg_Person.ts";
 
 /**
  * An audiobook.
@@ -19,10 +19,10 @@ export interface SchemaOrg_Audiobook extends SchemaOrg_Book, SchemaOrg_AudioObje
      * The duration of the item (movie, audio recording, event, etc.) in [ISO 8601 date format](http://en.wikipedia.org/wiki/ISO_8601).
      * @see https://schema.org/duration
      */
-    duration: Array<SchemaOrg_Duration>;
+    duration?: Array<SchemaOrg_Duration>;
     /**
      * A person who reads (performs) the audiobook.
      * @see https://schema.org/readBy
      */
-    readBy: Array<SchemaOrg_Person>;
+    readBy?: Array<SchemaOrg_Person>;
 }

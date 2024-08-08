@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_AchieveAction } from "labs/SchemaOrg_AchieveAction.ts";
+import type { SchemaOrg_AchieveAction } from "./SchemaOrg_AchieveAction.ts";
 
 /**
  * The act of reaching a draw in a competitive activity.

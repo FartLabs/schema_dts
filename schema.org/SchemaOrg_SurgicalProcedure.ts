@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_MedicalProcedure } from "labs/SchemaOrg_MedicalProcedure.ts";
+import type { SchemaOrg_MedicalProcedure } from "./SchemaOrg_MedicalProcedure.ts";
 
 /**
  * A medical procedure involving an incision with instruments; performed for diagnose, or therapeutic purposes.

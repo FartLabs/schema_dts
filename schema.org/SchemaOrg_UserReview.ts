@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_Review } from "labs/SchemaOrg_Review.ts";
+import type { SchemaOrg_Review } from "./SchemaOrg_Review.ts";
 
 /**
  * A review created by an end-user (e.g. consumer, purchaser, attendee etc.), in contrast with [[CriticReview]].

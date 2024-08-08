@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_BroadcastChannel } from "labs/SchemaOrg_BroadcastChannel.ts";
+import type { SchemaOrg_BroadcastChannel } from "./SchemaOrg_BroadcastChannel.ts";
 
 /**
  * A unique instance of a television BroadcastService on a CableOrSatelliteService lineup.

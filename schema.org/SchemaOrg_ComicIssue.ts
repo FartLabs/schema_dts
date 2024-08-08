@@ -1,7 +1,7 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_Person } from "labs/SchemaOrg_Person.ts";
-import type { SchemaOrg_PublicationIssue } from "labs/SchemaOrg_PublicationIssue.ts";
-import type { SchemaOrg_Text } from "labs/SchemaOrg_Text.ts";
+import type { SchemaOrg_Person } from "./SchemaOrg_Person.ts";
+import type { SchemaOrg_PublicationIssue } from "./SchemaOrg_PublicationIssue.ts";
+import type { SchemaOrg_Text } from "./SchemaOrg_Text.ts";
 
 /**
  * Individual comic issues are serially published as
@@ -30,32 +30,32 @@ export interface SchemaOrg_ComicIssue extends SchemaOrg_PublicationIssue {
      *     	primary artwork is done in watercolors or digital paints.
      * @see https://schema.org/artist
      */
-    artist: Array<SchemaOrg_Person>;
+    artist?: Array<SchemaOrg_Person>;
     /**
      * The individual who adds color to inked drawings.
      * @see https://schema.org/colorist
      */
-    colorist: Array<SchemaOrg_Person>;
+    colorist?: Array<SchemaOrg_Person>;
     /**
      * The individual who traces over the pencil drawings in ink after pencils are complete.
      * @see https://schema.org/inker
      */
-    inker: Array<SchemaOrg_Person>;
+    inker?: Array<SchemaOrg_Person>;
     /**
      * The individual who adds lettering, including speech balloons and sound effects, to artwork.
      * @see https://schema.org/letterer
      */
-    letterer: Array<SchemaOrg_Person>;
+    letterer?: Array<SchemaOrg_Person>;
     /**
      * The individual who draws the primary narrative artwork.
      * @see https://schema.org/penciler
      */
-    penciler: Array<SchemaOrg_Person>;
+    penciler?: Array<SchemaOrg_Person>;
     /**
      * A description of the variant cover
      *     	for the issue, if the issue is a variant printing. For example, "Bryan Hitch
      *     	Variant Cover" or "2nd Printing Variant".
      * @see https://schema.org/variantCover
      */
-    variantCover: Array<SchemaOrg_Text>;
+    variantCover?: Array<SchemaOrg_Text>;
 }

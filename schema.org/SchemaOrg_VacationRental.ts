@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_LodgingBusiness } from "labs/SchemaOrg_LodgingBusiness.ts";
+import type { SchemaOrg_LodgingBusiness } from "./SchemaOrg_LodgingBusiness.ts";
 
 /**
  * A kind of lodging business that focuses on renting single properties for limited time.

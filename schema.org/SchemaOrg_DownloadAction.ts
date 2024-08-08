@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_TransferAction } from "labs/SchemaOrg_TransferAction.ts";
+import type { SchemaOrg_TransferAction } from "./SchemaOrg_TransferAction.ts";
 
 /**
  * The act of downloading an object.

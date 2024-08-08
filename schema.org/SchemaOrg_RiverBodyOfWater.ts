@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_BodyOfWater } from "labs/SchemaOrg_BodyOfWater.ts";
+import type { SchemaOrg_BodyOfWater } from "./SchemaOrg_BodyOfWater.ts";
 
 /**
  * A river (for example, the broad majestic Shannon).

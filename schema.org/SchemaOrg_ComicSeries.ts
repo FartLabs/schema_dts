@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_Periodical } from "labs/SchemaOrg_Periodical.ts";
+import type { SchemaOrg_Periodical } from "./SchemaOrg_Periodical.ts";
 
 /**
  * A sequential publication of comic stories under a

@@ -1,6 +1,6 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_SoftwareApplication } from "labs/SchemaOrg_SoftwareApplication.ts";
-import type { SchemaOrg_Text } from "labs/SchemaOrg_Text.ts";
+import type { SchemaOrg_SoftwareApplication } from "./SchemaOrg_SoftwareApplication.ts";
+import type { SchemaOrg_Text } from "./SchemaOrg_Text.ts";
 
 /**
  * A software application designed specifically to work well on a mobile device such as a telephone.
@@ -17,5 +17,5 @@ export interface SchemaOrg_MobileApplication extends SchemaOrg_SoftwareApplicati
      * Specifies specific carrier(s) requirements for the application (e.g. an application may only work on a specific carrier network).
      * @see https://schema.org/carrierRequirements
      */
-    carrierRequirements: Array<SchemaOrg_Text>;
+    carrierRequirements?: Array<SchemaOrg_Text>;
 }

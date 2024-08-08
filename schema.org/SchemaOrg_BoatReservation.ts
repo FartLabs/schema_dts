@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_Reservation } from "labs/SchemaOrg_Reservation.ts";
+import type { SchemaOrg_Reservation } from "./SchemaOrg_Reservation.ts";
 
 /**
  * A reservation for boat travel.

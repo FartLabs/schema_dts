@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_FinancialProduct } from "labs/SchemaOrg_FinancialProduct.ts";
+import type { SchemaOrg_FinancialProduct } from "./SchemaOrg_FinancialProduct.ts";
 
 /**
  * A Service to transfer funds from a person or organization to a beneficiary person or organization.

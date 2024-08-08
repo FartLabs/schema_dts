@@ -1,9 +1,9 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_DefinedTerm } from "labs/SchemaOrg_DefinedTerm.ts";
-import type { SchemaOrg_MeasurementMethodEnum } from "labs/SchemaOrg_MeasurementMethodEnum.ts";
-import type { SchemaOrg_MediaObject } from "labs/SchemaOrg_MediaObject.ts";
-import type { SchemaOrg_Text } from "labs/SchemaOrg_Text.ts";
-import type { SchemaOrg_URL } from "labs/SchemaOrg_URL.ts";
+import type { SchemaOrg_DefinedTerm } from "./SchemaOrg_DefinedTerm.ts";
+import type { SchemaOrg_MeasurementMethodEnum } from "./SchemaOrg_MeasurementMethodEnum.ts";
+import type { SchemaOrg_MediaObject } from "./SchemaOrg_MediaObject.ts";
+import type { SchemaOrg_Text } from "./SchemaOrg_Text.ts";
+import type { SchemaOrg_URL } from "./SchemaOrg_URL.ts";
 
 /**
  * All or part of a [[Dataset]] in downloadable form.
@@ -20,7 +20,7 @@ export interface SchemaOrg_DataDownload extends SchemaOrg_MediaObject {
      * A subproperty of [[measurementTechnique]] that can be used for specifying specific methods, in particular via [[MeasurementMethodEnum]].
      * @see https://schema.org/measurementMethod
      */
-    measurementMethod: Array<SchemaOrg_Text | SchemaOrg_DefinedTerm | SchemaOrg_MeasurementMethodEnum | SchemaOrg_URL>;
+    measurementMethod?: Array<SchemaOrg_Text | SchemaOrg_DefinedTerm | SchemaOrg_MeasurementMethodEnum | SchemaOrg_URL>;
     /**
      * A technique, method or technology used in an [[Observation]], [[StatisticalVariable]] or [[Dataset]] (or [[DataDownload]], [[DataCatalog]]), corresponding to the method used for measuring the corresponding variable(s) (for datasets, described using [[variableMeasured]]; for [[Observation]], a [[StatisticalVariable]]). Often but not necessarily each [[variableMeasured]] will have an explicit representation as (or mapping to) an property such as those defined in Schema.org, or other RDF vocabularies and "knowledge graphs". In that case the subproperty of [[variableMeasured]] called [[measuredProperty]] is applicable.
      *     
@@ -31,5 +31,5 @@ export interface SchemaOrg_DataDownload extends SchemaOrg_MediaObject {
      * If there are several [[variableMeasured]] properties recorded for some given data object, use a [[PropertyValue]] for each [[variableMeasured]] and attach the corresponding [[measurementTechnique]]. The value can also be from an enumeration, organized as a [[MeasurementMetholdEnumeration]].
      * @see https://schema.org/measurementTechnique
      */
-    measurementTechnique: Array<SchemaOrg_Text | SchemaOrg_DefinedTerm | SchemaOrg_MeasurementMethodEnum | SchemaOrg_URL>;
+    measurementTechnique?: Array<SchemaOrg_Text | SchemaOrg_DefinedTerm | SchemaOrg_MeasurementMethodEnum | SchemaOrg_URL>;
 }

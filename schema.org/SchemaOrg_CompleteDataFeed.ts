@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_DataFeed } from "labs/SchemaOrg_DataFeed.ts";
+import type { SchemaOrg_DataFeed } from "./SchemaOrg_DataFeed.ts";
 
 /**
  * A [[CompleteDataFeed]] is a [[DataFeed]] whose standard representation includes content for every item currently in the feed.

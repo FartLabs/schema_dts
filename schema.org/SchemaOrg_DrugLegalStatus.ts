@@ -1,6 +1,6 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_AdministrativeArea } from "labs/SchemaOrg_AdministrativeArea.ts";
-import type { SchemaOrg_MedicalIntangible } from "labs/SchemaOrg_MedicalIntangible.ts";
+import type { SchemaOrg_AdministrativeArea } from "./SchemaOrg_AdministrativeArea.ts";
+import type { SchemaOrg_MedicalIntangible } from "./SchemaOrg_MedicalIntangible.ts";
 
 /**
  * The legal availability status of a medical drug.
@@ -17,5 +17,5 @@ export interface SchemaOrg_DrugLegalStatus extends SchemaOrg_MedicalIntangible {
      * The location in which the status applies.
      * @see https://schema.org/applicableLocation
      */
-    applicableLocation: Array<SchemaOrg_AdministrativeArea>;
+    applicableLocation?: Array<SchemaOrg_AdministrativeArea>;
 }

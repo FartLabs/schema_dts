@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_MedicalSign } from "labs/SchemaOrg_MedicalSign.ts";
+import type { SchemaOrg_MedicalSign } from "./SchemaOrg_MedicalSign.ts";
 
 /**
  * Vital signs are measures of various physiological functions in order to assess the most basic body functions.

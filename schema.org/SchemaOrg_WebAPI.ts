@@ -1,7 +1,7 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_CreativeWork } from "labs/SchemaOrg_CreativeWork.ts";
-import type { SchemaOrg_Service } from "labs/SchemaOrg_Service.ts";
-import type { SchemaOrg_URL } from "labs/SchemaOrg_URL.ts";
+import type { SchemaOrg_CreativeWork } from "./SchemaOrg_CreativeWork.ts";
+import type { SchemaOrg_Service } from "./SchemaOrg_Service.ts";
+import type { SchemaOrg_URL } from "./SchemaOrg_URL.ts";
 
 /**
  * An application programming interface accessible over Web/Internet technologies.
@@ -18,5 +18,5 @@ export interface SchemaOrg_WebAPI extends SchemaOrg_Service {
      * Further documentation describing the Web API in more detail.
      * @see https://schema.org/documentation
      */
-    documentation: Array<SchemaOrg_URL | SchemaOrg_CreativeWork>;
+    documentation?: Array<SchemaOrg_URL | SchemaOrg_CreativeWork>;
 }

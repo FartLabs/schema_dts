@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_DigitalDocument } from "labs/SchemaOrg_DigitalDocument.ts";
+import type { SchemaOrg_DigitalDocument } from "./SchemaOrg_DigitalDocument.ts";
 
 /**
  * A file containing slides or used for a presentation.

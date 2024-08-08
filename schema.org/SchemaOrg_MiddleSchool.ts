@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_EducationalOrganization } from "labs/SchemaOrg_EducationalOrganization.ts";
+import type { SchemaOrg_EducationalOrganization } from "./SchemaOrg_EducationalOrganization.ts";
 
 /**
  * A middle school (typically for children aged around 11-14, although this varies somewhat).

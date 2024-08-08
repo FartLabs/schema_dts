@@ -1,6 +1,6 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_ChooseAction } from "labs/SchemaOrg_ChooseAction.ts";
-import type { SchemaOrg_Person } from "labs/SchemaOrg_Person.ts";
+import type { SchemaOrg_ChooseAction } from "./SchemaOrg_ChooseAction.ts";
+import type { SchemaOrg_Person } from "./SchemaOrg_Person.ts";
 
 /**
  * The act of expressing a preference from a fixed/finite/structured set of choices/options.
@@ -17,5 +17,5 @@ export interface SchemaOrg_VoteAction extends SchemaOrg_ChooseAction {
      * A sub property of object. The candidate subject of this action.
      * @see https://schema.org/candidate
      */
-    candidate: Array<SchemaOrg_Person>;
+    candidate?: Array<SchemaOrg_Person>;
 }

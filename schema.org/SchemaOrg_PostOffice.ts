@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_GovernmentOffice } from "labs/SchemaOrg_GovernmentOffice.ts";
+import type { SchemaOrg_GovernmentOffice } from "./SchemaOrg_GovernmentOffice.ts";
 
 /**
  * A post office.

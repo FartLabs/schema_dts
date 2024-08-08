@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_LearningResource } from "labs/SchemaOrg_LearningResource.ts";
+import type { SchemaOrg_LearningResource } from "./SchemaOrg_LearningResource.ts";
 
 /**
  * Quiz: A test of knowledge, skills and abilities.

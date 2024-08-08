@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_NewsArticle } from "labs/SchemaOrg_NewsArticle.ts";
+import type { SchemaOrg_NewsArticle } from "./SchemaOrg_NewsArticle.ts";
 
 /**
  * The [[ReportageNewsArticle]] type is a subtype of [[NewsArticle]] representing

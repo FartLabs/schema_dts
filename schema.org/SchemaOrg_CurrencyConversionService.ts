@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_FinancialProduct } from "labs/SchemaOrg_FinancialProduct.ts";
+import type { SchemaOrg_FinancialProduct } from "./SchemaOrg_FinancialProduct.ts";
 
 /**
  * A service to convert funds from one currency to another currency.

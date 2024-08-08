@@ -1,6 +1,6 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_Drug } from "labs/SchemaOrg_Drug.ts";
-import type { SchemaOrg_MedicalEntity } from "labs/SchemaOrg_MedicalEntity.ts";
+import type { SchemaOrg_Drug } from "./SchemaOrg_Drug.ts";
+import type { SchemaOrg_MedicalEntity } from "./SchemaOrg_MedicalEntity.ts";
 
 /**
  * A class of medical drugs, e.g., statins. Classes can represent general pharmacological class, common mechanisms of action, common physiological effects, etc.
@@ -17,5 +17,5 @@ export interface SchemaOrg_DrugClass extends SchemaOrg_MedicalEntity {
      * Specifying a drug or medicine used in a medication procedure.
      * @see https://schema.org/drug
      */
-    drug: Array<SchemaOrg_Drug>;
+    drug?: Array<SchemaOrg_Drug>;
 }

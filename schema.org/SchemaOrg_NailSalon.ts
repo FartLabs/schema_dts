@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_HealthAndBeautyBusiness } from "labs/SchemaOrg_HealthAndBeautyBusiness.ts";
+import type { SchemaOrg_HealthAndBeautyBusiness } from "./SchemaOrg_HealthAndBeautyBusiness.ts";
 
 /**
  * A nail salon.

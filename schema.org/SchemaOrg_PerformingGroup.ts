@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_Organization } from "labs/SchemaOrg_Organization.ts";
+import type { SchemaOrg_Organization } from "./SchemaOrg_Organization.ts";
 
 /**
  * A performance group, such as a band, an orchestra, or a circus.

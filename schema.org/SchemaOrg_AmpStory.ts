@@ -1,6 +1,6 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_CreativeWork } from "labs/SchemaOrg_CreativeWork.ts";
-import type { SchemaOrg_MediaObject } from "labs/SchemaOrg_MediaObject.ts";
+import type { SchemaOrg_CreativeWork } from "./SchemaOrg_CreativeWork.ts";
+import type { SchemaOrg_MediaObject } from "./SchemaOrg_MediaObject.ts";
 
 /**
  * A creative work with a visual storytelling format intended to be viewed online, particularly on mobile devices.

@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_Action } from "labs/SchemaOrg_Action.ts";
+import type { SchemaOrg_Action } from "./SchemaOrg_Action.ts";
 
 /**
  * The act of accomplishing something via previous efforts. It is an instantaneous action rather than an ongoing process.

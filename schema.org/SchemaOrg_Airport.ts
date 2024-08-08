@@ -1,6 +1,6 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_CivicStructure } from "labs/SchemaOrg_CivicStructure.ts";
-import type { SchemaOrg_Text } from "labs/SchemaOrg_Text.ts";
+import type { SchemaOrg_CivicStructure } from "./SchemaOrg_CivicStructure.ts";
+import type { SchemaOrg_Text } from "./SchemaOrg_Text.ts";
 
 /**
  * An airport.
@@ -17,10 +17,10 @@ export interface SchemaOrg_Airport extends SchemaOrg_CivicStructure {
      * IATA identifier for an airline or airport.
      * @see https://schema.org/iataCode
      */
-    iataCode: Array<SchemaOrg_Text>;
+    iataCode?: Array<SchemaOrg_Text>;
     /**
      * ICAO identifier for an airport.
      * @see https://schema.org/icaoCode
      */
-    icaoCode: Array<SchemaOrg_Text>;
+    icaoCode?: Array<SchemaOrg_Text>;
 }

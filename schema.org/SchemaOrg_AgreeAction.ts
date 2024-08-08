@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_ReactAction } from "labs/SchemaOrg_ReactAction.ts";
+import type { SchemaOrg_ReactAction } from "./SchemaOrg_ReactAction.ts";
 
 /**
  * The act of expressing a consistency of opinion with the object. An agent agrees to/about an object (a proposition, topic or theme) with participants.

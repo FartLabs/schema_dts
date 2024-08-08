@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_Vehicle } from "labs/SchemaOrg_Vehicle.ts";
+import type { SchemaOrg_Vehicle } from "./SchemaOrg_Vehicle.ts";
 
 /**
  * A motorized bicycle is a bicycle with an attached motor used to power the vehicle, or to assist with pedaling.

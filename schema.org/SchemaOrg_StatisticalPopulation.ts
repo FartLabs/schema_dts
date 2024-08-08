@@ -1,6 +1,6 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_Class } from "labs/SchemaOrg_Class.ts";
-import type { SchemaOrg_Intangible } from "labs/SchemaOrg_Intangible.ts";
+import type { SchemaOrg_Class } from "./SchemaOrg_Class.ts";
+import type { SchemaOrg_Intangible } from "./SchemaOrg_Intangible.ts";
 
 /**
  * A StatisticalPopulation is a set of instances of a certain given type that satisfy some set of constraints. The property [[populationType]] is used to specify the type. Any property that can be used on instances of that type can appear on the statistical population. For example, a [[StatisticalPopulation]] representing all [[Person]]s with a [[homeLocation]] of East Podunk California would be described by applying the appropriate [[homeLocation]] and [[populationType]] properties to a [[StatisticalPopulation]] item that stands for that set of people.
@@ -21,5 +21,5 @@ export interface SchemaOrg_StatisticalPopulation extends SchemaOrg_Intangible {
      * Indicates the populationType common to all members of a [[StatisticalPopulation]] or all cases within the scope of a [[StatisticalVariable]].
      * @see https://schema.org/populationType
      */
-    populationType: Array<SchemaOrg_Class>;
+    populationType?: Array<SchemaOrg_Class>;
 }

@@ -1,6 +1,6 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_CriticReview } from "labs/SchemaOrg_CriticReview.ts";
-import type { SchemaOrg_NewsArticle } from "labs/SchemaOrg_NewsArticle.ts";
+import type { SchemaOrg_CriticReview } from "./SchemaOrg_CriticReview.ts";
+import type { SchemaOrg_NewsArticle } from "./SchemaOrg_NewsArticle.ts";
 
 /**
  * A [[NewsArticle]] and [[CriticReview]] providing a professional critic's assessment of a service, product, performance, or artistic or literary work.

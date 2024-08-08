@@ -1,8 +1,8 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_ListItem } from "labs/SchemaOrg_ListItem.ts";
-import type { SchemaOrg_Number } from "labs/SchemaOrg_Number.ts";
-import type { SchemaOrg_QuantitativeValue } from "labs/SchemaOrg_QuantitativeValue.ts";
-import type { SchemaOrg_Text } from "labs/SchemaOrg_Text.ts";
+import type { SchemaOrg_ListItem } from "./SchemaOrg_ListItem.ts";
+import type { SchemaOrg_Number } from "./SchemaOrg_Number.ts";
+import type { SchemaOrg_QuantitativeValue } from "./SchemaOrg_QuantitativeValue.ts";
+import type { SchemaOrg_Text } from "./SchemaOrg_Text.ts";
 
 /**
  * An item used as either a tool or supply when performing the instructions for how to achieve a result.
@@ -19,5 +19,5 @@ export interface SchemaOrg_HowToItem extends SchemaOrg_ListItem {
      * The required quantity of the item(s).
      * @see https://schema.org/requiredQuantity
      */
-    requiredQuantity: Array<SchemaOrg_Number | SchemaOrg_QuantitativeValue | SchemaOrg_Text>;
+    requiredQuantity?: Array<SchemaOrg_Number | SchemaOrg_QuantitativeValue | SchemaOrg_Text>;
 }

@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_ConsumeAction } from "labs/SchemaOrg_ConsumeAction.ts";
+import type { SchemaOrg_ConsumeAction } from "./SchemaOrg_ConsumeAction.ts";
 
 /**
  * The act of consuming dynamic/moving visual content.

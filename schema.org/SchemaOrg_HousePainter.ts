@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_HomeAndConstructionBusiness } from "labs/SchemaOrg_HomeAndConstructionBusiness.ts";
+import type { SchemaOrg_HomeAndConstructionBusiness } from "./SchemaOrg_HomeAndConstructionBusiness.ts";
 
 /**
  * A house painting service.

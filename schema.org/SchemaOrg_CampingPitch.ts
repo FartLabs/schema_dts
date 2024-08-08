@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_Accommodation } from "labs/SchemaOrg_Accommodation.ts";
+import type { SchemaOrg_Accommodation } from "./SchemaOrg_Accommodation.ts";
 
 /**
  * A [[CampingPitch]] is an individual place for overnight stay in the outdoors, typically being part of a larger camping site, or [[Campground]].\n\n

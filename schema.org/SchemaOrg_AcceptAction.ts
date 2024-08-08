@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_AllocateAction } from "labs/SchemaOrg_AllocateAction.ts";
+import type { SchemaOrg_AllocateAction } from "./SchemaOrg_AllocateAction.ts";
 
 /**
  * The act of committing to/adopting an object.\n\nRelated actions:\n\n* [[RejectAction]]: The antonym of AcceptAction.

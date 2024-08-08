@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_LodgingBusiness } from "labs/SchemaOrg_LodgingBusiness.ts";
+import type { SchemaOrg_LodgingBusiness } from "./SchemaOrg_LodgingBusiness.ts";
 
 /**
  * A hotel is an establishment that provides lodging paid on a short-term basis (source: Wikipedia, the free encyclopedia, see http://en.wikipedia.org/wiki/Hotel).

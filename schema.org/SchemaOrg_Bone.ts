@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_AnatomicalStructure } from "labs/SchemaOrg_AnatomicalStructure.ts";
+import type { SchemaOrg_AnatomicalStructure } from "./SchemaOrg_AnatomicalStructure.ts";
 
 /**
  * Rigid connective tissue that comprises up the skeletal structure of the human body.

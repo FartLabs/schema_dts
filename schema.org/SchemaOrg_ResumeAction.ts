@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_ControlAction } from "labs/SchemaOrg_ControlAction.ts";
+import type { SchemaOrg_ControlAction } from "./SchemaOrg_ControlAction.ts";
 
 /**
  * The act of resuming a device or application which was formerly paused (e.g. resume music playback or resume a timer).

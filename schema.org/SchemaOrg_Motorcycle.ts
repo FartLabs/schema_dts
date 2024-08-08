@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_Vehicle } from "labs/SchemaOrg_Vehicle.ts";
+import type { SchemaOrg_Vehicle } from "./SchemaOrg_Vehicle.ts";
 
 /**
  * A motorcycle or motorbike is a single-track, two-wheeled motor vehicle.

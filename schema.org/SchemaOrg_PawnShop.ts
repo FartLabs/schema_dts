@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_Store } from "labs/SchemaOrg_Store.ts";
+import type { SchemaOrg_Store } from "./SchemaOrg_Store.ts";
 
 /**
  * A shop that will buy, or lend money against the security of, personal possessions.

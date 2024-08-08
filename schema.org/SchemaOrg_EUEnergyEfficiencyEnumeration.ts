@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_EnergyEfficiencyEnumeration } from "labs/SchemaOrg_EnergyEfficiencyEnumeration.ts";
+import type { SchemaOrg_EnergyEfficiencyEnumeration } from "./SchemaOrg_EnergyEfficiencyEnumeration.ts";
 
 /**
  * Enumerates the EU energy efficiency classes A-G as well as A+, A++, and A+++ as defined in EU directive 2017/1369.

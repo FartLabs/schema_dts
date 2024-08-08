@@ -1,6 +1,6 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_Number } from "labs/SchemaOrg_Number.ts";
-import type { SchemaOrg_PeopleAudience } from "labs/SchemaOrg_PeopleAudience.ts";
+import type { SchemaOrg_Number } from "./SchemaOrg_Number.ts";
+import type { SchemaOrg_PeopleAudience } from "./SchemaOrg_PeopleAudience.ts";
 
 /**
  * A set of characteristics describing parents, who can be interested in viewing some content.
@@ -17,10 +17,10 @@ export interface SchemaOrg_ParentAudience extends SchemaOrg_PeopleAudience {
      * Maximal age of the child.
      * @see https://schema.org/childMaxAge
      */
-    childMaxAge: Array<SchemaOrg_Number>;
+    childMaxAge?: Array<SchemaOrg_Number>;
     /**
      * Minimal age of the child.
      * @see https://schema.org/childMinAge
      */
-    childMinAge: Array<SchemaOrg_Number>;
+    childMinAge?: Array<SchemaOrg_Number>;
 }

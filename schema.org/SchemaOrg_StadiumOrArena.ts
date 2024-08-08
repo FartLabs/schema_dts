@@ -1,6 +1,6 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_CivicStructure } from "labs/SchemaOrg_CivicStructure.ts";
-import type { SchemaOrg_SportsActivityLocation } from "labs/SchemaOrg_SportsActivityLocation.ts";
+import type { SchemaOrg_CivicStructure } from "./SchemaOrg_CivicStructure.ts";
+import type { SchemaOrg_SportsActivityLocation } from "./SchemaOrg_SportsActivityLocation.ts";
 
 /**
  * A stadium.

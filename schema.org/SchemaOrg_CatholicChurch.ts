@@ -1,5 +1,5 @@
 // DO NOT EDIT: This file is generated.
-import type { SchemaOrg_Church } from "labs/SchemaOrg_Church.ts";
+import type { SchemaOrg_Church } from "./SchemaOrg_Church.ts";
 
 /**
  * A Catholic church.
