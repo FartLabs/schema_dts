@@ -5,7 +5,8 @@ import type { SchemaOrg_MedicalOrganization } from "./SchemaOrg_MedicalOrganizat
  * A vet's office.
  * @see https://schema.org/VeterinaryCare
  */
-export const SCHEMA_ORG_VeterinaryCare = "https://schema.org/VeterinaryCare" as const;
+export const SCHEMA_ORG_VeterinaryCare =
+  "https://schema.org/VeterinaryCare" as const;
 
 /**
  * A vet's office.

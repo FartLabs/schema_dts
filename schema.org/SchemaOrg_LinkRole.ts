@@ -14,14 +14,14 @@ export const SCHEMA_ORG_LinkRole = "https://schema.org/LinkRole" as const;
  * @see https://schema.org/LinkRole
  */
 export interface SchemaOrg_LinkRole extends SchemaOrg_Role {
-    /**
-     * The language of the content or performance or used in an action. Please use one of the language codes from the [IETF BCP 47 standard](http://tools.ietf.org/html/bcp47). See also [[availableLanguage]].
-     * @see https://schema.org/inLanguage
-     */
-    inLanguage?: Array<SchemaOrg_Language | SchemaOrg_Text>;
-    /**
-     * Indicates the relationship type of a Web link.
-     * @see https://schema.org/linkRelationship
-     */
-    linkRelationship?: Array<SchemaOrg_Text>;
+  /**
+   * The language of the content or performance or used in an action. Please use one of the language codes from the [IETF BCP 47 standard](http://tools.ietf.org/html/bcp47). See also [[availableLanguage]].
+   * @see https://schema.org/inLanguage
+   */
+  inLanguage?: Array<SchemaOrg_Language | SchemaOrg_Text>;
+  /**
+   * Indicates the relationship type of a Web link.
+   * @see https://schema.org/linkRelationship
+   */
+  linkRelationship?: Array<SchemaOrg_Text>;
 }

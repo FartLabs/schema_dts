@@ -13,9 +13,9 @@ export const SCHEMA_ORG_LeaveAction = "https://schema.org/LeaveAction" as const;
  * @see https://schema.org/LeaveAction
  */
 export interface SchemaOrg_LeaveAction extends SchemaOrg_InteractAction {
-    /**
-     * Upcoming or past event associated with this place, organization, or action.
-     * @see https://schema.org/event
-     */
-    event?: Array<SchemaOrg_Event>;
+  /**
+   * Upcoming or past event associated with this place, organization, or action.
+   * @see https://schema.org/event
+   */
+  event?: Array<SchemaOrg_Event>;
 }

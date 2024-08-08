@@ -14,10 +14,10 @@ export const SCHEMA_ORG_House = "https://schema.org/House" as const;
  * @see https://schema.org/House
  */
 export interface SchemaOrg_House extends SchemaOrg_Accommodation {
-    /**
-     * The number of rooms (excluding bathrooms and closets) of the accommodation or lodging business.
-     * Typical unit code(s): ROM for room or C62 for no unit. The type of room can be put in the unitText property of the QuantitativeValue.
-     * @see https://schema.org/numberOfRooms
-     */
-    numberOfRooms?: Array<SchemaOrg_QuantitativeValue | SchemaOrg_Number>;
+  /**
+   * The number of rooms (excluding bathrooms and closets) of the accommodation or lodging business.
+   * Typical unit code(s): ROM for room or C62 for no unit. The type of room can be put in the unitText property of the QuantitativeValue.
+   * @see https://schema.org/numberOfRooms
+   */
+  numberOfRooms?: Array<SchemaOrg_QuantitativeValue | SchemaOrg_Number>;
 }

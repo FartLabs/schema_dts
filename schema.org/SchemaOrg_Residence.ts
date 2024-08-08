@@ -13,9 +13,9 @@ export const SCHEMA_ORG_Residence = "https://schema.org/Residence" as const;
  * @see https://schema.org/Residence
  */
 export interface SchemaOrg_Residence extends SchemaOrg_Place {
-    /**
-     * A floorplan of some [[Accommodation]].
-     * @see https://schema.org/accommodationFloorPlan
-     */
-    accommodationFloorPlan?: Array<SchemaOrg_FloorPlan>;
+  /**
+   * A floorplan of some [[Accommodation]].
+   * @see https://schema.org/accommodationFloorPlan
+   */
+  accommodationFloorPlan?: Array<SchemaOrg_FloorPlan>;
 }

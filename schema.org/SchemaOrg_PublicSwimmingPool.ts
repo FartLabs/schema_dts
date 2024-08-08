@@ -5,7 +5,8 @@ import type { SchemaOrg_SportsActivityLocation } from "./SchemaOrg_SportsActivit
  * A public swimming pool.
  * @see https://schema.org/PublicSwimmingPool
  */
-export const SCHEMA_ORG_PublicSwimmingPool = "https://schema.org/PublicSwimmingPool" as const;
+export const SCHEMA_ORG_PublicSwimmingPool =
+  "https://schema.org/PublicSwimmingPool" as const;
 
 /**
  * A public swimming pool.

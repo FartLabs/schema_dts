@@ -14,9 +14,9 @@ export const SCHEMA_ORG_PlanAction = "https://schema.org/PlanAction" as const;
  * @see https://schema.org/PlanAction
  */
 export interface SchemaOrg_PlanAction extends SchemaOrg_OrganizeAction {
-    /**
-     * The time the object is scheduled to.
-     * @see https://schema.org/scheduledTime
-     */
-    scheduledTime?: Array<SchemaOrg_DateTime | SchemaOrg_Date>;
+  /**
+   * The time the object is scheduled to.
+   * @see https://schema.org/scheduledTime
+   */
+  scheduledTime?: Array<SchemaOrg_DateTime | SchemaOrg_Date>;
 }

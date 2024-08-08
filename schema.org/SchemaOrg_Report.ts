@@ -13,9 +13,9 @@ export const SCHEMA_ORG_Report = "https://schema.org/Report" as const;
  * @see https://schema.org/Report
  */
 export interface SchemaOrg_Report extends SchemaOrg_Article {
-    /**
-     * The number or other unique designator assigned to a Report by the publishing organization.
-     * @see https://schema.org/reportNumber
-     */
-    reportNumber?: Array<SchemaOrg_Text>;
+  /**
+   * The number or other unique designator assigned to a Report by the publishing organization.
+   * @see https://schema.org/reportNumber
+   */
+  reportNumber?: Array<SchemaOrg_Text>;
 }

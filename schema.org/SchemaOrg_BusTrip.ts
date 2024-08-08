@@ -15,24 +15,24 @@ export const SCHEMA_ORG_BusTrip = "https://schema.org/BusTrip" as const;
  * @see https://schema.org/BusTrip
  */
 export interface SchemaOrg_BusTrip extends SchemaOrg_Trip {
-    /**
-     * The stop or station from which the bus arrives.
-     * @see https://schema.org/arrivalBusStop
-     */
-    arrivalBusStop?: Array<SchemaOrg_BusStation | SchemaOrg_BusStop>;
-    /**
-     * The name of the bus (e.g. Bolt Express).
-     * @see https://schema.org/busName
-     */
-    busName?: Array<SchemaOrg_Text>;
-    /**
-     * The unique identifier for the bus.
-     * @see https://schema.org/busNumber
-     */
-    busNumber?: Array<SchemaOrg_Text>;
-    /**
-     * The stop or station from which the bus departs.
-     * @see https://schema.org/departureBusStop
-     */
-    departureBusStop?: Array<SchemaOrg_BusStation | SchemaOrg_BusStop>;
+  /**
+   * The stop or station from which the bus arrives.
+   * @see https://schema.org/arrivalBusStop
+   */
+  arrivalBusStop?: Array<SchemaOrg_BusStation | SchemaOrg_BusStop>;
+  /**
+   * The name of the bus (e.g. Bolt Express).
+   * @see https://schema.org/busName
+   */
+  busName?: Array<SchemaOrg_Text>;
+  /**
+   * The unique identifier for the bus.
+   * @see https://schema.org/busNumber
+   */
+  busNumber?: Array<SchemaOrg_Text>;
+  /**
+   * The stop or station from which the bus departs.
+   * @see https://schema.org/departureBusStop
+   */
+  departureBusStop?: Array<SchemaOrg_BusStation | SchemaOrg_BusStop>;
 }

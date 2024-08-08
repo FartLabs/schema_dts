@@ -5,7 +5,8 @@ import type { SchemaOrg_LodgingBusiness } from "./SchemaOrg_LodgingBusiness.ts";
  * A kind of lodging business that focuses on renting single properties for limited time.
  * @see https://schema.org/VacationRental
  */
-export const SCHEMA_ORG_VacationRental = "https://schema.org/VacationRental" as const;
+export const SCHEMA_ORG_VacationRental =
+  "https://schema.org/VacationRental" as const;
 
 /**
  * A kind of lodging business that focuses on renting single properties for limited time.

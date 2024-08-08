@@ -15,9 +15,11 @@ export const SCHEMA_ORG_HowToItem = "https://schema.org/HowToItem" as const;
  * @see https://schema.org/HowToItem
  */
 export interface SchemaOrg_HowToItem extends SchemaOrg_ListItem {
-    /**
-     * The required quantity of the item(s).
-     * @see https://schema.org/requiredQuantity
-     */
-    requiredQuantity?: Array<SchemaOrg_Number | SchemaOrg_QuantitativeValue | SchemaOrg_Text>;
+  /**
+   * The required quantity of the item(s).
+   * @see https://schema.org/requiredQuantity
+   */
+  requiredQuantity?: Array<
+    SchemaOrg_Number | SchemaOrg_QuantitativeValue | SchemaOrg_Text
+  >;
 }

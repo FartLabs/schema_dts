@@ -14,14 +14,14 @@ export const SCHEMA_ORG_Audience = "https://schema.org/Audience" as const;
  * @see https://schema.org/Audience
  */
 export interface SchemaOrg_Audience extends SchemaOrg_Intangible {
-    /**
-     * The target group associated with a given audience (e.g. veterans, car owners, musicians, etc.).
-     * @see https://schema.org/audienceType
-     */
-    audienceType?: Array<SchemaOrg_Text>;
-    /**
-     * The geographic area associated with the audience.
-     * @see https://schema.org/geographicArea
-     */
-    geographicArea?: Array<SchemaOrg_AdministrativeArea>;
+  /**
+   * The target group associated with a given audience (e.g. veterans, car owners, musicians, etc.).
+   * @see https://schema.org/audienceType
+   */
+  audienceType?: Array<SchemaOrg_Text>;
+  /**
+   * The geographic area associated with the audience.
+   * @see https://schema.org/geographicArea
+   */
+  geographicArea?: Array<SchemaOrg_AdministrativeArea>;
 }

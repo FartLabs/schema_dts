@@ -5,7 +5,8 @@ import type { SchemaOrg_Event } from "./SchemaOrg_Event.ts";
  * Event type: Exhibition event, e.g. at a museum, library, archive, tradeshow, ...
  * @see https://schema.org/ExhibitionEvent
  */
-export const SCHEMA_ORG_ExhibitionEvent = "https://schema.org/ExhibitionEvent" as const;
+export const SCHEMA_ORG_ExhibitionEvent =
+  "https://schema.org/ExhibitionEvent" as const;
 
 /**
  * Event type: Exhibition event, e.g. at a museum, library, archive, tradeshow, ...

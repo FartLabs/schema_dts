@@ -13,14 +13,14 @@ export const SCHEMA_ORG_MoveAction = "https://schema.org/MoveAction" as const;
  * @see https://schema.org/MoveAction
  */
 export interface SchemaOrg_MoveAction extends SchemaOrg_Action {
-    /**
-     * A sub property of location. The original location of the object or the agent before the action.
-     * @see https://schema.org/fromLocation
-     */
-    fromLocation?: Array<SchemaOrg_Place>;
-    /**
-     * A sub property of location. The final location of the object or the agent after the action.
-     * @see https://schema.org/toLocation
-     */
-    toLocation?: Array<SchemaOrg_Place>;
+  /**
+   * A sub property of location. The original location of the object or the agent before the action.
+   * @see https://schema.org/fromLocation
+   */
+  fromLocation?: Array<SchemaOrg_Place>;
+  /**
+   * A sub property of location. The final location of the object or the agent after the action.
+   * @see https://schema.org/toLocation
+   */
+  toLocation?: Array<SchemaOrg_Place>;
 }

@@ -5,7 +5,8 @@ import type { SchemaOrg_EducationalOrganization } from "./SchemaOrg_EducationalO
  * A middle school (typically for children aged around 11-14, although this varies somewhat).
  * @see https://schema.org/MiddleSchool
  */
-export const SCHEMA_ORG_MiddleSchool = "https://schema.org/MiddleSchool" as const;
+export const SCHEMA_ORG_MiddleSchool =
+  "https://schema.org/MiddleSchool" as const;
 
 /**
  * A middle school (typically for children aged around 11-14, although this varies somewhat).

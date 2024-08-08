@@ -5,7 +5,8 @@ import type { SchemaOrg_MedicalEnumeration } from "./SchemaOrg_MedicalEnumeratio
  * Target audiences types for medical web pages. Enumerated type.
  * @see https://schema.org/MedicalAudienceType
  */
-export const SCHEMA_ORG_MedicalAudienceType = "https://schema.org/MedicalAudienceType" as const;
+export const SCHEMA_ORG_MedicalAudienceType =
+  "https://schema.org/MedicalAudienceType" as const;
 
 /**
  * Target audiences types for medical web pages. Enumerated type.

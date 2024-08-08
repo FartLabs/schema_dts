@@ -5,7 +5,8 @@ import type { SchemaOrg_MedicalEnumeration } from "./SchemaOrg_MedicalEnumeratio
  * Level of evidence for a medical guideline. Enumerated type.
  * @see https://schema.org/MedicalEvidenceLevel
  */
-export const SCHEMA_ORG_MedicalEvidenceLevel = "https://schema.org/MedicalEvidenceLevel" as const;
+export const SCHEMA_ORG_MedicalEvidenceLevel =
+  "https://schema.org/MedicalEvidenceLevel" as const;
 
 /**
  * Level of evidence for a medical guideline. Enumerated type.

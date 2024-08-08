@@ -5,7 +5,8 @@ import type { SchemaOrg_FoodEstablishment } from "./SchemaOrg_FoodEstablishment.
  * A cafe or coffee shop.
  * @see https://schema.org/CafeOrCoffeeShop
  */
-export const SCHEMA_ORG_CafeOrCoffeeShop = "https://schema.org/CafeOrCoffeeShop" as const;
+export const SCHEMA_ORG_CafeOrCoffeeShop =
+  "https://schema.org/CafeOrCoffeeShop" as const;
 
 /**
  * A cafe or coffee shop.

@@ -15,14 +15,14 @@ export const SCHEMA_ORG_RentAction = "https://schema.org/RentAction" as const;
  * @see https://schema.org/RentAction
  */
 export interface SchemaOrg_RentAction extends SchemaOrg_TradeAction {
-    /**
-     * A sub property of participant. The owner of the real estate property.
-     * @see https://schema.org/landlord
-     */
-    landlord?: Array<SchemaOrg_Organization | SchemaOrg_Person>;
-    /**
-     * A sub property of participant. The real estate agent involved in the action.
-     * @see https://schema.org/realEstateAgent
-     */
-    realEstateAgent?: Array<SchemaOrg_RealEstateAgent>;
+  /**
+   * A sub property of participant. The owner of the real estate property.
+   * @see https://schema.org/landlord
+   */
+  landlord?: Array<SchemaOrg_Organization | SchemaOrg_Person>;
+  /**
+   * A sub property of participant. The real estate agent involved in the action.
+   * @see https://schema.org/realEstateAgent
+   */
+  realEstateAgent?: Array<SchemaOrg_RealEstateAgent>;
 }

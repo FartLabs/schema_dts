@@ -13,9 +13,9 @@ export const SCHEMA_ORG_Map = "https://schema.org/Map" as const;
  * @see https://schema.org/Map
  */
 export interface SchemaOrg_Map extends SchemaOrg_CreativeWork {
-    /**
-     * Indicates the kind of Map, from the MapCategoryType Enumeration.
-     * @see https://schema.org/mapType
-     */
-    mapType?: Array<SchemaOrg_MapCategoryType>;
+  /**
+   * Indicates the kind of Map, from the MapCategoryType Enumeration.
+   * @see https://schema.org/mapType
+   */
+  mapType?: Array<SchemaOrg_MapCategoryType>;
 }

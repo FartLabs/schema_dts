@@ -5,7 +5,8 @@ import type { SchemaOrg_FinancialService } from "./SchemaOrg_FinancialService.ts
  * ATM/cash machine.
  * @see https://schema.org/AutomatedTeller
  */
-export const SCHEMA_ORG_AutomatedTeller = "https://schema.org/AutomatedTeller" as const;
+export const SCHEMA_ORG_AutomatedTeller =
+  "https://schema.org/AutomatedTeller" as const;
 
 /**
  * ATM/cash machine.

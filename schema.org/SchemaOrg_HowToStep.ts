@@ -13,4 +13,7 @@ export const SCHEMA_ORG_HowToStep = "https://schema.org/HowToStep" as const;
  * A step in the instructions for how to achieve a result. It is an ordered list with HowToDirection and/or HowToTip items.
  * @see https://schema.org/HowToStep
  */
-export type SchemaOrg_HowToStep = SchemaOrg_CreativeWork & SchemaOrg_ItemList & SchemaOrg_ListItem;
+export type SchemaOrg_HowToStep =
+  & SchemaOrg_CreativeWork
+  & SchemaOrg_ItemList
+  & SchemaOrg_ListItem;

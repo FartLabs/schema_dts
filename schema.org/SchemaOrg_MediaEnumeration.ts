@@ -5,7 +5,8 @@ import type { SchemaOrg_Enumeration } from "./SchemaOrg_Enumeration.ts";
  * MediaEnumeration enumerations are lists of codes, labels etc. useful for describing media objects. They may be reflections of externally developed lists, or created at schema.org, or a combination.
  * @see https://schema.org/MediaEnumeration
  */
-export const SCHEMA_ORG_MediaEnumeration = "https://schema.org/MediaEnumeration" as const;
+export const SCHEMA_ORG_MediaEnumeration =
+  "https://schema.org/MediaEnumeration" as const;
 
 /**
  * MediaEnumeration enumerations are lists of codes, labels etc. useful for describing media objects. They may be reflections of externally developed lists, or created at schema.org, or a combination.

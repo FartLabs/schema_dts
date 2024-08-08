@@ -7,7 +7,8 @@ import type { SchemaOrg_LocalBusiness } from "./SchemaOrg_LocalBusiness.ts";
  *         [[HousePainter]], [[Locksmith]], [[Plumber]], [[RoofingContractor]]. [[LegalService]] was introduced as a more inclusive supertype of [[Attorney]].
  * @see https://schema.org/ProfessionalService
  */
-export const SCHEMA_ORG_ProfessionalService = "https://schema.org/ProfessionalService" as const;
+export const SCHEMA_ORG_ProfessionalService =
+  "https://schema.org/ProfessionalService" as const;
 
 /**
  * Original definition: "provider of professional services."\n\nThe general [[ProfessionalService]] type for local businesses was deprecated due to confusion with [[Service]]. For reference, the types that it included were: [[Dentist]],

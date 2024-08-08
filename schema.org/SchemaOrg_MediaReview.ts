@@ -23,19 +23,23 @@ export const SCHEMA_ORG_MediaReview = "https://schema.org/MediaReview" as const;
  * @see https://schema.org/MediaReview
  */
 export interface SchemaOrg_MediaReview extends SchemaOrg_Review {
-    /**
-     * Indicates a MediaManipulationRatingEnumeration classification of a media object (in the context of how it was published or shared).
-     * @see https://schema.org/mediaAuthenticityCategory
-     */
-    mediaAuthenticityCategory?: Array<SchemaOrg_MediaManipulationRatingEnumeration>;
-    /**
-     * Describes, in a [[MediaReview]] when dealing with [[DecontextualizedContent]], background information that can contribute to better interpretation of the [[MediaObject]].
-     * @see https://schema.org/originalMediaContextDescription
-     */
-    originalMediaContextDescription?: Array<SchemaOrg_Text>;
-    /**
-     * Link to the page containing an original version of the content, or directly to an online copy of the original [[MediaObject]] content, e.g. video file.
-     * @see https://schema.org/originalMediaLink
-     */
-    originalMediaLink?: Array<SchemaOrg_URL | SchemaOrg_WebPage | SchemaOrg_MediaObject>;
+  /**
+   * Indicates a MediaManipulationRatingEnumeration classification of a media object (in the context of how it was published or shared).
+   * @see https://schema.org/mediaAuthenticityCategory
+   */
+  mediaAuthenticityCategory?: Array<
+    SchemaOrg_MediaManipulationRatingEnumeration
+  >;
+  /**
+   * Describes, in a [[MediaReview]] when dealing with [[DecontextualizedContent]], background information that can contribute to better interpretation of the [[MediaObject]].
+   * @see https://schema.org/originalMediaContextDescription
+   */
+  originalMediaContextDescription?: Array<SchemaOrg_Text>;
+  /**
+   * Link to the page containing an original version of the content, or directly to an online copy of the original [[MediaObject]] content, e.g. video file.
+   * @see https://schema.org/originalMediaLink
+   */
+  originalMediaLink?: Array<
+    SchemaOrg_URL | SchemaOrg_WebPage | SchemaOrg_MediaObject
+  >;
 }

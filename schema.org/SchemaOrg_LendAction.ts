@@ -13,9 +13,9 @@ export const SCHEMA_ORG_LendAction = "https://schema.org/LendAction" as const;
  * @see https://schema.org/LendAction
  */
 export interface SchemaOrg_LendAction extends SchemaOrg_TransferAction {
-    /**
-     * A sub property of participant. The person that borrows the object being lent.
-     * @see https://schema.org/borrower
-     */
-    borrower?: Array<SchemaOrg_Person>;
+  /**
+   * A sub property of participant. The person that borrows the object being lent.
+   * @see https://schema.org/borrower
+   */
+  borrower?: Array<SchemaOrg_Person>;
 }

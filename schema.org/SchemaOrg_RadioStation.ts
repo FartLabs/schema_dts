@@ -5,7 +5,8 @@ import type { SchemaOrg_LocalBusiness } from "./SchemaOrg_LocalBusiness.ts";
  * A radio station.
  * @see https://schema.org/RadioStation
  */
-export const SCHEMA_ORG_RadioStation = "https://schema.org/RadioStation" as const;
+export const SCHEMA_ORG_RadioStation =
+  "https://schema.org/RadioStation" as const;
 
 /**
  * A radio station.

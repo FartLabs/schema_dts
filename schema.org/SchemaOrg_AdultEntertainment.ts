@@ -5,7 +5,8 @@ import type { SchemaOrg_EntertainmentBusiness } from "./SchemaOrg_EntertainmentB
  * An adult entertainment establishment.
  * @see https://schema.org/AdultEntertainment
  */
-export const SCHEMA_ORG_AdultEntertainment = "https://schema.org/AdultEntertainment" as const;
+export const SCHEMA_ORG_AdultEntertainment =
+  "https://schema.org/AdultEntertainment" as const;
 
 /**
  * An adult entertainment establishment.

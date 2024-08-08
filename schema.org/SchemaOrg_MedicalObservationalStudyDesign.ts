@@ -5,10 +5,12 @@ import type { SchemaOrg_MedicalEnumeration } from "./SchemaOrg_MedicalEnumeratio
  * Design models for observational medical studies. Enumerated type.
  * @see https://schema.org/MedicalObservationalStudyDesign
  */
-export const SCHEMA_ORG_MedicalObservationalStudyDesign = "https://schema.org/MedicalObservationalStudyDesign" as const;
+export const SCHEMA_ORG_MedicalObservationalStudyDesign =
+  "https://schema.org/MedicalObservationalStudyDesign" as const;
 
 /**
  * Design models for observational medical studies. Enumerated type.
  * @see https://schema.org/MedicalObservationalStudyDesign
  */
-export type SchemaOrg_MedicalObservationalStudyDesign = SchemaOrg_MedicalEnumeration;
+export type SchemaOrg_MedicalObservationalStudyDesign =
+  SchemaOrg_MedicalEnumeration;

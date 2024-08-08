@@ -10,7 +10,8 @@ import type { SchemaOrg_WebPage } from "./SchemaOrg_WebPage.ts";
  *   The [[RealEstateListing]] type itself represents the overall listing, as manifested in some [[WebPage]].
  * @see https://schema.org/RealEstateListing
  */
-export const SCHEMA_ORG_RealEstateListing = "https://schema.org/RealEstateListing" as const;
+export const SCHEMA_ORG_RealEstateListing =
+  "https://schema.org/RealEstateListing" as const;
 
 /**
  * A [[RealEstateListing]] is a listing that describes one or more real-estate [[Offer]]s (whose [[businessFunction]] is typically to lease out, or to sell).
@@ -18,14 +19,14 @@ export const SCHEMA_ORG_RealEstateListing = "https://schema.org/RealEstateListin
  * @see https://schema.org/RealEstateListing
  */
 export interface SchemaOrg_RealEstateListing extends SchemaOrg_WebPage {
-    /**
-     * Publication date of an online listing.
-     * @see https://schema.org/datePosted
-     */
-    datePosted?: Array<SchemaOrg_DateTime | SchemaOrg_Date>;
-    /**
-     * Length of the lease for some [[Accommodation]], either particular to some [[Offer]] or in some cases intrinsic to the property.
-     * @see https://schema.org/leaseLength
-     */
-    leaseLength?: Array<SchemaOrg_QuantitativeValue | SchemaOrg_Duration>;
+  /**
+   * Publication date of an online listing.
+   * @see https://schema.org/datePosted
+   */
+  datePosted?: Array<SchemaOrg_DateTime | SchemaOrg_Date>;
+  /**
+   * Length of the lease for some [[Accommodation]], either particular to some [[Offer]] or in some cases intrinsic to the property.
+   * @see https://schema.org/leaseLength
+   */
+  leaseLength?: Array<SchemaOrg_QuantitativeValue | SchemaOrg_Duration>;
 }

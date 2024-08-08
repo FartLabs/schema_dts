@@ -5,7 +5,8 @@ import type { SchemaOrg_LocalBusiness } from "./SchemaOrg_LocalBusiness.ts";
  * A shopping center or mall.
  * @see https://schema.org/ShoppingCenter
  */
-export const SCHEMA_ORG_ShoppingCenter = "https://schema.org/ShoppingCenter" as const;
+export const SCHEMA_ORG_ShoppingCenter =
+  "https://schema.org/ShoppingCenter" as const;
 
 /**
  * A shopping center or mall.

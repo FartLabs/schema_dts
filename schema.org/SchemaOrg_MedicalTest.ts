@@ -18,29 +18,29 @@ export const SCHEMA_ORG_MedicalTest = "https://schema.org/MedicalTest" as const;
  * @see https://schema.org/MedicalTest
  */
 export interface SchemaOrg_MedicalTest extends SchemaOrg_MedicalEntity {
-    /**
-     * Drugs that affect the test's results.
-     * @see https://schema.org/affectedBy
-     */
-    affectedBy?: Array<SchemaOrg_Drug>;
-    /**
-     * Range of acceptable values for a typical patient, when applicable.
-     * @see https://schema.org/normalRange
-     */
-    normalRange?: Array<SchemaOrg_MedicalEnumeration | SchemaOrg_Text>;
-    /**
-     * A sign detected by the test.
-     * @see https://schema.org/signDetected
-     */
-    signDetected?: Array<SchemaOrg_MedicalSign>;
-    /**
-     * A condition the test is used to diagnose.
-     * @see https://schema.org/usedToDiagnose
-     */
-    usedToDiagnose?: Array<SchemaOrg_MedicalCondition>;
-    /**
-     * Device used to perform the test.
-     * @see https://schema.org/usesDevice
-     */
-    usesDevice?: Array<SchemaOrg_MedicalDevice>;
+  /**
+   * Drugs that affect the test's results.
+   * @see https://schema.org/affectedBy
+   */
+  affectedBy?: Array<SchemaOrg_Drug>;
+  /**
+   * Range of acceptable values for a typical patient, when applicable.
+   * @see https://schema.org/normalRange
+   */
+  normalRange?: Array<SchemaOrg_MedicalEnumeration | SchemaOrg_Text>;
+  /**
+   * A sign detected by the test.
+   * @see https://schema.org/signDetected
+   */
+  signDetected?: Array<SchemaOrg_MedicalSign>;
+  /**
+   * A condition the test is used to diagnose.
+   * @see https://schema.org/usedToDiagnose
+   */
+  usedToDiagnose?: Array<SchemaOrg_MedicalCondition>;
+  /**
+   * Device used to perform the test.
+   * @see https://schema.org/usesDevice
+   */
+  usesDevice?: Array<SchemaOrg_MedicalDevice>;
 }

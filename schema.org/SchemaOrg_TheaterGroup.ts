@@ -5,7 +5,8 @@ import type { SchemaOrg_PerformingGroup } from "./SchemaOrg_PerformingGroup.ts";
  * A theater group or company, for example, the Royal Shakespeare Company or Druid Theatre.
  * @see https://schema.org/TheaterGroup
  */
-export const SCHEMA_ORG_TheaterGroup = "https://schema.org/TheaterGroup" as const;
+export const SCHEMA_ORG_TheaterGroup =
+  "https://schema.org/TheaterGroup" as const;
 
 /**
  * A theater group or company, for example, the Royal Shakespeare Company or Druid Theatre.

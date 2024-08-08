@@ -7,21 +7,23 @@ import type { SchemaOrg_PriceSpecification } from "./SchemaOrg_PriceSpecificatio
  * The costs of settling the payment using a particular payment method.
  * @see https://schema.org/PaymentChargeSpecification
  */
-export const SCHEMA_ORG_PaymentChargeSpecification = "https://schema.org/PaymentChargeSpecification" as const;
+export const SCHEMA_ORG_PaymentChargeSpecification =
+  "https://schema.org/PaymentChargeSpecification" as const;
 
 /**
  * The costs of settling the payment using a particular payment method.
  * @see https://schema.org/PaymentChargeSpecification
  */
-export interface SchemaOrg_PaymentChargeSpecification extends SchemaOrg_PriceSpecification {
-    /**
-     * The delivery method(s) to which the delivery charge or payment charge specification applies.
-     * @see https://schema.org/appliesToDeliveryMethod
-     */
-    appliesToDeliveryMethod?: Array<SchemaOrg_DeliveryMethod>;
-    /**
-     * The payment method(s) to which the payment charge specification applies.
-     * @see https://schema.org/appliesToPaymentMethod
-     */
-    appliesToPaymentMethod?: Array<SchemaOrg_PaymentMethod>;
+export interface SchemaOrg_PaymentChargeSpecification
+  extends SchemaOrg_PriceSpecification {
+  /**
+   * The delivery method(s) to which the delivery charge or payment charge specification applies.
+   * @see https://schema.org/appliesToDeliveryMethod
+   */
+  appliesToDeliveryMethod?: Array<SchemaOrg_DeliveryMethod>;
+  /**
+   * The payment method(s) to which the payment charge specification applies.
+   * @see https://schema.org/appliesToPaymentMethod
+   */
+  appliesToPaymentMethod?: Array<SchemaOrg_PaymentMethod>;
 }

@@ -17,24 +17,29 @@ export const SCHEMA_ORG_Gene = "https://schema.org/Gene" as const;
  * @see https://schema.org/Gene
  */
 export interface SchemaOrg_Gene extends SchemaOrg_BioChemEntity {
-    /**
-     * Another gene which is a variation of this one.
-     * @see https://schema.org/alternativeOf
-     */
-    alternativeOf?: Array<SchemaOrg_Gene>;
-    /**
-     * Another BioChemEntity encoded by this one.
-     * @see https://schema.org/encodesBioChemEntity
-     */
-    encodesBioChemEntity?: Array<SchemaOrg_BioChemEntity>;
-    /**
-     * Tissue, organ, biological sample, etc in which activity of this gene has been observed experimentally. For example brain, digestive system.
-     * @see https://schema.org/expressedIn
-     */
-    expressedIn?: Array<SchemaOrg_BioChemEntity | SchemaOrg_AnatomicalStructure | SchemaOrg_DefinedTerm | SchemaOrg_AnatomicalSystem>;
-    /**
-     * A symbolic representation of a BioChemEntity. For example, a nucleotide sequence of a Gene or an amino acid sequence of a Protein.
-     * @see https://schema.org/hasBioPolymerSequence
-     */
-    hasBioPolymerSequence?: Array<SchemaOrg_Text>;
+  /**
+   * Another gene which is a variation of this one.
+   * @see https://schema.org/alternativeOf
+   */
+  alternativeOf?: Array<SchemaOrg_Gene>;
+  /**
+   * Another BioChemEntity encoded by this one.
+   * @see https://schema.org/encodesBioChemEntity
+   */
+  encodesBioChemEntity?: Array<SchemaOrg_BioChemEntity>;
+  /**
+   * Tissue, organ, biological sample, etc in which activity of this gene has been observed experimentally. For example brain, digestive system.
+   * @see https://schema.org/expressedIn
+   */
+  expressedIn?: Array<
+    | SchemaOrg_BioChemEntity
+    | SchemaOrg_AnatomicalStructure
+    | SchemaOrg_DefinedTerm
+    | SchemaOrg_AnatomicalSystem
+  >;
+  /**
+   * A symbolic representation of a BioChemEntity. For example, a nucleotide sequence of a Gene or an amino acid sequence of a Protein.
+   * @see https://schema.org/hasBioPolymerSequence
+   */
+  hasBioPolymerSequence?: Array<SchemaOrg_Text>;
 }

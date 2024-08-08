@@ -15,9 +15,11 @@ export const SCHEMA_ORG_Class = "https://schema.org/Class" as const;
  * @see https://schema.org/Class
  */
 export interface SchemaOrg_Class extends SchemaOrg_Intangible {
-    /**
-     * Relates a term (i.e. a property, class or enumeration) to one that supersedes it.
-     * @see https://schema.org/supersededBy
-     */
-    supersededBy?: Array<SchemaOrg_Class | SchemaOrg_Enumeration | SchemaOrg_Property>;
+  /**
+   * Relates a term (i.e. a property, class or enumeration) to one that supersedes it.
+   * @see https://schema.org/supersededBy
+   */
+  supersededBy?: Array<
+    SchemaOrg_Class | SchemaOrg_Enumeration | SchemaOrg_Property
+  >;
 }

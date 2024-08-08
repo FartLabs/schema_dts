@@ -5,7 +5,8 @@ import type { SchemaOrg_MedicalIndication } from "./SchemaOrg_MedicalIndication.
  * An indication for preventing an underlying condition, symptom, etc.
  * @see https://schema.org/PreventionIndication
  */
-export const SCHEMA_ORG_PreventionIndication = "https://schema.org/PreventionIndication" as const;
+export const SCHEMA_ORG_PreventionIndication =
+  "https://schema.org/PreventionIndication" as const;
 
 /**
  * An indication for preventing an underlying condition, symptom, etc.

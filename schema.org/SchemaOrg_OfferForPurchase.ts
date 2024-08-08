@@ -7,7 +7,8 @@ import type { SchemaOrg_Offer } from "./SchemaOrg_Offer.ts";
  *   background on the underlying concepts.
  * @see https://schema.org/OfferForPurchase
  */
-export const SCHEMA_ORG_OfferForPurchase = "https://schema.org/OfferForPurchase" as const;
+export const SCHEMA_ORG_OfferForPurchase =
+  "https://schema.org/OfferForPurchase" as const;
 
 /**
  * An [[OfferForPurchase]] in Schema.org represents an [[Offer]] to sell something, i.e. an [[Offer]] whose

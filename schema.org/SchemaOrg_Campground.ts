@@ -18,4 +18,6 @@ export const SCHEMA_ORG_Campground = "https://schema.org/Campground" as const;
  * See also the dedicated [document on the use of schema.org for marking up hotels and other forms of accommodations](/docs/hotels.html).
  * @see https://schema.org/Campground
  */
-export type SchemaOrg_Campground = SchemaOrg_LodgingBusiness & SchemaOrg_CivicStructure;
+export type SchemaOrg_Campground =
+  & SchemaOrg_LodgingBusiness
+  & SchemaOrg_CivicStructure;

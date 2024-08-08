@@ -5,7 +5,8 @@ import type { SchemaOrg_HealthAndBeautyBusiness } from "./SchemaOrg_HealthAndBea
  * A tattoo parlor.
  * @see https://schema.org/TattooParlor
  */
-export const SCHEMA_ORG_TattooParlor = "https://schema.org/TattooParlor" as const;
+export const SCHEMA_ORG_TattooParlor =
+  "https://schema.org/TattooParlor" as const;
 
 /**
  * A tattoo parlor.

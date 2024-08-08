@@ -5,7 +5,8 @@ import type { SchemaOrg_Article } from "./SchemaOrg_Article.ts";
  * A scholarly article.
  * @see https://schema.org/ScholarlyArticle
  */
-export const SCHEMA_ORG_ScholarlyArticle = "https://schema.org/ScholarlyArticle" as const;
+export const SCHEMA_ORG_ScholarlyArticle =
+  "https://schema.org/ScholarlyArticle" as const;
 
 /**
  * A scholarly article.

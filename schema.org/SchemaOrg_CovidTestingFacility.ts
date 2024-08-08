@@ -8,7 +8,8 @@ import type { SchemaOrg_MedicalClinic } from "./SchemaOrg_MedicalClinic.ts";
  *       about that place, e.g. contact info, address, opening hours. Note that in an emergency, such information may not always be reliable.
  * @see https://schema.org/CovidTestingFacility
  */
-export const SCHEMA_ORG_CovidTestingFacility = "https://schema.org/CovidTestingFacility" as const;
+export const SCHEMA_ORG_CovidTestingFacility =
+  "https://schema.org/CovidTestingFacility" as const;
 
 /**
  * A CovidTestingFacility is a [[MedicalClinic]] where testing for the COVID-19 Coronavirus

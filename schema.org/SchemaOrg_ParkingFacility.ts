@@ -5,7 +5,8 @@ import type { SchemaOrg_CivicStructure } from "./SchemaOrg_CivicStructure.ts";
  * A parking lot or other parking facility.
  * @see https://schema.org/ParkingFacility
  */
-export const SCHEMA_ORG_ParkingFacility = "https://schema.org/ParkingFacility" as const;
+export const SCHEMA_ORG_ParkingFacility =
+  "https://schema.org/ParkingFacility" as const;
 
 /**
  * A parking lot or other parking facility.

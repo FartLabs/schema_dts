@@ -8,7 +8,8 @@ import type { SchemaOrg_Accommodation } from "./SchemaOrg_Accommodation.ts";
  * See also the dedicated [document on the use of schema.org for marking up hotels and other forms of accommodations](/docs/hotels.html).
  * @see https://schema.org/CampingPitch
  */
-export const SCHEMA_ORG_CampingPitch = "https://schema.org/CampingPitch" as const;
+export const SCHEMA_ORG_CampingPitch =
+  "https://schema.org/CampingPitch" as const;
 
 /**
  * A [[CampingPitch]] is an individual place for overnight stay in the outdoors, typically being part of a larger camping site, or [[Campground]].\n\n

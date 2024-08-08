@@ -19,20 +19,28 @@ export const SCHEMA_ORG_Hospital = "https://schema.org/Hospital" as const;
  * A hospital.
  * @see https://schema.org/Hospital
  */
-export interface SchemaOrg_Hospital extends SchemaOrg_CivicStructure, SchemaOrg_MedicalOrganization, SchemaOrg_EmergencyService {
-    /**
-     * A medical service available from this provider.
-     * @see https://schema.org/availableService
-     */
-    availableService?: Array<SchemaOrg_MedicalTest | SchemaOrg_MedicalTherapy | SchemaOrg_MedicalProcedure>;
-    /**
-     * Indicates data describing a hospital, e.g. a CDC [[CDCPMDRecord]] or as some kind of [[Dataset]].
-     * @see https://schema.org/healthcareReportingData
-     */
-    healthcareReportingData?: Array<SchemaOrg_Dataset | SchemaOrg_CDCPMDRecord>;
-    /**
-     * A medical specialty of the provider.
-     * @see https://schema.org/medicalSpecialty
-     */
-    medicalSpecialty?: Array<SchemaOrg_MedicalSpecialty>;
+export interface SchemaOrg_Hospital
+  extends
+    SchemaOrg_CivicStructure,
+    SchemaOrg_MedicalOrganization,
+    SchemaOrg_EmergencyService {
+  /**
+   * A medical service available from this provider.
+   * @see https://schema.org/availableService
+   */
+  availableService?: Array<
+    | SchemaOrg_MedicalTest
+    | SchemaOrg_MedicalTherapy
+    | SchemaOrg_MedicalProcedure
+  >;
+  /**
+   * Indicates data describing a hospital, e.g. a CDC [[CDCPMDRecord]] or as some kind of [[Dataset]].
+   * @see https://schema.org/healthcareReportingData
+   */
+  healthcareReportingData?: Array<SchemaOrg_Dataset | SchemaOrg_CDCPMDRecord>;
+  /**
+   * A medical specialty of the provider.
+   * @see https://schema.org/medicalSpecialty
+   */
+  medicalSpecialty?: Array<SchemaOrg_MedicalSpecialty>;
 }

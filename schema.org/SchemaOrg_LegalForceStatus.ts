@@ -5,7 +5,8 @@ import type { SchemaOrg_StatusEnumeration } from "./SchemaOrg_StatusEnumeration.
  * A list of possible statuses for the legal force of a legislation.
  * @see https://schema.org/LegalForceStatus
  */
-export const SCHEMA_ORG_LegalForceStatus = "https://schema.org/LegalForceStatus" as const;
+export const SCHEMA_ORG_LegalForceStatus =
+  "https://schema.org/LegalForceStatus" as const;
 
 /**
  * A list of possible statuses for the legal force of a legislation.

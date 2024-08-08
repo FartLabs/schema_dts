@@ -15,19 +15,19 @@ export const SCHEMA_ORG_GameServer = "https://schema.org/GameServer" as const;
  * @see https://schema.org/GameServer
  */
 export interface SchemaOrg_GameServer extends SchemaOrg_Intangible {
-    /**
-     * Video game which is played on this server.
-     * @see https://schema.org/game
-     */
-    game?: Array<SchemaOrg_VideoGame>;
-    /**
-     * Number of players on the server.
-     * @see https://schema.org/playersOnline
-     */
-    playersOnline?: Array<SchemaOrg_Integer>;
-    /**
-     * Status of a game server.
-     * @see https://schema.org/serverStatus
-     */
-    serverStatus?: Array<SchemaOrg_GameServerStatus>;
+  /**
+   * Video game which is played on this server.
+   * @see https://schema.org/game
+   */
+  game?: Array<SchemaOrg_VideoGame>;
+  /**
+   * Number of players on the server.
+   * @see https://schema.org/playersOnline
+   */
+  playersOnline?: Array<SchemaOrg_Integer>;
+  /**
+   * Status of a game server.
+   * @see https://schema.org/serverStatus
+   */
+  serverStatus?: Array<SchemaOrg_GameServerStatus>;
 }

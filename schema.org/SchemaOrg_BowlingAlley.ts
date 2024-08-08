@@ -5,7 +5,8 @@ import type { SchemaOrg_SportsActivityLocation } from "./SchemaOrg_SportsActivit
  * A bowling alley.
  * @see https://schema.org/BowlingAlley
  */
-export const SCHEMA_ORG_BowlingAlley = "https://schema.org/BowlingAlley" as const;
+export const SCHEMA_ORG_BowlingAlley =
+  "https://schema.org/BowlingAlley" as const;
 
 /**
  * A bowling alley.

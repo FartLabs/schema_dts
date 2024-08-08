@@ -5,7 +5,8 @@ import type { SchemaOrg_HomeAndConstructionBusiness } from "./SchemaOrg_HomeAndC
  * A general contractor.
  * @see https://schema.org/GeneralContractor
  */
-export const SCHEMA_ORG_GeneralContractor = "https://schema.org/GeneralContractor" as const;
+export const SCHEMA_ORG_GeneralContractor =
+  "https://schema.org/GeneralContractor" as const;
 
 /**
  * A general contractor.

@@ -16,9 +16,14 @@ export const SCHEMA_ORG_GiveAction = "https://schema.org/GiveAction" as const;
  * @see https://schema.org/GiveAction
  */
 export interface SchemaOrg_GiveAction extends SchemaOrg_TransferAction {
-    /**
-     * A sub property of participant. The participant who is at the receiving end of the action.
-     * @see https://schema.org/recipient
-     */
-    recipient?: Array<SchemaOrg_Audience | SchemaOrg_Organization | SchemaOrg_Person | SchemaOrg_ContactPoint>;
+  /**
+   * A sub property of participant. The participant who is at the receiving end of the action.
+   * @see https://schema.org/recipient
+   */
+  recipient?: Array<
+    | SchemaOrg_Audience
+    | SchemaOrg_Organization
+    | SchemaOrg_Person
+    | SchemaOrg_ContactPoint
+  >;
 }

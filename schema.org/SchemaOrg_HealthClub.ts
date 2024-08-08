@@ -12,4 +12,6 @@ export const SCHEMA_ORG_HealthClub = "https://schema.org/HealthClub" as const;
  * A health club.
  * @see https://schema.org/HealthClub
  */
-export type SchemaOrg_HealthClub = SchemaOrg_HealthAndBeautyBusiness & SchemaOrg_SportsActivityLocation;
+export type SchemaOrg_HealthClub =
+  & SchemaOrg_HealthAndBeautyBusiness
+  & SchemaOrg_SportsActivityLocation;

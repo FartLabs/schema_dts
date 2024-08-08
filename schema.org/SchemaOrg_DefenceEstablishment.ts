@@ -5,7 +5,8 @@ import type { SchemaOrg_GovernmentBuilding } from "./SchemaOrg_GovernmentBuildin
  * A defence establishment, such as an army or navy base.
  * @see https://schema.org/DefenceEstablishment
  */
-export const SCHEMA_ORG_DefenceEstablishment = "https://schema.org/DefenceEstablishment" as const;
+export const SCHEMA_ORG_DefenceEstablishment =
+  "https://schema.org/DefenceEstablishment" as const;
 
 /**
  * A defence establishment, such as an army or navy base.

@@ -17,34 +17,34 @@ export const SCHEMA_ORG_Book = "https://schema.org/Book" as const;
  * @see https://schema.org/Book
  */
 export interface SchemaOrg_Book extends SchemaOrg_CreativeWork {
-    /**
-     * Indicates whether the book is an abridged edition.
-     * @see https://schema.org/abridged
-     */
-    abridged?: Array<SchemaOrg_Boolean>;
-    /**
-     * The edition of the book.
-     * @see https://schema.org/bookEdition
-     */
-    bookEdition?: Array<SchemaOrg_Text>;
-    /**
-     * The format of the book.
-     * @see https://schema.org/bookFormat
-     */
-    bookFormat?: Array<SchemaOrg_BookFormatType>;
-    /**
-     * The illustrator of the book.
-     * @see https://schema.org/illustrator
-     */
-    illustrator?: Array<SchemaOrg_Person>;
-    /**
-     * The ISBN of the book.
-     * @see https://schema.org/isbn
-     */
-    isbn?: Array<SchemaOrg_Text>;
-    /**
-     * The number of pages in the book.
-     * @see https://schema.org/numberOfPages
-     */
-    numberOfPages?: Array<SchemaOrg_Integer>;
+  /**
+   * Indicates whether the book is an abridged edition.
+   * @see https://schema.org/abridged
+   */
+  abridged?: Array<SchemaOrg_Boolean>;
+  /**
+   * The edition of the book.
+   * @see https://schema.org/bookEdition
+   */
+  bookEdition?: Array<SchemaOrg_Text>;
+  /**
+   * The format of the book.
+   * @see https://schema.org/bookFormat
+   */
+  bookFormat?: Array<SchemaOrg_BookFormatType>;
+  /**
+   * The illustrator of the book.
+   * @see https://schema.org/illustrator
+   */
+  illustrator?: Array<SchemaOrg_Person>;
+  /**
+   * The ISBN of the book.
+   * @see https://schema.org/isbn
+   */
+  isbn?: Array<SchemaOrg_Text>;
+  /**
+   * The number of pages in the book.
+   * @see https://schema.org/numberOfPages
+   */
+  numberOfPages?: Array<SchemaOrg_Integer>;
 }

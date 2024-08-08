@@ -5,7 +5,8 @@ import type { SchemaOrg_HomeAndConstructionBusiness } from "./SchemaOrg_HomeAndC
  * A business that provides Heating, Ventilation and Air Conditioning services.
  * @see https://schema.org/HVACBusiness
  */
-export const SCHEMA_ORG_HVACBusiness = "https://schema.org/HVACBusiness" as const;
+export const SCHEMA_ORG_HVACBusiness =
+  "https://schema.org/HVACBusiness" as const;
 
 /**
  * A business that provides Heating, Ventilation and Air Conditioning services.

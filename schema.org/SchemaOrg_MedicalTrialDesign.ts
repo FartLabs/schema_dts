@@ -5,7 +5,8 @@ import type { SchemaOrg_MedicalEnumeration } from "./SchemaOrg_MedicalEnumeratio
  * Design models for medical trials. Enumerated type.
  * @see https://schema.org/MedicalTrialDesign
  */
-export const SCHEMA_ORG_MedicalTrialDesign = "https://schema.org/MedicalTrialDesign" as const;
+export const SCHEMA_ORG_MedicalTrialDesign =
+  "https://schema.org/MedicalTrialDesign" as const;
 
 /**
  * Design models for medical trials. Enumerated type.

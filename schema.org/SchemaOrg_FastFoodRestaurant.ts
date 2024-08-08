@@ -5,7 +5,8 @@ import type { SchemaOrg_FoodEstablishment } from "./SchemaOrg_FoodEstablishment.
  * A fast-food restaurant.
  * @see https://schema.org/FastFoodRestaurant
  */
-export const SCHEMA_ORG_FastFoodRestaurant = "https://schema.org/FastFoodRestaurant" as const;
+export const SCHEMA_ORG_FastFoodRestaurant =
+  "https://schema.org/FastFoodRestaurant" as const;
 
 /**
  * A fast-food restaurant.

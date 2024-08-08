@@ -22,19 +22,19 @@ export const SCHEMA_ORG_Claim = "https://schema.org/Claim" as const;
  * @see https://schema.org/Claim
  */
 export interface SchemaOrg_Claim extends SchemaOrg_CreativeWork {
-    /**
-     * Indicates an occurrence of a [[Claim]] in some [[CreativeWork]].
-     * @see https://schema.org/appearance
-     */
-    appearance?: Array<SchemaOrg_CreativeWork>;
-    /**
-     * For a [[Claim]] interpreted from [[MediaObject]] content, the [[interpretedAsClaim]] property can be used to indicate a claim contained, implied or refined from the content of a [[MediaObject]].
-     * @see https://schema.org/claimInterpreter
-     */
-    claimInterpreter?: Array<SchemaOrg_Organization | SchemaOrg_Person>;
-    /**
-     * Indicates the first known occurrence of a [[Claim]] in some [[CreativeWork]].
-     * @see https://schema.org/firstAppearance
-     */
-    firstAppearance?: Array<SchemaOrg_CreativeWork>;
+  /**
+   * Indicates an occurrence of a [[Claim]] in some [[CreativeWork]].
+   * @see https://schema.org/appearance
+   */
+  appearance?: Array<SchemaOrg_CreativeWork>;
+  /**
+   * For a [[Claim]] interpreted from [[MediaObject]] content, the [[interpretedAsClaim]] property can be used to indicate a claim contained, implied or refined from the content of a [[MediaObject]].
+   * @see https://schema.org/claimInterpreter
+   */
+  claimInterpreter?: Array<SchemaOrg_Organization | SchemaOrg_Person>;
+  /**
+   * Indicates the first known occurrence of a [[Claim]] in some [[CreativeWork]].
+   * @see https://schema.org/firstAppearance
+   */
+  firstAppearance?: Array<SchemaOrg_CreativeWork>;
 }

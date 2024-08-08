@@ -5,7 +5,8 @@ import type { SchemaOrg_Event } from "./SchemaOrg_Event.ts";
  * Event type: Visual arts event.
  * @see https://schema.org/VisualArtsEvent
  */
-export const SCHEMA_ORG_VisualArtsEvent = "https://schema.org/VisualArtsEvent" as const;
+export const SCHEMA_ORG_VisualArtsEvent =
+  "https://schema.org/VisualArtsEvent" as const;
 
 /**
  * Event type: Visual arts event.

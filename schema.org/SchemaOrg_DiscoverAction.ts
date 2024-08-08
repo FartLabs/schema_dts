@@ -5,7 +5,8 @@ import type { SchemaOrg_FindAction } from "./SchemaOrg_FindAction.ts";
  * The act of discovering/finding an object.
  * @see https://schema.org/DiscoverAction
  */
-export const SCHEMA_ORG_DiscoverAction = "https://schema.org/DiscoverAction" as const;
+export const SCHEMA_ORG_DiscoverAction =
+  "https://schema.org/DiscoverAction" as const;
 
 /**
  * The act of discovering/finding an object.

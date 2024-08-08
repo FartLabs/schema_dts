@@ -5,7 +5,8 @@ import type { SchemaOrg_CivicStructure } from "./SchemaOrg_CivicStructure.ts";
  * A subway station.
  * @see https://schema.org/SubwayStation
  */
-export const SCHEMA_ORG_SubwayStation = "https://schema.org/SubwayStation" as const;
+export const SCHEMA_ORG_SubwayStation =
+  "https://schema.org/SubwayStation" as const;
 
 /**
  * A subway station.

@@ -12,4 +12,6 @@ export const SCHEMA_ORG_SkiResort = "https://schema.org/SkiResort" as const;
  * A ski resort.
  * @see https://schema.org/SkiResort
  */
-export type SchemaOrg_SkiResort = SchemaOrg_SportsActivityLocation & SchemaOrg_Resort;
+export type SchemaOrg_SkiResort =
+  & SchemaOrg_SportsActivityLocation
+  & SchemaOrg_Resort;

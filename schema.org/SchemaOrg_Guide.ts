@@ -13,9 +13,9 @@ export const SCHEMA_ORG_Guide = "https://schema.org/Guide" as const;
  * @see https://schema.org/Guide
  */
 export interface SchemaOrg_Guide extends SchemaOrg_CreativeWork {
-    /**
-     * This Review or Rating is relevant to this part or facet of the itemReviewed.
-     * @see https://schema.org/reviewAspect
-     */
-    reviewAspect?: Array<SchemaOrg_Text>;
+  /**
+   * This Review or Rating is relevant to this part or facet of the itemReviewed.
+   * @see https://schema.org/reviewAspect
+   */
+  reviewAspect?: Array<SchemaOrg_Text>;
 }

@@ -5,7 +5,8 @@ import type { SchemaOrg_LocalBusiness } from "./SchemaOrg_LocalBusiness.ts";
  * Animal shelter.
  * @see https://schema.org/AnimalShelter
  */
-export const SCHEMA_ORG_AnimalShelter = "https://schema.org/AnimalShelter" as const;
+export const SCHEMA_ORG_AnimalShelter =
+  "https://schema.org/AnimalShelter" as const;
 
 /**
  * Animal shelter.

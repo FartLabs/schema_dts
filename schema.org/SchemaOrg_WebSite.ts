@@ -13,9 +13,9 @@ export const SCHEMA_ORG_WebSite = "https://schema.org/WebSite" as const;
  * @see https://schema.org/WebSite
  */
 export interface SchemaOrg_WebSite extends SchemaOrg_CreativeWork {
-    /**
-     * The International Standard Serial Number (ISSN) that identifies this serial publication. You can repeat this property to identify different formats of, or the linking ISSN (ISSN-L) for, this serial publication.
-     * @see https://schema.org/issn
-     */
-    issn?: Array<SchemaOrg_Text>;
+  /**
+   * The International Standard Serial Number (ISSN) that identifies this serial publication. You can repeat this property to identify different formats of, or the linking ISSN (ISSN-L) for, this serial publication.
+   * @see https://schema.org/issn
+   */
+  issn?: Array<SchemaOrg_Text>;
 }

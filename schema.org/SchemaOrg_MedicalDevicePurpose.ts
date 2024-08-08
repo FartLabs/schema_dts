@@ -5,7 +5,8 @@ import type { SchemaOrg_MedicalEnumeration } from "./SchemaOrg_MedicalEnumeratio
  * Categories of medical devices, organized by the purpose or intended use of the device.
  * @see https://schema.org/MedicalDevicePurpose
  */
-export const SCHEMA_ORG_MedicalDevicePurpose = "https://schema.org/MedicalDevicePurpose" as const;
+export const SCHEMA_ORG_MedicalDevicePurpose =
+  "https://schema.org/MedicalDevicePurpose" as const;
 
 /**
  * Categories of medical devices, organized by the purpose or intended use of the device.

@@ -13,9 +13,9 @@ export const SCHEMA_ORG_ClaimReview = "https://schema.org/ClaimReview" as const;
  * @see https://schema.org/ClaimReview
  */
 export interface SchemaOrg_ClaimReview extends SchemaOrg_Review {
-    /**
-     * A short summary of the specific claims reviewed in a ClaimReview.
-     * @see https://schema.org/claimReviewed
-     */
-    claimReviewed?: Array<SchemaOrg_Text>;
+  /**
+   * A short summary of the specific claims reviewed in a ClaimReview.
+   * @see https://schema.org/claimReviewed
+   */
+  claimReviewed?: Array<SchemaOrg_Text>;
 }

@@ -12,7 +12,8 @@ import type { SchemaOrg_NewsArticle } from "./SchemaOrg_NewsArticle.ts";
  * A [[ReportageNewsArticle]] which goes deeper into analysis can also be marked with an additional type of [[AnalysisNewsArticle]].
  * @see https://schema.org/ReportageNewsArticle
  */
-export const SCHEMA_ORG_ReportageNewsArticle = "https://schema.org/ReportageNewsArticle" as const;
+export const SCHEMA_ORG_ReportageNewsArticle =
+  "https://schema.org/ReportageNewsArticle" as const;
 
 /**
  * The [[ReportageNewsArticle]] type is a subtype of [[NewsArticle]] representing

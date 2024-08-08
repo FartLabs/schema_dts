@@ -5,7 +5,8 @@ import type { SchemaOrg_StatusEnumeration } from "./SchemaOrg_StatusEnumeration.
  * A specific payment status. For example, PaymentDue, PaymentComplete, etc.
  * @see https://schema.org/PaymentStatusType
  */
-export const SCHEMA_ORG_PaymentStatusType = "https://schema.org/PaymentStatusType" as const;
+export const SCHEMA_ORG_PaymentStatusType =
+  "https://schema.org/PaymentStatusType" as const;
 
 /**
  * A specific payment status. For example, PaymentDue, PaymentComplete, etc.

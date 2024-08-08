@@ -5,7 +5,8 @@ import type { SchemaOrg_GovernmentBuilding } from "./SchemaOrg_GovernmentBuildin
  * A legislative building&#x2014;for example, the state capitol.
  * @see https://schema.org/LegislativeBuilding
  */
-export const SCHEMA_ORG_LegislativeBuilding = "https://schema.org/LegislativeBuilding" as const;
+export const SCHEMA_ORG_LegislativeBuilding =
+  "https://schema.org/LegislativeBuilding" as const;
 
 /**
  * A legislative building&#x2014;for example, the state capitol.

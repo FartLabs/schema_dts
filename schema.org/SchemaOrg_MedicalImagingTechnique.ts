@@ -5,7 +5,8 @@ import type { SchemaOrg_MedicalEnumeration } from "./SchemaOrg_MedicalEnumeratio
  * Any medical imaging modality typically used for diagnostic purposes. Enumerated type.
  * @see https://schema.org/MedicalImagingTechnique
  */
-export const SCHEMA_ORG_MedicalImagingTechnique = "https://schema.org/MedicalImagingTechnique" as const;
+export const SCHEMA_ORG_MedicalImagingTechnique =
+  "https://schema.org/MedicalImagingTechnique" as const;
 
 /**
  * Any medical imaging modality typically used for diagnostic purposes. Enumerated type.

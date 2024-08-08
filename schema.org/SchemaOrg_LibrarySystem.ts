@@ -5,7 +5,8 @@ import type { SchemaOrg_Organization } from "./SchemaOrg_Organization.ts";
  * A [[LibrarySystem]] is a collaborative system amongst several libraries.
  * @see https://schema.org/LibrarySystem
  */
-export const SCHEMA_ORG_LibrarySystem = "https://schema.org/LibrarySystem" as const;
+export const SCHEMA_ORG_LibrarySystem =
+  "https://schema.org/LibrarySystem" as const;
 
 /**
  * A [[LibrarySystem]] is a collaborative system amongst several libraries.

@@ -5,7 +5,8 @@ import type { SchemaOrg_Physician } from "./SchemaOrg_Physician.ts";
  * A doctor's office or clinic.
  * @see https://schema.org/PhysiciansOffice
  */
-export const SCHEMA_ORG_PhysiciansOffice = "https://schema.org/PhysiciansOffice" as const;
+export const SCHEMA_ORG_PhysiciansOffice =
+  "https://schema.org/PhysiciansOffice" as const;
 
 /**
  * A doctor's office or clinic.

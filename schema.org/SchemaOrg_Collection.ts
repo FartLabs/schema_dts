@@ -13,9 +13,9 @@ export const SCHEMA_ORG_Collection = "https://schema.org/Collection" as const;
  * @see https://schema.org/Collection
  */
 export interface SchemaOrg_Collection extends SchemaOrg_CreativeWork {
-    /**
-     * The number of items in the [[Collection]].
-     * @see https://schema.org/collectionSize
-     */
-    collectionSize?: Array<SchemaOrg_Integer>;
+  /**
+   * The number of items in the [[Collection]].
+   * @see https://schema.org/collectionSize
+   */
+  collectionSize?: Array<SchemaOrg_Integer>;
 }

@@ -13,9 +13,9 @@ export const SCHEMA_ORG_LoseAction = "https://schema.org/LoseAction" as const;
  * @see https://schema.org/LoseAction
  */
 export interface SchemaOrg_LoseAction extends SchemaOrg_AchieveAction {
-    /**
-     * A sub property of participant. The winner of the action.
-     * @see https://schema.org/winner
-     */
-    winner?: Array<SchemaOrg_Person>;
+  /**
+   * A sub property of participant. The winner of the action.
+   * @see https://schema.org/winner
+   */
+  winner?: Array<SchemaOrg_Person>;
 }

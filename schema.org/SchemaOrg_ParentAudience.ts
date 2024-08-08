@@ -6,21 +6,22 @@ import type { SchemaOrg_PeopleAudience } from "./SchemaOrg_PeopleAudience.ts";
  * A set of characteristics describing parents, who can be interested in viewing some content.
  * @see https://schema.org/ParentAudience
  */
-export const SCHEMA_ORG_ParentAudience = "https://schema.org/ParentAudience" as const;
+export const SCHEMA_ORG_ParentAudience =
+  "https://schema.org/ParentAudience" as const;
 
 /**
  * A set of characteristics describing parents, who can be interested in viewing some content.
  * @see https://schema.org/ParentAudience
  */
 export interface SchemaOrg_ParentAudience extends SchemaOrg_PeopleAudience {
-    /**
-     * Maximal age of the child.
-     * @see https://schema.org/childMaxAge
-     */
-    childMaxAge?: Array<SchemaOrg_Number>;
-    /**
-     * Minimal age of the child.
-     * @see https://schema.org/childMinAge
-     */
-    childMinAge?: Array<SchemaOrg_Number>;
+  /**
+   * Maximal age of the child.
+   * @see https://schema.org/childMaxAge
+   */
+  childMaxAge?: Array<SchemaOrg_Number>;
+  /**
+   * Minimal age of the child.
+   * @see https://schema.org/childMinAge
+   */
+  childMinAge?: Array<SchemaOrg_Number>;
 }

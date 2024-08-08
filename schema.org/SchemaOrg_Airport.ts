@@ -13,14 +13,14 @@ export const SCHEMA_ORG_Airport = "https://schema.org/Airport" as const;
  * @see https://schema.org/Airport
  */
 export interface SchemaOrg_Airport extends SchemaOrg_CivicStructure {
-    /**
-     * IATA identifier for an airline or airport.
-     * @see https://schema.org/iataCode
-     */
-    iataCode?: Array<SchemaOrg_Text>;
-    /**
-     * ICAO identifier for an airport.
-     * @see https://schema.org/icaoCode
-     */
-    icaoCode?: Array<SchemaOrg_Text>;
+  /**
+   * IATA identifier for an airline or airport.
+   * @see https://schema.org/iataCode
+   */
+  iataCode?: Array<SchemaOrg_Text>;
+  /**
+   * ICAO identifier for an airport.
+   * @see https://schema.org/icaoCode
+   */
+  icaoCode?: Array<SchemaOrg_Text>;
 }

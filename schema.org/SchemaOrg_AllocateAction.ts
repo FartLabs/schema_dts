@@ -5,7 +5,8 @@ import type { SchemaOrg_OrganizeAction } from "./SchemaOrg_OrganizeAction.ts";
  * The act of organizing tasks/objects/events by associating resources to it.
  * @see https://schema.org/AllocateAction
  */
-export const SCHEMA_ORG_AllocateAction = "https://schema.org/AllocateAction" as const;
+export const SCHEMA_ORG_AllocateAction =
+  "https://schema.org/AllocateAction" as const;
 
 /**
  * The act of organizing tasks/objects/events by associating resources to it.

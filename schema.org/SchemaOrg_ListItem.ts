@@ -16,24 +16,24 @@ export const SCHEMA_ORG_ListItem = "https://schema.org/ListItem" as const;
  * @see https://schema.org/ListItem
  */
 export interface SchemaOrg_ListItem extends SchemaOrg_Intangible {
-    /**
-     * An entity represented by an entry in a list or data feed (e.g. an 'artist' in a list of 'artists').
-     * @see https://schema.org/item
-     */
-    item?: Array<SchemaOrg_Thing>;
-    /**
-     * A link to the ListItem that follows the current one.
-     * @see https://schema.org/nextItem
-     */
-    nextItem?: Array<SchemaOrg_ListItem>;
-    /**
-     * The position of an item in a series or sequence of items.
-     * @see https://schema.org/position
-     */
-    position?: Array<SchemaOrg_Integer | SchemaOrg_Text>;
-    /**
-     * A link to the ListItem that precedes the current one.
-     * @see https://schema.org/previousItem
-     */
-    previousItem?: Array<SchemaOrg_ListItem>;
+  /**
+   * An entity represented by an entry in a list or data feed (e.g. an 'artist' in a list of 'artists').
+   * @see https://schema.org/item
+   */
+  item?: Array<SchemaOrg_Thing>;
+  /**
+   * A link to the ListItem that follows the current one.
+   * @see https://schema.org/nextItem
+   */
+  nextItem?: Array<SchemaOrg_ListItem>;
+  /**
+   * The position of an item in a series or sequence of items.
+   * @see https://schema.org/position
+   */
+  position?: Array<SchemaOrg_Integer | SchemaOrg_Text>;
+  /**
+   * A link to the ListItem that precedes the current one.
+   * @see https://schema.org/previousItem
+   */
+  previousItem?: Array<SchemaOrg_ListItem>;
 }

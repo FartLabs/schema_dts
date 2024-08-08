@@ -15,9 +15,11 @@ export const SCHEMA_ORG_DataFeed = "https://schema.org/DataFeed" as const;
  * @see https://schema.org/DataFeed
  */
 export interface SchemaOrg_DataFeed extends SchemaOrg_Dataset {
-    /**
-     * An item within a data feed. Data feeds may have many elements.
-     * @see https://schema.org/dataFeedElement
-     */
-    dataFeedElement?: Array<SchemaOrg_Thing | SchemaOrg_DataFeedItem | SchemaOrg_Text>;
+  /**
+   * An item within a data feed. Data feeds may have many elements.
+   * @see https://schema.org/dataFeedElement
+   */
+  dataFeedElement?: Array<
+    SchemaOrg_Thing | SchemaOrg_DataFeedItem | SchemaOrg_Text
+  >;
 }

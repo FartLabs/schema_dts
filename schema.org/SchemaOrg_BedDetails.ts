@@ -15,14 +15,14 @@ export const SCHEMA_ORG_BedDetails = "https://schema.org/BedDetails" as const;
  * @see https://schema.org/BedDetails
  */
 export interface SchemaOrg_BedDetails extends SchemaOrg_Intangible {
-    /**
-     * The quantity of the given bed type available in the HotelRoom, Suite, House, or Apartment.
-     * @see https://schema.org/numberOfBeds
-     */
-    numberOfBeds?: Array<SchemaOrg_Number>;
-    /**
-     * The type of bed to which the BedDetail refers, i.e. the type of bed available in the quantity indicated by quantity.
-     * @see https://schema.org/typeOfBed
-     */
-    typeOfBed?: Array<SchemaOrg_BedType | SchemaOrg_Text>;
+  /**
+   * The quantity of the given bed type available in the HotelRoom, Suite, House, or Apartment.
+   * @see https://schema.org/numberOfBeds
+   */
+  numberOfBeds?: Array<SchemaOrg_Number>;
+  /**
+   * The type of bed to which the BedDetail refers, i.e. the type of bed available in the quantity indicated by quantity.
+   * @see https://schema.org/typeOfBed
+   */
+  typeOfBed?: Array<SchemaOrg_BedType | SchemaOrg_Text>;
 }

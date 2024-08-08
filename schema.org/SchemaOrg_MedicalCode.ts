@@ -13,15 +13,16 @@ export const SCHEMA_ORG_MedicalCode = "https://schema.org/MedicalCode" as const;
  * A code for a medical entity.
  * @see https://schema.org/MedicalCode
  */
-export interface SchemaOrg_MedicalCode extends SchemaOrg_CategoryCode, SchemaOrg_MedicalIntangible {
-    /**
-     * A short textual code that uniquely identifies the value.
-     * @see https://schema.org/codeValue
-     */
-    codeValue?: Array<SchemaOrg_Text>;
-    /**
-     * The coding system, e.g. 'ICD-10'.
-     * @see https://schema.org/codingSystem
-     */
-    codingSystem?: Array<SchemaOrg_Text>;
+export interface SchemaOrg_MedicalCode
+  extends SchemaOrg_CategoryCode, SchemaOrg_MedicalIntangible {
+  /**
+   * A short textual code that uniquely identifies the value.
+   * @see https://schema.org/codeValue
+   */
+  codeValue?: Array<SchemaOrg_Text>;
+  /**
+   * The coding system, e.g. 'ICD-10'.
+   * @see https://schema.org/codingSystem
+   */
+  codingSystem?: Array<SchemaOrg_Text>;
 }

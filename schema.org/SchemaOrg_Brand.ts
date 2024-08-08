@@ -17,24 +17,24 @@ export const SCHEMA_ORG_Brand = "https://schema.org/Brand" as const;
  * @see https://schema.org/Brand
  */
 export interface SchemaOrg_Brand extends SchemaOrg_Intangible {
-    /**
-     * The overall rating, based on a collection of reviews or ratings, of the item.
-     * @see https://schema.org/aggregateRating
-     */
-    aggregateRating?: Array<SchemaOrg_AggregateRating>;
-    /**
-     * An associated logo.
-     * @see https://schema.org/logo
-     */
-    logo?: Array<SchemaOrg_ImageObject | SchemaOrg_URL>;
-    /**
-     * A review of the item.
-     * @see https://schema.org/review
-     */
-    review?: Array<SchemaOrg_Review>;
-    /**
-     * A slogan or motto associated with the item.
-     * @see https://schema.org/slogan
-     */
-    slogan?: Array<SchemaOrg_Text>;
+  /**
+   * The overall rating, based on a collection of reviews or ratings, of the item.
+   * @see https://schema.org/aggregateRating
+   */
+  aggregateRating?: Array<SchemaOrg_AggregateRating>;
+  /**
+   * An associated logo.
+   * @see https://schema.org/logo
+   */
+  logo?: Array<SchemaOrg_ImageObject | SchemaOrg_URL>;
+  /**
+   * A review of the item.
+   * @see https://schema.org/review
+   */
+  review?: Array<SchemaOrg_Review>;
+  /**
+   * A slogan or motto associated with the item.
+   * @see https://schema.org/slogan
+   */
+  slogan?: Array<SchemaOrg_Text>;
 }

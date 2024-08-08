@@ -5,7 +5,8 @@ import type { SchemaOrg_MedicalSignOrSymptom } from "./SchemaOrg_MedicalSignOrSy
  * Any complaint sensed and expressed by the patient (therefore defined as subjective)  like stomachache, lower-back pain, or fatigue.
  * @see https://schema.org/MedicalSymptom
  */
-export const SCHEMA_ORG_MedicalSymptom = "https://schema.org/MedicalSymptom" as const;
+export const SCHEMA_ORG_MedicalSymptom =
+  "https://schema.org/MedicalSymptom" as const;
 
 /**
  * Any complaint sensed and expressed by the patient (therefore defined as subjective)  like stomachache, lower-back pain, or fatigue.

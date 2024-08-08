@@ -20,14 +20,14 @@ export const SCHEMA_ORG_GeoCircle = "https://schema.org/GeoCircle" as const;
  * @see https://schema.org/GeoCircle
  */
 export interface SchemaOrg_GeoCircle extends SchemaOrg_GeoShape {
-    /**
-     * Indicates the GeoCoordinates at the centre of a GeoShape, e.g. GeoCircle.
-     * @see https://schema.org/geoMidpoint
-     */
-    geoMidpoint?: Array<SchemaOrg_GeoCoordinates>;
-    /**
-     * Indicates the approximate radius of a GeoCircle (metres unless indicated otherwise via Distance notation).
-     * @see https://schema.org/geoRadius
-     */
-    geoRadius?: Array<SchemaOrg_Text | SchemaOrg_Number | SchemaOrg_Distance>;
+  /**
+   * Indicates the GeoCoordinates at the centre of a GeoShape, e.g. GeoCircle.
+   * @see https://schema.org/geoMidpoint
+   */
+  geoMidpoint?: Array<SchemaOrg_GeoCoordinates>;
+  /**
+   * Indicates the approximate radius of a GeoCircle (metres unless indicated otherwise via Distance notation).
+   * @see https://schema.org/geoRadius
+   */
+  geoRadius?: Array<SchemaOrg_Text | SchemaOrg_Number | SchemaOrg_Distance>;
 }

@@ -13,9 +13,9 @@ export const SCHEMA_ORG_WinAction = "https://schema.org/WinAction" as const;
  * @see https://schema.org/WinAction
  */
 export interface SchemaOrg_WinAction extends SchemaOrg_AchieveAction {
-    /**
-     * A sub property of participant. The loser of the action.
-     * @see https://schema.org/loser
-     */
-    loser?: Array<SchemaOrg_Person>;
+  /**
+   * A sub property of participant. The loser of the action.
+   * @see https://schema.org/loser
+   */
+  loser?: Array<SchemaOrg_Person>;
 }

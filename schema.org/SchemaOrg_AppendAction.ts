@@ -5,7 +5,8 @@ import type { SchemaOrg_InsertAction } from "./SchemaOrg_InsertAction.ts";
  * The act of inserting at the end if an ordered collection.
  * @see https://schema.org/AppendAction
  */
-export const SCHEMA_ORG_AppendAction = "https://schema.org/AppendAction" as const;
+export const SCHEMA_ORG_AppendAction =
+  "https://schema.org/AppendAction" as const;
 
 /**
  * The act of inserting at the end if an ordered collection.

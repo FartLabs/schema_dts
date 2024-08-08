@@ -10,7 +10,8 @@ import type { SchemaOrg_Rating } from "./SchemaOrg_Rating.ts";
  * endorsement rating is particularly useful in the absence of numeric scales as it helps consumers understand that the rating is broadly positive.
  * @see https://schema.org/EndorsementRating
  */
-export const SCHEMA_ORG_EndorsementRating = "https://schema.org/EndorsementRating" as const;
+export const SCHEMA_ORG_EndorsementRating =
+  "https://schema.org/EndorsementRating" as const;
 
 /**
  * An EndorsementRating is a rating that expresses some level of endorsement, for example inclusion in a "critic's pick" blog, a

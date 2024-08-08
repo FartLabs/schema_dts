@@ -14,56 +14,60 @@ import type { SchemaOrg_ReturnMethodEnumeration } from "./SchemaOrg_ReturnMethod
  * A seasonal override of a return policy, for example used for holidays.
  * @see https://schema.org/MerchantReturnPolicySeasonalOverride
  */
-export const SCHEMA_ORG_MerchantReturnPolicySeasonalOverride = "https://schema.org/MerchantReturnPolicySeasonalOverride" as const;
+export const SCHEMA_ORG_MerchantReturnPolicySeasonalOverride =
+  "https://schema.org/MerchantReturnPolicySeasonalOverride" as const;
 
 /**
  * A seasonal override of a return policy, for example used for holidays.
  * @see https://schema.org/MerchantReturnPolicySeasonalOverride
  */
-export interface SchemaOrg_MerchantReturnPolicySeasonalOverride extends SchemaOrg_Intangible {
-    /**
-     * The end date and time of the item (in [ISO 8601 date format](http://en.wikipedia.org/wiki/ISO_8601)).
-     * @see https://schema.org/endDate
-     */
-    endDate?: Array<SchemaOrg_DateTime | SchemaOrg_Date>;
-    /**
-     * Specifies either a fixed return date or the number of days (from the delivery date) that a product can be returned. Used when the [[returnPolicyCategory]] property is specified as [[MerchantReturnFiniteReturnWindow]].
-     * @see https://schema.org/merchantReturnDays
-     */
-    merchantReturnDays?: Array<SchemaOrg_DateTime | SchemaOrg_Date | SchemaOrg_Integer>;
-    /**
-     * A refund type, from an enumerated list.
-     * @see https://schema.org/refundType
-     */
-    refundType?: Array<SchemaOrg_RefundTypeEnumeration>;
-    /**
-     * Use [[MonetaryAmount]] to specify a fixed restocking fee for product returns, or use [[Number]] to specify a percentage of the product price paid by the customer.
-     * @see https://schema.org/restockingFee
-     */
-    restockingFee?: Array<SchemaOrg_MonetaryAmount | SchemaOrg_Number>;
-    /**
-     * The type of return fees for purchased products (for any return reason).
-     * @see https://schema.org/returnFees
-     */
-    returnFees?: Array<SchemaOrg_ReturnFeesEnumeration>;
-    /**
-     * The type of return method offered, specified from an enumeration.
-     * @see https://schema.org/returnMethod
-     */
-    returnMethod?: Array<SchemaOrg_ReturnMethodEnumeration>;
-    /**
-     * Specifies an applicable return policy (from an enumeration).
-     * @see https://schema.org/returnPolicyCategory
-     */
-    returnPolicyCategory?: Array<SchemaOrg_MerchantReturnEnumeration>;
-    /**
-     * Amount of shipping costs for product returns (for any reason). Applicable when property [[returnFees]] equals [[ReturnShippingFees]].
-     * @see https://schema.org/returnShippingFeesAmount
-     */
-    returnShippingFeesAmount?: Array<SchemaOrg_MonetaryAmount>;
-    /**
-     * The start date and time of the item (in [ISO 8601 date format](http://en.wikipedia.org/wiki/ISO_8601)).
-     * @see https://schema.org/startDate
-     */
-    startDate?: Array<SchemaOrg_Date | SchemaOrg_DateTime>;
+export interface SchemaOrg_MerchantReturnPolicySeasonalOverride
+  extends SchemaOrg_Intangible {
+  /**
+   * The end date and time of the item (in [ISO 8601 date format](http://en.wikipedia.org/wiki/ISO_8601)).
+   * @see https://schema.org/endDate
+   */
+  endDate?: Array<SchemaOrg_DateTime | SchemaOrg_Date>;
+  /**
+   * Specifies either a fixed return date or the number of days (from the delivery date) that a product can be returned. Used when the [[returnPolicyCategory]] property is specified as [[MerchantReturnFiniteReturnWindow]].
+   * @see https://schema.org/merchantReturnDays
+   */
+  merchantReturnDays?: Array<
+    SchemaOrg_DateTime | SchemaOrg_Date | SchemaOrg_Integer
+  >;
+  /**
+   * A refund type, from an enumerated list.
+   * @see https://schema.org/refundType
+   */
+  refundType?: Array<SchemaOrg_RefundTypeEnumeration>;
+  /**
+   * Use [[MonetaryAmount]] to specify a fixed restocking fee for product returns, or use [[Number]] to specify a percentage of the product price paid by the customer.
+   * @see https://schema.org/restockingFee
+   */
+  restockingFee?: Array<SchemaOrg_MonetaryAmount | SchemaOrg_Number>;
+  /**
+   * The type of return fees for purchased products (for any return reason).
+   * @see https://schema.org/returnFees
+   */
+  returnFees?: Array<SchemaOrg_ReturnFeesEnumeration>;
+  /**
+   * The type of return method offered, specified from an enumeration.
+   * @see https://schema.org/returnMethod
+   */
+  returnMethod?: Array<SchemaOrg_ReturnMethodEnumeration>;
+  /**
+   * Specifies an applicable return policy (from an enumeration).
+   * @see https://schema.org/returnPolicyCategory
+   */
+  returnPolicyCategory?: Array<SchemaOrg_MerchantReturnEnumeration>;
+  /**
+   * Amount of shipping costs for product returns (for any reason). Applicable when property [[returnFees]] equals [[ReturnShippingFees]].
+   * @see https://schema.org/returnShippingFeesAmount
+   */
+  returnShippingFeesAmount?: Array<SchemaOrg_MonetaryAmount>;
+  /**
+   * The start date and time of the item (in [ISO 8601 date format](http://en.wikipedia.org/wiki/ISO_8601)).
+   * @see https://schema.org/startDate
+   */
+  startDate?: Array<SchemaOrg_Date | SchemaOrg_DateTime>;
 }

@@ -17,14 +17,19 @@ export const SCHEMA_ORG_SendAction = "https://schema.org/SendAction" as const;
  * @see https://schema.org/SendAction
  */
 export interface SchemaOrg_SendAction extends SchemaOrg_TransferAction {
-    /**
-     * A sub property of instrument. The method of delivery.
-     * @see https://schema.org/deliveryMethod
-     */
-    deliveryMethod?: Array<SchemaOrg_DeliveryMethod>;
-    /**
-     * A sub property of participant. The participant who is at the receiving end of the action.
-     * @see https://schema.org/recipient
-     */
-    recipient?: Array<SchemaOrg_Audience | SchemaOrg_Organization | SchemaOrg_Person | SchemaOrg_ContactPoint>;
+  /**
+   * A sub property of instrument. The method of delivery.
+   * @see https://schema.org/deliveryMethod
+   */
+  deliveryMethod?: Array<SchemaOrg_DeliveryMethod>;
+  /**
+   * A sub property of participant. The participant who is at the receiving end of the action.
+   * @see https://schema.org/recipient
+   */
+  recipient?: Array<
+    | SchemaOrg_Audience
+    | SchemaOrg_Organization
+    | SchemaOrg_Person
+    | SchemaOrg_ContactPoint
+  >;
 }

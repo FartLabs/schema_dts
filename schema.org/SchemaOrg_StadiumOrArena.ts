@@ -6,10 +6,13 @@ import type { SchemaOrg_SportsActivityLocation } from "./SchemaOrg_SportsActivit
  * A stadium.
  * @see https://schema.org/StadiumOrArena
  */
-export const SCHEMA_ORG_StadiumOrArena = "https://schema.org/StadiumOrArena" as const;
+export const SCHEMA_ORG_StadiumOrArena =
+  "https://schema.org/StadiumOrArena" as const;
 
 /**
  * A stadium.
  * @see https://schema.org/StadiumOrArena
  */
-export type SchemaOrg_StadiumOrArena = SchemaOrg_CivicStructure & SchemaOrg_SportsActivityLocation;
+export type SchemaOrg_StadiumOrArena =
+  & SchemaOrg_CivicStructure
+  & SchemaOrg_SportsActivityLocation;

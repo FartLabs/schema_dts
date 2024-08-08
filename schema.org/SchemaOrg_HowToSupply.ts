@@ -14,9 +14,9 @@ export const SCHEMA_ORG_HowToSupply = "https://schema.org/HowToSupply" as const;
  * @see https://schema.org/HowToSupply
  */
 export interface SchemaOrg_HowToSupply extends SchemaOrg_HowToItem {
-    /**
-     * The estimated cost of the supply or supplies consumed when performing instructions.
-     * @see https://schema.org/estimatedCost
-     */
-    estimatedCost?: Array<SchemaOrg_Text | SchemaOrg_MonetaryAmount>;
+  /**
+   * The estimated cost of the supply or supplies consumed when performing instructions.
+   * @see https://schema.org/estimatedCost
+   */
+  estimatedCost?: Array<SchemaOrg_Text | SchemaOrg_MonetaryAmount>;
 }

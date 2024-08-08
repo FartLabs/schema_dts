@@ -5,7 +5,8 @@ import type { SchemaOrg_SportsActivityLocation } from "./SchemaOrg_SportsActivit
  * A tennis complex.
  * @see https://schema.org/TennisComplex
  */
-export const SCHEMA_ORG_TennisComplex = "https://schema.org/TennisComplex" as const;
+export const SCHEMA_ORG_TennisComplex =
+  "https://schema.org/TennisComplex" as const;
 
 /**
  * A tennis complex.

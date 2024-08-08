@@ -14,9 +14,9 @@ export const SCHEMA_ORG_WebAPI = "https://schema.org/WebAPI" as const;
  * @see https://schema.org/WebAPI
  */
 export interface SchemaOrg_WebAPI extends SchemaOrg_Service {
-    /**
-     * Further documentation describing the Web API in more detail.
-     * @see https://schema.org/documentation
-     */
-    documentation?: Array<SchemaOrg_URL | SchemaOrg_CreativeWork>;
+  /**
+   * Further documentation describing the Web API in more detail.
+   * @see https://schema.org/documentation
+   */
+  documentation?: Array<SchemaOrg_URL | SchemaOrg_CreativeWork>;
 }

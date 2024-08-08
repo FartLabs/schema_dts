@@ -13,9 +13,9 @@ export const SCHEMA_ORG_TVClip = "https://schema.org/TVClip" as const;
  * @see https://schema.org/TVClip
  */
 export interface SchemaOrg_TVClip extends SchemaOrg_Clip {
-    /**
-     * The TV series to which this episode or season belongs.
-     * @see https://schema.org/partOfTVSeries
-     */
-    partOfTVSeries?: Array<SchemaOrg_TVSeries>;
+  /**
+   * The TV series to which this episode or season belongs.
+   * @see https://schema.org/partOfTVSeries
+   */
+  partOfTVSeries?: Array<SchemaOrg_TVSeries>;
 }

@@ -7,16 +7,18 @@ import type { SchemaOrg_Number } from "./SchemaOrg_Number.ts";
  * A movie theater.
  * @see https://schema.org/MovieTheater
  */
-export const SCHEMA_ORG_MovieTheater = "https://schema.org/MovieTheater" as const;
+export const SCHEMA_ORG_MovieTheater =
+  "https://schema.org/MovieTheater" as const;
 
 /**
  * A movie theater.
  * @see https://schema.org/MovieTheater
  */
-export interface SchemaOrg_MovieTheater extends SchemaOrg_EntertainmentBusiness, SchemaOrg_CivicStructure {
-    /**
-     * The number of screens in the movie theater.
-     * @see https://schema.org/screenCount
-     */
-    screenCount?: Array<SchemaOrg_Number>;
+export interface SchemaOrg_MovieTheater
+  extends SchemaOrg_EntertainmentBusiness, SchemaOrg_CivicStructure {
+  /**
+   * The number of screens in the movie theater.
+   * @see https://schema.org/screenCount
+   */
+  screenCount?: Array<SchemaOrg_Number>;
 }

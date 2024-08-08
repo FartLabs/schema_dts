@@ -13,14 +13,14 @@ export const SCHEMA_ORG_BoatTrip = "https://schema.org/BoatTrip" as const;
  * @see https://schema.org/BoatTrip
  */
 export interface SchemaOrg_BoatTrip extends SchemaOrg_Trip {
-    /**
-     * The terminal or port from which the boat arrives.
-     * @see https://schema.org/arrivalBoatTerminal
-     */
-    arrivalBoatTerminal?: Array<SchemaOrg_BoatTerminal>;
-    /**
-     * The terminal or port from which the boat departs.
-     * @see https://schema.org/departureBoatTerminal
-     */
-    departureBoatTerminal?: Array<SchemaOrg_BoatTerminal>;
+  /**
+   * The terminal or port from which the boat arrives.
+   * @see https://schema.org/arrivalBoatTerminal
+   */
+  arrivalBoatTerminal?: Array<SchemaOrg_BoatTerminal>;
+  /**
+   * The terminal or port from which the boat departs.
+   * @see https://schema.org/departureBoatTerminal
+   */
+  departureBoatTerminal?: Array<SchemaOrg_BoatTerminal>;
 }

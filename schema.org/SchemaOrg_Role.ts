@@ -16,24 +16,24 @@ export const SCHEMA_ORG_Role = "https://schema.org/Role" as const;
  * @see https://schema.org/Role
  */
 export interface SchemaOrg_Role extends SchemaOrg_Intangible {
-    /**
-     * The end date and time of the item (in [ISO 8601 date format](http://en.wikipedia.org/wiki/ISO_8601)).
-     * @see https://schema.org/endDate
-     */
-    endDate?: Array<SchemaOrg_DateTime | SchemaOrg_Date>;
-    /**
-     * A position played, performed or filled by a person or organization, as part of an organization. For example, an athlete in a SportsTeam might play in the position named 'Quarterback'.
-     * @see https://schema.org/namedPosition
-     */
-    namedPosition?: Array<SchemaOrg_URL | SchemaOrg_Text>;
-    /**
-     * A role played, performed or filled by a person or organization. For example, the team of creators for a comic book might fill the roles named 'inker', 'penciller', and 'letterer'; or an athlete in a SportsTeam might play in the position named 'Quarterback'.
-     * @see https://schema.org/roleName
-     */
-    roleName?: Array<SchemaOrg_URL | SchemaOrg_Text>;
-    /**
-     * The start date and time of the item (in [ISO 8601 date format](http://en.wikipedia.org/wiki/ISO_8601)).
-     * @see https://schema.org/startDate
-     */
-    startDate?: Array<SchemaOrg_Date | SchemaOrg_DateTime>;
+  /**
+   * The end date and time of the item (in [ISO 8601 date format](http://en.wikipedia.org/wiki/ISO_8601)).
+   * @see https://schema.org/endDate
+   */
+  endDate?: Array<SchemaOrg_DateTime | SchemaOrg_Date>;
+  /**
+   * A position played, performed or filled by a person or organization, as part of an organization. For example, an athlete in a SportsTeam might play in the position named 'Quarterback'.
+   * @see https://schema.org/namedPosition
+   */
+  namedPosition?: Array<SchemaOrg_URL | SchemaOrg_Text>;
+  /**
+   * A role played, performed or filled by a person or organization. For example, the team of creators for a comic book might fill the roles named 'inker', 'penciller', and 'letterer'; or an athlete in a SportsTeam might play in the position named 'Quarterback'.
+   * @see https://schema.org/roleName
+   */
+  roleName?: Array<SchemaOrg_URL | SchemaOrg_Text>;
+  /**
+   * The start date and time of the item (in [ISO 8601 date format](http://en.wikipedia.org/wiki/ISO_8601)).
+   * @see https://schema.org/startDate
+   */
+  startDate?: Array<SchemaOrg_Date | SchemaOrg_DateTime>;
 }

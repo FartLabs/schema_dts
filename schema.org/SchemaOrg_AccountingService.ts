@@ -5,7 +5,8 @@ import type { SchemaOrg_FinancialService } from "./SchemaOrg_FinancialService.ts
  * Accountancy business.\n\nAs a [[LocalBusiness]] it can be described as a [[provider]] of one or more [[Service]]\(s).
  * @see https://schema.org/AccountingService
  */
-export const SCHEMA_ORG_AccountingService = "https://schema.org/AccountingService" as const;
+export const SCHEMA_ORG_AccountingService =
+  "https://schema.org/AccountingService" as const;
 
 /**
  * Accountancy business.\n\nAs a [[LocalBusiness]] it can be described as a [[provider]] of one or more [[Service]]\(s).

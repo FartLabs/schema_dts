@@ -5,7 +5,8 @@ import type { SchemaOrg_LocalBusiness } from "./SchemaOrg_LocalBusiness.ts";
  * A travel agency.
  * @see https://schema.org/TravelAgency
  */
-export const SCHEMA_ORG_TravelAgency = "https://schema.org/TravelAgency" as const;
+export const SCHEMA_ORG_TravelAgency =
+  "https://schema.org/TravelAgency" as const;
 
 /**
  * A travel agency.

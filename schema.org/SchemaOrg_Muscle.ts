@@ -16,29 +16,29 @@ export const SCHEMA_ORG_Muscle = "https://schema.org/Muscle" as const;
  * @see https://schema.org/Muscle
  */
 export interface SchemaOrg_Muscle extends SchemaOrg_AnatomicalStructure {
-    /**
-     * The muscle whose action counteracts the specified muscle.
-     * @see https://schema.org/antagonist
-     */
-    antagonist?: Array<SchemaOrg_Muscle>;
-    /**
-     * The blood vessel that carries blood from the heart to the muscle.
-     * @see https://schema.org/bloodSupply
-     */
-    bloodSupply?: Array<SchemaOrg_Vessel>;
-    /**
-     * The place of attachment of a muscle, or what the muscle moves.
-     * @see https://schema.org/insertion
-     */
-    insertion?: Array<SchemaOrg_AnatomicalStructure>;
-    /**
-     * The movement the muscle generates.
-     * @see https://schema.org/muscleAction
-     */
-    muscleAction?: Array<SchemaOrg_Text>;
-    /**
-     * The underlying innervation associated with the muscle.
-     * @see https://schema.org/nerve
-     */
-    nerve?: Array<SchemaOrg_Nerve>;
+  /**
+   * The muscle whose action counteracts the specified muscle.
+   * @see https://schema.org/antagonist
+   */
+  antagonist?: Array<SchemaOrg_Muscle>;
+  /**
+   * The blood vessel that carries blood from the heart to the muscle.
+   * @see https://schema.org/bloodSupply
+   */
+  bloodSupply?: Array<SchemaOrg_Vessel>;
+  /**
+   * The place of attachment of a muscle, or what the muscle moves.
+   * @see https://schema.org/insertion
+   */
+  insertion?: Array<SchemaOrg_AnatomicalStructure>;
+  /**
+   * The movement the muscle generates.
+   * @see https://schema.org/muscleAction
+   */
+  muscleAction?: Array<SchemaOrg_Text>;
+  /**
+   * The underlying innervation associated with the muscle.
+   * @see https://schema.org/nerve
+   */
+  nerve?: Array<SchemaOrg_Nerve>;
 }

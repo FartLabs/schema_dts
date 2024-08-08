@@ -14,14 +14,14 @@ export const SCHEMA_ORG_Airline = "https://schema.org/Airline" as const;
  * @see https://schema.org/Airline
  */
 export interface SchemaOrg_Airline extends SchemaOrg_Organization {
-    /**
-     * The type of boarding policy used by the airline (e.g. zone-based or group-based).
-     * @see https://schema.org/boardingPolicy
-     */
-    boardingPolicy?: Array<SchemaOrg_BoardingPolicyType>;
-    /**
-     * IATA identifier for an airline or airport.
-     * @see https://schema.org/iataCode
-     */
-    iataCode?: Array<SchemaOrg_Text>;
+  /**
+   * The type of boarding policy used by the airline (e.g. zone-based or group-based).
+   * @see https://schema.org/boardingPolicy
+   */
+  boardingPolicy?: Array<SchemaOrg_BoardingPolicyType>;
+  /**
+   * IATA identifier for an airline or airport.
+   * @see https://schema.org/iataCode
+   */
+  iataCode?: Array<SchemaOrg_Text>;
 }

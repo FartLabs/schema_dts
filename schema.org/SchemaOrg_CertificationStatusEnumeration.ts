@@ -5,7 +5,8 @@ import type { SchemaOrg_Enumeration } from "./SchemaOrg_Enumeration.ts";
  * Enumerates the different statuses of a Certification (Active and Inactive).
  * @see https://schema.org/CertificationStatusEnumeration
  */
-export const SCHEMA_ORG_CertificationStatusEnumeration = "https://schema.org/CertificationStatusEnumeration" as const;
+export const SCHEMA_ORG_CertificationStatusEnumeration =
+  "https://schema.org/CertificationStatusEnumeration" as const;
 
 /**
  * Enumerates the different statuses of a Certification (Active and Inactive).

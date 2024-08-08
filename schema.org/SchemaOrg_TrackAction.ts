@@ -13,9 +13,9 @@ export const SCHEMA_ORG_TrackAction = "https://schema.org/TrackAction" as const;
  * @see https://schema.org/TrackAction
  */
 export interface SchemaOrg_TrackAction extends SchemaOrg_FindAction {
-    /**
-     * A sub property of instrument. The method of delivery.
-     * @see https://schema.org/deliveryMethod
-     */
-    deliveryMethod?: Array<SchemaOrg_DeliveryMethod>;
+  /**
+   * A sub property of instrument. The method of delivery.
+   * @see https://schema.org/deliveryMethod
+   */
+  deliveryMethod?: Array<SchemaOrg_DeliveryMethod>;
 }

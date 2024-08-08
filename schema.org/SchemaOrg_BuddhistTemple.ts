@@ -5,7 +5,8 @@ import type { SchemaOrg_PlaceOfWorship } from "./SchemaOrg_PlaceOfWorship.ts";
  * A Buddhist temple.
  * @see https://schema.org/BuddhistTemple
  */
-export const SCHEMA_ORG_BuddhistTemple = "https://schema.org/BuddhistTemple" as const;
+export const SCHEMA_ORG_BuddhistTemple =
+  "https://schema.org/BuddhistTemple" as const;
 
 /**
  * A Buddhist temple.

@@ -5,7 +5,8 @@ import type { SchemaOrg_InvestmentOrDeposit } from "./SchemaOrg_InvestmentOrDepo
  * A company or fund that gathers capital from a number of investors to create a pool of money that is then re-invested into stocks, bonds and other assets.
  * @see https://schema.org/InvestmentFund
  */
-export const SCHEMA_ORG_InvestmentFund = "https://schema.org/InvestmentFund" as const;
+export const SCHEMA_ORG_InvestmentFund =
+  "https://schema.org/InvestmentFund" as const;
 
 /**
  * A company or fund that gathers capital from a number of investors to create a pool of money that is then re-invested into stocks, bonds and other assets.

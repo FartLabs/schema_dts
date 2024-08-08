@@ -13,9 +13,9 @@ export const SCHEMA_ORG_ImagingTest = "https://schema.org/ImagingTest" as const;
  * @see https://schema.org/ImagingTest
  */
 export interface SchemaOrg_ImagingTest extends SchemaOrg_MedicalTest {
-    /**
-     * Imaging technique used.
-     * @see https://schema.org/imagingTechnique
-     */
-    imagingTechnique?: Array<SchemaOrg_MedicalImagingTechnique>;
+  /**
+   * Imaging technique used.
+   * @see https://schema.org/imagingTechnique
+   */
+  imagingTechnique?: Array<SchemaOrg_MedicalImagingTechnique>;
 }

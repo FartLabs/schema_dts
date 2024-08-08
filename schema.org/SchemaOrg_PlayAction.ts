@@ -14,14 +14,14 @@ export const SCHEMA_ORG_PlayAction = "https://schema.org/PlayAction" as const;
  * @see https://schema.org/PlayAction
  */
 export interface SchemaOrg_PlayAction extends SchemaOrg_Action {
-    /**
-     * An intended audience, i.e. a group for whom something was created.
-     * @see https://schema.org/audience
-     */
-    audience?: Array<SchemaOrg_Audience>;
-    /**
-     * Upcoming or past event associated with this place, organization, or action.
-     * @see https://schema.org/event
-     */
-    event?: Array<SchemaOrg_Event>;
+  /**
+   * An intended audience, i.e. a group for whom something was created.
+   * @see https://schema.org/audience
+   */
+  audience?: Array<SchemaOrg_Audience>;
+  /**
+   * Upcoming or past event associated with this place, organization, or action.
+   * @see https://schema.org/event
+   */
+  event?: Array<SchemaOrg_Event>;
 }

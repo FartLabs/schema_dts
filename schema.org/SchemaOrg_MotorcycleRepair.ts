@@ -5,7 +5,8 @@ import type { SchemaOrg_AutomotiveBusiness } from "./SchemaOrg_AutomotiveBusines
  * A motorcycle repair shop.
  * @see https://schema.org/MotorcycleRepair
  */
-export const SCHEMA_ORG_MotorcycleRepair = "https://schema.org/MotorcycleRepair" as const;
+export const SCHEMA_ORG_MotorcycleRepair =
+  "https://schema.org/MotorcycleRepair" as const;
 
 /**
  * A motorcycle repair shop.

@@ -16,24 +16,24 @@ export const SCHEMA_ORG_SportsEvent = "https://schema.org/SportsEvent" as const;
  * @see https://schema.org/SportsEvent
  */
 export interface SchemaOrg_SportsEvent extends SchemaOrg_Event {
-    /**
-     * The away team in a sports event.
-     * @see https://schema.org/awayTeam
-     */
-    awayTeam?: Array<SchemaOrg_SportsTeam | SchemaOrg_Person>;
-    /**
-     * A competitor in a sports event.
-     * @see https://schema.org/competitor
-     */
-    competitor?: Array<SchemaOrg_SportsTeam | SchemaOrg_Person>;
-    /**
-     * The home team in a sports event.
-     * @see https://schema.org/homeTeam
-     */
-    homeTeam?: Array<SchemaOrg_SportsTeam | SchemaOrg_Person>;
-    /**
-     * A type of sport (e.g. Baseball).
-     * @see https://schema.org/sport
-     */
-    sport?: Array<SchemaOrg_Text | SchemaOrg_URL>;
+  /**
+   * The away team in a sports event.
+   * @see https://schema.org/awayTeam
+   */
+  awayTeam?: Array<SchemaOrg_SportsTeam | SchemaOrg_Person>;
+  /**
+   * A competitor in a sports event.
+   * @see https://schema.org/competitor
+   */
+  competitor?: Array<SchemaOrg_SportsTeam | SchemaOrg_Person>;
+  /**
+   * The home team in a sports event.
+   * @see https://schema.org/homeTeam
+   */
+  homeTeam?: Array<SchemaOrg_SportsTeam | SchemaOrg_Person>;
+  /**
+   * A type of sport (e.g. Baseball).
+   * @see https://schema.org/sport
+   */
+  sport?: Array<SchemaOrg_Text | SchemaOrg_URL>;
 }

@@ -15,9 +15,9 @@ export const SCHEMA_ORG_3DModel = "https://schema.org/3DModel" as const;
  * @see https://schema.org/3DModel
  */
 export interface SchemaOrg_3DModel extends SchemaOrg_MediaObject {
-    /**
-     * Whether the 3DModel allows resizing. For example, room layout applications often do not allow 3DModel elements to be resized to reflect reality.
-     * @see https://schema.org/isResizable
-     */
-    isResizable?: Array<SchemaOrg_Boolean>;
+  /**
+   * Whether the 3DModel allows resizing. For example, room layout applications often do not allow 3DModel elements to be resized to reflect reality.
+   * @see https://schema.org/isResizable
+   */
+  isResizable?: Array<SchemaOrg_Boolean>;
 }

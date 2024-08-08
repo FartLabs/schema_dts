@@ -18,34 +18,34 @@ export const SCHEMA_ORG_MusicGroup = "https://schema.org/MusicGroup" as const;
  * @see https://schema.org/MusicGroup
  */
 export interface SchemaOrg_MusicGroup extends SchemaOrg_PerformingGroup {
-    /**
-     * A music album.
-     * @see https://schema.org/album
-     */
-    album?: Array<SchemaOrg_MusicAlbum>;
-    /**
-     * A collection of music albums.
-     * @see https://schema.org/albums
-     */
-    albums?: Array<SchemaOrg_MusicAlbum>;
-    /**
-     * Genre of the creative work, broadcast channel or group.
-     * @see https://schema.org/genre
-     */
-    genre?: Array<SchemaOrg_URL | SchemaOrg_Text>;
-    /**
-     * A member of a music group&#x2014;for example, John, Paul, George, or Ringo.
-     * @see https://schema.org/musicGroupMember
-     */
-    musicGroupMember?: Array<SchemaOrg_Person>;
-    /**
-     * A music recording (track)&#x2014;usually a single song. If an ItemList is given, the list should contain items of type MusicRecording.
-     * @see https://schema.org/track
-     */
-    track?: Array<SchemaOrg_MusicRecording | SchemaOrg_ItemList>;
-    /**
-     * A music recording (track)&#x2014;usually a single song.
-     * @see https://schema.org/tracks
-     */
-    tracks?: Array<SchemaOrg_MusicRecording>;
+  /**
+   * A music album.
+   * @see https://schema.org/album
+   */
+  album?: Array<SchemaOrg_MusicAlbum>;
+  /**
+   * A collection of music albums.
+   * @see https://schema.org/albums
+   */
+  albums?: Array<SchemaOrg_MusicAlbum>;
+  /**
+   * Genre of the creative work, broadcast channel or group.
+   * @see https://schema.org/genre
+   */
+  genre?: Array<SchemaOrg_URL | SchemaOrg_Text>;
+  /**
+   * A member of a music group&#x2014;for example, John, Paul, George, or Ringo.
+   * @see https://schema.org/musicGroupMember
+   */
+  musicGroupMember?: Array<SchemaOrg_Person>;
+  /**
+   * A music recording (track)&#x2014;usually a single song. If an ItemList is given, the list should contain items of type MusicRecording.
+   * @see https://schema.org/track
+   */
+  track?: Array<SchemaOrg_MusicRecording | SchemaOrg_ItemList>;
+  /**
+   * A music recording (track)&#x2014;usually a single song.
+   * @see https://schema.org/tracks
+   */
+  tracks?: Array<SchemaOrg_MusicRecording>;
 }

@@ -12,4 +12,6 @@ export const SCHEMA_ORG_FireStation = "https://schema.org/FireStation" as const;
  * A fire station. With firemen.
  * @see https://schema.org/FireStation
  */
-export type SchemaOrg_FireStation = SchemaOrg_CivicStructure & SchemaOrg_EmergencyService;
+export type SchemaOrg_FireStation =
+  & SchemaOrg_CivicStructure
+  & SchemaOrg_EmergencyService;

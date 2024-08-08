@@ -5,7 +5,8 @@ import type { SchemaOrg_MedicalEnumeration } from "./SchemaOrg_MedicalEnumeratio
  * Enumerated categories of medical drug costs.
  * @see https://schema.org/DrugCostCategory
  */
-export const SCHEMA_ORG_DrugCostCategory = "https://schema.org/DrugCostCategory" as const;
+export const SCHEMA_ORG_DrugCostCategory =
+  "https://schema.org/DrugCostCategory" as const;
 
 /**
  * Enumerated categories of medical drug costs.

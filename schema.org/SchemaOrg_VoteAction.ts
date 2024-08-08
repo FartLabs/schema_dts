@@ -13,9 +13,9 @@ export const SCHEMA_ORG_VoteAction = "https://schema.org/VoteAction" as const;
  * @see https://schema.org/VoteAction
  */
 export interface SchemaOrg_VoteAction extends SchemaOrg_ChooseAction {
-    /**
-     * A sub property of object. The candidate subject of this action.
-     * @see https://schema.org/candidate
-     */
-    candidate?: Array<SchemaOrg_Person>;
+  /**
+   * A sub property of object. The candidate subject of this action.
+   * @see https://schema.org/candidate
+   */
+  candidate?: Array<SchemaOrg_Person>;
 }

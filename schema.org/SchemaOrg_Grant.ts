@@ -29,19 +29,27 @@ export const SCHEMA_ORG_Grant = "https://schema.org/Grant" as const;
  * @see https://schema.org/Grant
  */
 export interface SchemaOrg_Grant extends SchemaOrg_Intangible {
-    /**
-     * Indicates something directly or indirectly funded or sponsored through a [[Grant]]. See also [[ownershipFundingInfo]].
-     * @see https://schema.org/fundedItem
-     */
-    fundedItem?: Array<SchemaOrg_Organization | SchemaOrg_Person | SchemaOrg_BioChemEntity | SchemaOrg_Product | SchemaOrg_Event | SchemaOrg_MedicalEntity | SchemaOrg_CreativeWork>;
-    /**
-     * A person or organization that supports (sponsors) something through some kind of financial contribution.
-     * @see https://schema.org/funder
-     */
-    funder?: Array<SchemaOrg_Organization | SchemaOrg_Person>;
-    /**
-     * A person or organization that supports a thing through a pledge, promise, or financial contribution. E.g. a sponsor of a Medical Study or a corporate sponsor of an event.
-     * @see https://schema.org/sponsor
-     */
-    sponsor?: Array<SchemaOrg_Organization | SchemaOrg_Person>;
+  /**
+   * Indicates something directly or indirectly funded or sponsored through a [[Grant]]. See also [[ownershipFundingInfo]].
+   * @see https://schema.org/fundedItem
+   */
+  fundedItem?: Array<
+    | SchemaOrg_Organization
+    | SchemaOrg_Person
+    | SchemaOrg_BioChemEntity
+    | SchemaOrg_Product
+    | SchemaOrg_Event
+    | SchemaOrg_MedicalEntity
+    | SchemaOrg_CreativeWork
+  >;
+  /**
+   * A person or organization that supports (sponsors) something through some kind of financial contribution.
+   * @see https://schema.org/funder
+   */
+  funder?: Array<SchemaOrg_Organization | SchemaOrg_Person>;
+  /**
+   * A person or organization that supports a thing through a pledge, promise, or financial contribution. E.g. a sponsor of a Medical Study or a corporate sponsor of an event.
+   * @see https://schema.org/sponsor
+   */
+  sponsor?: Array<SchemaOrg_Organization | SchemaOrg_Person>;
 }

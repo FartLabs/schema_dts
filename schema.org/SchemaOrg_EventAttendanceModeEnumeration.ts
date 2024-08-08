@@ -5,7 +5,8 @@ import type { SchemaOrg_Enumeration } from "./SchemaOrg_Enumeration.ts";
  * An EventAttendanceModeEnumeration value is one of potentially several modes of organising an event, relating to whether it is online or offline.
  * @see https://schema.org/EventAttendanceModeEnumeration
  */
-export const SCHEMA_ORG_EventAttendanceModeEnumeration = "https://schema.org/EventAttendanceModeEnumeration" as const;
+export const SCHEMA_ORG_EventAttendanceModeEnumeration =
+  "https://schema.org/EventAttendanceModeEnumeration" as const;
 
 /**
  * An EventAttendanceModeEnumeration value is one of potentially several modes of organising an event, relating to whether it is online or offline.

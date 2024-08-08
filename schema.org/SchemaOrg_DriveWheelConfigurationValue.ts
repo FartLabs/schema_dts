@@ -5,7 +5,8 @@ import type { SchemaOrg_QualitativeValue } from "./SchemaOrg_QualitativeValue.ts
  * A value indicating which roadwheels will receive torque.
  * @see https://schema.org/DriveWheelConfigurationValue
  */
-export const SCHEMA_ORG_DriveWheelConfigurationValue = "https://schema.org/DriveWheelConfigurationValue" as const;
+export const SCHEMA_ORG_DriveWheelConfigurationValue =
+  "https://schema.org/DriveWheelConfigurationValue" as const;
 
 /**
  * A value indicating which roadwheels will receive torque.

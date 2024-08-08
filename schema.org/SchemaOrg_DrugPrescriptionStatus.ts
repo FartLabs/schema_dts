@@ -5,7 +5,8 @@ import type { SchemaOrg_MedicalEnumeration } from "./SchemaOrg_MedicalEnumeratio
  * Indicates whether this drug is available by prescription or over-the-counter.
  * @see https://schema.org/DrugPrescriptionStatus
  */
-export const SCHEMA_ORG_DrugPrescriptionStatus = "https://schema.org/DrugPrescriptionStatus" as const;
+export const SCHEMA_ORG_DrugPrescriptionStatus =
+  "https://schema.org/DrugPrescriptionStatus" as const;
 
 /**
  * Indicates whether this drug is available by prescription or over-the-counter.

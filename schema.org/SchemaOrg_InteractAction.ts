@@ -5,7 +5,8 @@ import type { SchemaOrg_Action } from "./SchemaOrg_Action.ts";
  * The act of interacting with another person or organization.
  * @see https://schema.org/InteractAction
  */
-export const SCHEMA_ORG_InteractAction = "https://schema.org/InteractAction" as const;
+export const SCHEMA_ORG_InteractAction =
+  "https://schema.org/InteractAction" as const;
 
 /**
  * The act of interacting with another person or organization.

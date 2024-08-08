@@ -13,9 +13,9 @@ export const SCHEMA_ORG_JoinAction = "https://schema.org/JoinAction" as const;
  * @see https://schema.org/JoinAction
  */
 export interface SchemaOrg_JoinAction extends SchemaOrg_InteractAction {
-    /**
-     * Upcoming or past event associated with this place, organization, or action.
-     * @see https://schema.org/event
-     */
-    event?: Array<SchemaOrg_Event>;
+  /**
+   * Upcoming or past event associated with this place, organization, or action.
+   * @see https://schema.org/event
+   */
+  event?: Array<SchemaOrg_Event>;
 }

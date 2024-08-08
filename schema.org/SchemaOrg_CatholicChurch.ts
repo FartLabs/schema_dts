@@ -5,7 +5,8 @@ import type { SchemaOrg_Church } from "./SchemaOrg_Church.ts";
  * A Catholic church.
  * @see https://schema.org/CatholicChurch
  */
-export const SCHEMA_ORG_CatholicChurch = "https://schema.org/CatholicChurch" as const;
+export const SCHEMA_ORG_CatholicChurch =
+  "https://schema.org/CatholicChurch" as const;
 
 /**
  * A Catholic church.

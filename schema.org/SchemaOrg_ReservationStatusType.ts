@@ -5,7 +5,8 @@ import type { SchemaOrg_StatusEnumeration } from "./SchemaOrg_StatusEnumeration.
  * Enumerated status values for Reservation.
  * @see https://schema.org/ReservationStatusType
  */
-export const SCHEMA_ORG_ReservationStatusType = "https://schema.org/ReservationStatusType" as const;
+export const SCHEMA_ORG_ReservationStatusType =
+  "https://schema.org/ReservationStatusType" as const;
 
 /**
  * Enumerated status values for Reservation.

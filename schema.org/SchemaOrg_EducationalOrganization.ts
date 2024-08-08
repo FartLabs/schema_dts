@@ -7,16 +7,18 @@ import type { SchemaOrg_Person } from "./SchemaOrg_Person.ts";
  * An educational organization.
  * @see https://schema.org/EducationalOrganization
  */
-export const SCHEMA_ORG_EducationalOrganization = "https://schema.org/EducationalOrganization" as const;
+export const SCHEMA_ORG_EducationalOrganization =
+  "https://schema.org/EducationalOrganization" as const;
 
 /**
  * An educational organization.
  * @see https://schema.org/EducationalOrganization
  */
-export interface SchemaOrg_EducationalOrganization extends SchemaOrg_CivicStructure, SchemaOrg_Organization {
-    /**
-     * Alumni of an organization.
-     * @see https://schema.org/alumni
-     */
-    alumni?: Array<SchemaOrg_Person>;
+export interface SchemaOrg_EducationalOrganization
+  extends SchemaOrg_CivicStructure, SchemaOrg_Organization {
+  /**
+   * Alumni of an organization.
+   * @see https://schema.org/alumni
+   */
+  alumni?: Array<SchemaOrg_Person>;
 }

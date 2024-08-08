@@ -13,9 +13,9 @@ export const SCHEMA_ORG_ReplyAction = "https://schema.org/ReplyAction" as const;
  * @see https://schema.org/ReplyAction
  */
 export interface SchemaOrg_ReplyAction extends SchemaOrg_CommunicateAction {
-    /**
-     * A sub property of result. The Comment created or sent as a result of this action.
-     * @see https://schema.org/resultComment
-     */
-    resultComment?: Array<SchemaOrg_Comment>;
+  /**
+   * A sub property of result. The Comment created or sent as a result of this action.
+   * @see https://schema.org/resultComment
+   */
+  resultComment?: Array<SchemaOrg_Comment>;
 }

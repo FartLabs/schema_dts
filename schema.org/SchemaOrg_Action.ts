@@ -23,64 +23,69 @@ export const SCHEMA_ORG_Action = "https://schema.org/Action" as const;
  * @see https://schema.org/Action
  */
 export interface SchemaOrg_Action extends SchemaOrg_Thing {
-    /**
-     * Indicates the current disposition of the Action.
-     * @see https://schema.org/actionStatus
-     */
-    actionStatus?: Array<SchemaOrg_ActionStatusType>;
-    /**
-     * The direct performer or driver of the action (animate or inanimate). E.g. *John* wrote a book.
-     * @see https://schema.org/agent
-     */
-    agent?: Array<SchemaOrg_Organization | SchemaOrg_Person>;
-    /**
-     * The endTime of something. For a reserved event or service (e.g. FoodEstablishmentReservation), the time that it is expected to end. For actions that span a period of time, when the action was performed. E.g. John wrote a book from January to *December*. For media, including audio and video, it's the time offset of the end of a clip within a larger file.\n\nNote that Event uses startDate/endDate instead of startTime/endTime, even when describing dates with times. This situation may be clarified in future revisions.
-     * @see https://schema.org/endTime
-     */
-    endTime?: Array<SchemaOrg_Time | SchemaOrg_DateTime>;
-    /**
-     * For failed actions, more information on the cause of the failure.
-     * @see https://schema.org/error
-     */
-    error?: Array<SchemaOrg_Thing>;
-    /**
-     * The object that helped the agent perform the action. E.g. John wrote a book with *a pen*.
-     * @see https://schema.org/instrument
-     */
-    instrument?: Array<SchemaOrg_Thing>;
-    /**
-     * The location of, for example, where an event is happening, where an organization is located, or where an action takes place.
-     * @see https://schema.org/location
-     */
-    location?: Array<SchemaOrg_Text | SchemaOrg_VirtualLocation | SchemaOrg_Place | SchemaOrg_PostalAddress>;
-    /**
-     * The object upon which the action is carried out, whose state is kept intact or changed. Also known as the semantic roles patient, affected or undergoer (which change their state) or theme (which doesn't). E.g. John read *a book*.
-     * @see https://schema.org/object
-     */
-    object?: Array<SchemaOrg_Thing>;
-    /**
-     * Other co-agents that participated in the action indirectly. E.g. John wrote a book with *Steve*.
-     * @see https://schema.org/participant
-     */
-    participant?: Array<SchemaOrg_Organization | SchemaOrg_Person>;
-    /**
-     * The service provider, service operator, or service performer; the goods producer. Another party (a seller) may offer those services or goods on behalf of the provider. A provider may also serve as the seller.
-     * @see https://schema.org/provider
-     */
-    provider?: Array<SchemaOrg_Organization | SchemaOrg_Person>;
-    /**
-     * The result produced in the action. E.g. John wrote *a book*.
-     * @see https://schema.org/result
-     */
-    result?: Array<SchemaOrg_Thing>;
-    /**
-     * The startTime of something. For a reserved event or service (e.g. FoodEstablishmentReservation), the time that it is expected to start. For actions that span a period of time, when the action was performed. E.g. John wrote a book from *January* to December. For media, including audio and video, it's the time offset of the start of a clip within a larger file.\n\nNote that Event uses startDate/endDate instead of startTime/endTime, even when describing dates with times. This situation may be clarified in future revisions.
-     * @see https://schema.org/startTime
-     */
-    startTime?: Array<SchemaOrg_DateTime | SchemaOrg_Time>;
-    /**
-     * Indicates a target EntryPoint, or url, for an Action.
-     * @see https://schema.org/target
-     */
-    target?: Array<SchemaOrg_EntryPoint | SchemaOrg_URL>;
+  /**
+   * Indicates the current disposition of the Action.
+   * @see https://schema.org/actionStatus
+   */
+  actionStatus?: Array<SchemaOrg_ActionStatusType>;
+  /**
+   * The direct performer or driver of the action (animate or inanimate). E.g. *John* wrote a book.
+   * @see https://schema.org/agent
+   */
+  agent?: Array<SchemaOrg_Organization | SchemaOrg_Person>;
+  /**
+   * The endTime of something. For a reserved event or service (e.g. FoodEstablishmentReservation), the time that it is expected to end. For actions that span a period of time, when the action was performed. E.g. John wrote a book from January to *December*. For media, including audio and video, it's the time offset of the end of a clip within a larger file.\n\nNote that Event uses startDate/endDate instead of startTime/endTime, even when describing dates with times. This situation may be clarified in future revisions.
+   * @see https://schema.org/endTime
+   */
+  endTime?: Array<SchemaOrg_Time | SchemaOrg_DateTime>;
+  /**
+   * For failed actions, more information on the cause of the failure.
+   * @see https://schema.org/error
+   */
+  error?: Array<SchemaOrg_Thing>;
+  /**
+   * The object that helped the agent perform the action. E.g. John wrote a book with *a pen*.
+   * @see https://schema.org/instrument
+   */
+  instrument?: Array<SchemaOrg_Thing>;
+  /**
+   * The location of, for example, where an event is happening, where an organization is located, or where an action takes place.
+   * @see https://schema.org/location
+   */
+  location?: Array<
+    | SchemaOrg_Text
+    | SchemaOrg_VirtualLocation
+    | SchemaOrg_Place
+    | SchemaOrg_PostalAddress
+  >;
+  /**
+   * The object upon which the action is carried out, whose state is kept intact or changed. Also known as the semantic roles patient, affected or undergoer (which change their state) or theme (which doesn't). E.g. John read *a book*.
+   * @see https://schema.org/object
+   */
+  object?: Array<SchemaOrg_Thing>;
+  /**
+   * Other co-agents that participated in the action indirectly. E.g. John wrote a book with *Steve*.
+   * @see https://schema.org/participant
+   */
+  participant?: Array<SchemaOrg_Organization | SchemaOrg_Person>;
+  /**
+   * The service provider, service operator, or service performer; the goods producer. Another party (a seller) may offer those services or goods on behalf of the provider. A provider may also serve as the seller.
+   * @see https://schema.org/provider
+   */
+  provider?: Array<SchemaOrg_Organization | SchemaOrg_Person>;
+  /**
+   * The result produced in the action. E.g. John wrote *a book*.
+   * @see https://schema.org/result
+   */
+  result?: Array<SchemaOrg_Thing>;
+  /**
+   * The startTime of something. For a reserved event or service (e.g. FoodEstablishmentReservation), the time that it is expected to start. For actions that span a period of time, when the action was performed. E.g. John wrote a book from *January* to December. For media, including audio and video, it's the time offset of the start of a clip within a larger file.\n\nNote that Event uses startDate/endDate instead of startTime/endTime, even when describing dates with times. This situation may be clarified in future revisions.
+   * @see https://schema.org/startTime
+   */
+  startTime?: Array<SchemaOrg_DateTime | SchemaOrg_Time>;
+  /**
+   * Indicates a target EntryPoint, or url, for an Action.
+   * @see https://schema.org/target
+   */
+  target?: Array<SchemaOrg_EntryPoint | SchemaOrg_URL>;
 }

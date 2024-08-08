@@ -5,7 +5,8 @@ import type { SchemaOrg_LocalBusiness } from "./SchemaOrg_LocalBusiness.ts";
  * A recycling center.
  * @see https://schema.org/RecyclingCenter
  */
-export const SCHEMA_ORG_RecyclingCenter = "https://schema.org/RecyclingCenter" as const;
+export const SCHEMA_ORG_RecyclingCenter =
+  "https://schema.org/RecyclingCenter" as const;
 
 /**
  * A recycling center.

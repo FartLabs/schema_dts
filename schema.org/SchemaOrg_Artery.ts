@@ -13,14 +13,14 @@ export const SCHEMA_ORG_Artery = "https://schema.org/Artery" as const;
  * @see https://schema.org/Artery
  */
 export interface SchemaOrg_Artery extends SchemaOrg_Vessel {
-    /**
-     * The branches that comprise the arterial structure.
-     * @see https://schema.org/arterialBranch
-     */
-    arterialBranch?: Array<SchemaOrg_AnatomicalStructure>;
-    /**
-     * The area to which the artery supplies blood.
-     * @see https://schema.org/supplyTo
-     */
-    supplyTo?: Array<SchemaOrg_AnatomicalStructure>;
+  /**
+   * The branches that comprise the arterial structure.
+   * @see https://schema.org/arterialBranch
+   */
+  arterialBranch?: Array<SchemaOrg_AnatomicalStructure>;
+  /**
+   * The area to which the artery supplies blood.
+   * @see https://schema.org/supplyTo
+   */
+  supplyTo?: Array<SchemaOrg_AnatomicalStructure>;
 }

@@ -15,19 +15,19 @@ export const SCHEMA_ORG_BuyAction = "https://schema.org/BuyAction" as const;
  * @see https://schema.org/BuyAction
  */
 export interface SchemaOrg_BuyAction extends SchemaOrg_TradeAction {
-    /**
-     * An entity which offers (sells / leases / lends / loans) the services / goods.  A seller may also be a provider.
-     * @see https://schema.org/seller
-     */
-    seller?: Array<SchemaOrg_Organization | SchemaOrg_Person>;
-    /**
-     * 'vendor' is an earlier term for 'seller'.
-     * @see https://schema.org/vendor
-     */
-    vendor?: Array<SchemaOrg_Organization | SchemaOrg_Person>;
-    /**
-     * The warranty promise(s) included in the offer.
-     * @see https://schema.org/warrantyPromise
-     */
-    warrantyPromise?: Array<SchemaOrg_WarrantyPromise>;
+  /**
+   * An entity which offers (sells / leases / lends / loans) the services / goods.  A seller may also be a provider.
+   * @see https://schema.org/seller
+   */
+  seller?: Array<SchemaOrg_Organization | SchemaOrg_Person>;
+  /**
+   * 'vendor' is an earlier term for 'seller'.
+   * @see https://schema.org/vendor
+   */
+  vendor?: Array<SchemaOrg_Organization | SchemaOrg_Person>;
+  /**
+   * The warranty promise(s) included in the offer.
+   * @see https://schema.org/warrantyPromise
+   */
+  warrantyPromise?: Array<SchemaOrg_WarrantyPromise>;
 }

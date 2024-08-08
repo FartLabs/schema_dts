@@ -5,7 +5,8 @@ import type { SchemaOrg_Enumeration } from "./SchemaOrg_Enumeration.ts";
  * Enumerated options related to a ContactPoint.
  * @see https://schema.org/ContactPointOption
  */
-export const SCHEMA_ORG_ContactPointOption = "https://schema.org/ContactPointOption" as const;
+export const SCHEMA_ORG_ContactPointOption =
+  "https://schema.org/ContactPointOption" as const;
 
 /**
  * Enumerated options related to a ContactPoint.

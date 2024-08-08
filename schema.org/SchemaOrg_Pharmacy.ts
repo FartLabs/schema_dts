@@ -12,4 +12,6 @@ export const SCHEMA_ORG_Pharmacy = "https://schema.org/Pharmacy" as const;
  * A pharmacy or drugstore.
  * @see https://schema.org/Pharmacy
  */
-export type SchemaOrg_Pharmacy = SchemaOrg_MedicalBusiness & SchemaOrg_MedicalOrganization;
+export type SchemaOrg_Pharmacy =
+  & SchemaOrg_MedicalBusiness
+  & SchemaOrg_MedicalOrganization;

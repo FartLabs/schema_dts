@@ -14,19 +14,19 @@ export const SCHEMA_ORG_Joint = "https://schema.org/Joint" as const;
  * @see https://schema.org/Joint
  */
 export interface SchemaOrg_Joint extends SchemaOrg_AnatomicalStructure {
-    /**
-     * The biomechanical properties of the bone.
-     * @see https://schema.org/biomechnicalClass
-     */
-    biomechnicalClass?: Array<SchemaOrg_Text>;
-    /**
-     * The degree of mobility the joint allows.
-     * @see https://schema.org/functionalClass
-     */
-    functionalClass?: Array<SchemaOrg_MedicalEntity | SchemaOrg_Text>;
-    /**
-     * The name given to how bone physically connects to each other.
-     * @see https://schema.org/structuralClass
-     */
-    structuralClass?: Array<SchemaOrg_Text>;
+  /**
+   * The biomechanical properties of the bone.
+   * @see https://schema.org/biomechnicalClass
+   */
+  biomechnicalClass?: Array<SchemaOrg_Text>;
+  /**
+   * The degree of mobility the joint allows.
+   * @see https://schema.org/functionalClass
+   */
+  functionalClass?: Array<SchemaOrg_MedicalEntity | SchemaOrg_Text>;
+  /**
+   * The name given to how bone physically connects to each other.
+   * @see https://schema.org/structuralClass
+   */
+  structuralClass?: Array<SchemaOrg_Text>;
 }

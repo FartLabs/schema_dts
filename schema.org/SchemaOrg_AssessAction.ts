@@ -5,7 +5,8 @@ import type { SchemaOrg_Action } from "./SchemaOrg_Action.ts";
  * The act of forming one's opinion, reaction or sentiment.
  * @see https://schema.org/AssessAction
  */
-export const SCHEMA_ORG_AssessAction = "https://schema.org/AssessAction" as const;
+export const SCHEMA_ORG_AssessAction =
+  "https://schema.org/AssessAction" as const;
 
 /**
  * The act of forming one's opinion, reaction or sentiment.

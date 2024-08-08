@@ -5,7 +5,8 @@ import type { SchemaOrg_StatusEnumeration } from "./SchemaOrg_StatusEnumeration.
  * The status of an Action.
  * @see https://schema.org/ActionStatusType
  */
-export const SCHEMA_ORG_ActionStatusType = "https://schema.org/ActionStatusType" as const;
+export const SCHEMA_ORG_ActionStatusType =
+  "https://schema.org/ActionStatusType" as const;
 
 /**
  * The status of an Action.

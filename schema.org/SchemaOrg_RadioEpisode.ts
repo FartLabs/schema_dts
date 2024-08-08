@@ -5,7 +5,8 @@ import type { SchemaOrg_Episode } from "./SchemaOrg_Episode.ts";
  * A radio episode which can be part of a series or season.
  * @see https://schema.org/RadioEpisode
  */
-export const SCHEMA_ORG_RadioEpisode = "https://schema.org/RadioEpisode" as const;
+export const SCHEMA_ORG_RadioEpisode =
+  "https://schema.org/RadioEpisode" as const;
 
 /**
  * A radio episode which can be part of a series or season.

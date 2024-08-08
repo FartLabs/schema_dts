@@ -5,7 +5,8 @@ import type { SchemaOrg_MediaGallery } from "./SchemaOrg_MediaGallery.ts";
  * Web page type: Image gallery page.
  * @see https://schema.org/ImageGallery
  */
-export const SCHEMA_ORG_ImageGallery = "https://schema.org/ImageGallery" as const;
+export const SCHEMA_ORG_ImageGallery =
+  "https://schema.org/ImageGallery" as const;
 
 /**
  * Web page type: Image gallery page.

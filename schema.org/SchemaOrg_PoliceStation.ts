@@ -6,10 +6,13 @@ import type { SchemaOrg_EmergencyService } from "./SchemaOrg_EmergencyService.ts
  * A police station.
  * @see https://schema.org/PoliceStation
  */
-export const SCHEMA_ORG_PoliceStation = "https://schema.org/PoliceStation" as const;
+export const SCHEMA_ORG_PoliceStation =
+  "https://schema.org/PoliceStation" as const;
 
 /**
  * A police station.
  * @see https://schema.org/PoliceStation
  */
-export type SchemaOrg_PoliceStation = SchemaOrg_CivicStructure & SchemaOrg_EmergencyService;
+export type SchemaOrg_PoliceStation =
+  & SchemaOrg_CivicStructure
+  & SchemaOrg_EmergencyService;

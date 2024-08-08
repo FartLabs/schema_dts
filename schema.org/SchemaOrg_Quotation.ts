@@ -14,9 +14,9 @@ export const SCHEMA_ORG_Quotation = "https://schema.org/Quotation" as const;
  * @see https://schema.org/Quotation
  */
 export interface SchemaOrg_Quotation extends SchemaOrg_CreativeWork {
-    /**
-     * The (e.g. fictional) character, Person or Organization to whom the quotation is attributed within the containing CreativeWork.
-     * @see https://schema.org/spokenByCharacter
-     */
-    spokenByCharacter?: Array<SchemaOrg_Organization | SchemaOrg_Person>;
+  /**
+   * The (e.g. fictional) character, Person or Organization to whom the quotation is attributed within the containing CreativeWork.
+   * @see https://schema.org/spokenByCharacter
+   */
+  spokenByCharacter?: Array<SchemaOrg_Organization | SchemaOrg_Person>;
 }

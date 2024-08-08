@@ -13,4 +13,7 @@ export const SCHEMA_ORG_Dentist = "https://schema.org/Dentist" as const;
  * A dentist.
  * @see https://schema.org/Dentist
  */
-export type SchemaOrg_Dentist = SchemaOrg_LocalBusiness & SchemaOrg_MedicalBusiness & SchemaOrg_MedicalOrganization;
+export type SchemaOrg_Dentist =
+  & SchemaOrg_LocalBusiness
+  & SchemaOrg_MedicalBusiness
+  & SchemaOrg_MedicalOrganization;

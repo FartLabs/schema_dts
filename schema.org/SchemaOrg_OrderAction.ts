@@ -13,9 +13,9 @@ export const SCHEMA_ORG_OrderAction = "https://schema.org/OrderAction" as const;
  * @see https://schema.org/OrderAction
  */
 export interface SchemaOrg_OrderAction extends SchemaOrg_TradeAction {
-    /**
-     * A sub property of instrument. The method of delivery.
-     * @see https://schema.org/deliveryMethod
-     */
-    deliveryMethod?: Array<SchemaOrg_DeliveryMethod>;
+  /**
+   * A sub property of instrument. The method of delivery.
+   * @see https://schema.org/deliveryMethod
+   */
+  deliveryMethod?: Array<SchemaOrg_DeliveryMethod>;
 }

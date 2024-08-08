@@ -15,14 +15,14 @@ export const SCHEMA_ORG_DefinedTerm = "https://schema.org/DefinedTerm" as const;
  * @see https://schema.org/DefinedTerm
  */
 export interface SchemaOrg_DefinedTerm extends SchemaOrg_Intangible {
-    /**
-     * A [[DefinedTermSet]] that contains this term.
-     * @see https://schema.org/inDefinedTermSet
-     */
-    inDefinedTermSet?: Array<SchemaOrg_DefinedTermSet | SchemaOrg_URL>;
-    /**
-     * A code that identifies this [[DefinedTerm]] within a [[DefinedTermSet]].
-     * @see https://schema.org/termCode
-     */
-    termCode?: Array<SchemaOrg_Text>;
+  /**
+   * A [[DefinedTermSet]] that contains this term.
+   * @see https://schema.org/inDefinedTermSet
+   */
+  inDefinedTermSet?: Array<SchemaOrg_DefinedTermSet | SchemaOrg_URL>;
+  /**
+   * A code that identifies this [[DefinedTerm]] within a [[DefinedTermSet]].
+   * @see https://schema.org/termCode
+   */
+  termCode?: Array<SchemaOrg_Text>;
 }

@@ -13,9 +13,9 @@ export const SCHEMA_ORG_Protein = "https://schema.org/Protein" as const;
  * @see https://schema.org/Protein
  */
 export interface SchemaOrg_Protein extends SchemaOrg_BioChemEntity {
-    /**
-     * A symbolic representation of a BioChemEntity. For example, a nucleotide sequence of a Gene or an amino acid sequence of a Protein.
-     * @see https://schema.org/hasBioPolymerSequence
-     */
-    hasBioPolymerSequence?: Array<SchemaOrg_Text>;
+  /**
+   * A symbolic representation of a BioChemEntity. For example, a nucleotide sequence of a Gene or an amino acid sequence of a Protein.
+   * @see https://schema.org/hasBioPolymerSequence
+   */
+  hasBioPolymerSequence?: Array<SchemaOrg_Text>;
 }

@@ -5,7 +5,8 @@ import type { SchemaOrg_ItemList } from "./SchemaOrg_ItemList.ts";
  * An OfferCatalog is an ItemList that contains related Offers and/or further OfferCatalogs that are offeredBy the same provider.
  * @see https://schema.org/OfferCatalog
  */
-export const SCHEMA_ORG_OfferCatalog = "https://schema.org/OfferCatalog" as const;
+export const SCHEMA_ORG_OfferCatalog =
+  "https://schema.org/OfferCatalog" as const;
 
 /**
  * An OfferCatalog is an ItemList that contains related Offers and/or further OfferCatalogs that are offeredBy the same provider.

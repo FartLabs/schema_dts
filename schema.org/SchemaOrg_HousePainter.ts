@@ -5,7 +5,8 @@ import type { SchemaOrg_HomeAndConstructionBusiness } from "./SchemaOrg_HomeAndC
  * A house painting service.
  * @see https://schema.org/HousePainter
  */
-export const SCHEMA_ORG_HousePainter = "https://schema.org/HousePainter" as const;
+export const SCHEMA_ORG_HousePainter =
+  "https://schema.org/HousePainter" as const;
 
 /**
  * A house painting service.

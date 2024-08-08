@@ -13,9 +13,9 @@ export const SCHEMA_ORG_DrugClass = "https://schema.org/DrugClass" as const;
  * @see https://schema.org/DrugClass
  */
 export interface SchemaOrg_DrugClass extends SchemaOrg_MedicalEntity {
-    /**
-     * Specifying a drug or medicine used in a medication procedure.
-     * @see https://schema.org/drug
-     */
-    drug?: Array<SchemaOrg_Drug>;
+  /**
+   * Specifying a drug or medicine used in a medication procedure.
+   * @see https://schema.org/drug
+   */
+  drug?: Array<SchemaOrg_Drug>;
 }

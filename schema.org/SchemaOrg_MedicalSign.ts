@@ -14,14 +14,14 @@ export const SCHEMA_ORG_MedicalSign = "https://schema.org/MedicalSign" as const;
  * @see https://schema.org/MedicalSign
  */
 export interface SchemaOrg_MedicalSign extends SchemaOrg_MedicalSignOrSymptom {
-    /**
-     * A physical examination that can identify this sign.
-     * @see https://schema.org/identifyingExam
-     */
-    identifyingExam?: Array<SchemaOrg_PhysicalExam>;
-    /**
-     * A diagnostic test that can identify this sign.
-     * @see https://schema.org/identifyingTest
-     */
-    identifyingTest?: Array<SchemaOrg_MedicalTest>;
+  /**
+   * A physical examination that can identify this sign.
+   * @see https://schema.org/identifyingExam
+   */
+  identifyingExam?: Array<SchemaOrg_PhysicalExam>;
+  /**
+   * A diagnostic test that can identify this sign.
+   * @see https://schema.org/identifyingTest
+   */
+  identifyingTest?: Array<SchemaOrg_MedicalTest>;
 }

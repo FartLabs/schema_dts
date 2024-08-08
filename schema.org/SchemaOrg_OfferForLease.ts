@@ -7,7 +7,8 @@ import type { SchemaOrg_Offer } from "./SchemaOrg_Offer.ts";
  *   background on the underlying concepts.
  * @see https://schema.org/OfferForLease
  */
-export const SCHEMA_ORG_OfferForLease = "https://schema.org/OfferForLease" as const;
+export const SCHEMA_ORG_OfferForLease =
+  "https://schema.org/OfferForLease" as const;
 
 /**
  * An [[OfferForLease]] in Schema.org represents an [[Offer]] to lease out something, i.e. an [[Offer]] whose

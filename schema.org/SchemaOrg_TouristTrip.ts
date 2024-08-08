@@ -16,9 +16,9 @@ export const SCHEMA_ORG_TouristTrip = "https://schema.org/TouristTrip" as const;
  * @see https://schema.org/TouristTrip
  */
 export interface SchemaOrg_TouristTrip extends SchemaOrg_Trip {
-    /**
-     * Attraction suitable for type(s) of tourist. E.g. children, visitors from a particular country, etc.
-     * @see https://schema.org/touristType
-     */
-    touristType?: Array<SchemaOrg_Text | SchemaOrg_Audience>;
+  /**
+   * Attraction suitable for type(s) of tourist. E.g. children, visitors from a particular country, etc.
+   * @see https://schema.org/touristType
+   */
+  touristType?: Array<SchemaOrg_Text | SchemaOrg_Audience>;
 }

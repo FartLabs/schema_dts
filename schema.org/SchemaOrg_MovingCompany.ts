@@ -5,7 +5,8 @@ import type { SchemaOrg_HomeAndConstructionBusiness } from "./SchemaOrg_HomeAndC
  * A moving company.
  * @see https://schema.org/MovingCompany
  */
-export const SCHEMA_ORG_MovingCompany = "https://schema.org/MovingCompany" as const;
+export const SCHEMA_ORG_MovingCompany =
+  "https://schema.org/MovingCompany" as const;
 
 /**
  * A moving company.

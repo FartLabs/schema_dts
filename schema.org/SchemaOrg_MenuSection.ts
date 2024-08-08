@@ -14,14 +14,14 @@ export const SCHEMA_ORG_MenuSection = "https://schema.org/MenuSection" as const;
  * @see https://schema.org/MenuSection
  */
 export interface SchemaOrg_MenuSection extends SchemaOrg_CreativeWork {
-    /**
-     * A food or drink item contained in a menu or menu section.
-     * @see https://schema.org/hasMenuItem
-     */
-    hasMenuItem?: Array<SchemaOrg_MenuItem>;
-    /**
-     * A subgrouping of the menu (by dishes, course, serving time period, etc.).
-     * @see https://schema.org/hasMenuSection
-     */
-    hasMenuSection?: Array<SchemaOrg_MenuSection>;
+  /**
+   * A food or drink item contained in a menu or menu section.
+   * @see https://schema.org/hasMenuItem
+   */
+  hasMenuItem?: Array<SchemaOrg_MenuItem>;
+  /**
+   * A subgrouping of the menu (by dishes, course, serving time period, etc.).
+   * @see https://schema.org/hasMenuSection
+   */
+  hasMenuSection?: Array<SchemaOrg_MenuSection>;
 }

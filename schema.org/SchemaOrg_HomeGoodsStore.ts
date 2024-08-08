@@ -5,7 +5,8 @@ import type { SchemaOrg_Store } from "./SchemaOrg_Store.ts";
  * A home goods store.
  * @see https://schema.org/HomeGoodsStore
  */
-export const SCHEMA_ORG_HomeGoodsStore = "https://schema.org/HomeGoodsStore" as const;
+export const SCHEMA_ORG_HomeGoodsStore =
+  "https://schema.org/HomeGoodsStore" as const;
 
 /**
  * A home goods store.

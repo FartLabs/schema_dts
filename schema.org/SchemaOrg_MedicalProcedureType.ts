@@ -5,7 +5,8 @@ import type { SchemaOrg_MedicalEnumeration } from "./SchemaOrg_MedicalEnumeratio
  * An enumeration that describes different types of medical procedures.
  * @see https://schema.org/MedicalProcedureType
  */
-export const SCHEMA_ORG_MedicalProcedureType = "https://schema.org/MedicalProcedureType" as const;
+export const SCHEMA_ORG_MedicalProcedureType =
+  "https://schema.org/MedicalProcedureType" as const;
 
 /**
  * An enumeration that describes different types of medical procedures.
